@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Esquema_Buzzer.kicad_pro",
+    "filename": "Esquema_Mod_TransformerlessPowerSupply.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -487,7 +487,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -501,13 +501,13 @@
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ";",
+      "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "Ponto e vírgula",
+      "name": "CSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": "'"
+      "string_delimiter": "\""
     },
     "bom_presets": [],
     "bom_settings": {
@@ -560,24 +560,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Descrição",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -609,14 +597,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -631,7 +611,7 @@
   },
   "sheets": [
     [
-      "8825ad21-b20d-4703-989f-87c3b1ead205",
+      "f9d8554a-718c-4a8e-ac25-2a52f4f92053",
       "Root"
     ]
   ],
