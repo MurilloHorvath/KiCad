@@ -5,9 +5,11 @@
 	(uuid "8825ad21-b20d-4703-989f-87c3b1ead205")
 	(paper "A4")
 	(title_block
-		(title "Placa Buzzer")
-		(date "2026-02-10")
+		(title "Módulo Buzzer")
+		(date "2026-02-25")
+		(rev "2.0")
 		(company "SkyDrones")
+		(comment 1 "Drawn by Murillo S. Horvath")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -3605,7 +3607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS2:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Amass:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 87.63 78.74 0)
 			(effects
 				(font
