@@ -2067,12 +2067,6 @@
 		(uuid "4c1c9f28-a410-46b6-a282-c5c1ed42d643")
 	)
 	(junction
-		(at 171.45 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62c928a2-c4d7-40a9-809b-ae3301cbcd07")
-	)
-	(junction
 		(at 184.15 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2095,6 +2089,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99ef0a1b-e209-453e-9aed-af9e1ed85da0")
+	)
+	(junction
+		(at 171.45 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2bd85fd-8184-4352-b590-2690727a5705")
 	)
 	(junction
 		(at 114.3 76.2)
@@ -2226,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 85.09) (xy 171.45 76.2)
+			(xy 171.45 81.28) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2326,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 93.98) (xy 157.48 93.98)
+			(xy 146.05 93.98) (xy 171.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2343,16 +2343,6 @@
 			(type default)
 		)
 		(uuid "6f042b45-4e6f-44c7-9bfd-3796fbb10d1f")
-	)
-	(wire
-		(pts
-			(xy 157.48 93.98) (xy 157.48 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f6590d8-8bed-4864-b7b3-ad32631ba816")
 	)
 	(wire
 		(pts
@@ -2506,13 +2496,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 97.79) (xy 171.45 100.33)
+			(xy 171.45 93.98) (xy 171.45 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3708c4e-b4e0-46fc-b446-6e76a6deba36")
+		(uuid "be2d579a-4cff-45c8-ad7a-97e709d3b533")
 	)
 	(wire
 		(pts
@@ -2606,16 +2596,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 171.45 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efc292b7-0e13-41b6-a09e-f7ea6937af19")
-	)
-	(wire
-		(pts
 			(xy 121.92 88.9) (xy 130.81 88.9)
 		)
 		(stroke
@@ -2626,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 92.71) (xy 171.45 97.79)
+			(xy 171.45 88.9) (xy 171.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +2813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "2.2k"
 			(at 176.784 103.378 0)
 			(effects
 				(font
@@ -3091,7 +3071,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 88.9 180)
+		(at 171.45 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3099,7 +3079,7 @@
 		(dnp no)
 		(uuid "888c5251-feac-4599-a3e3-b2ae0e44d045")
 		(property "Reference" "R2"
-			(at 175.768 90.424 0)
+			(at 175.768 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,8 +3087,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 176.53 87.884 0)
+		(property "Value" "90k"
+			(at 176.53 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3097,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 173.228 88.9 90)
+			(at 173.228 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +3106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 88.9 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3115,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 88.9 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 88.9 102.87 0)
 			(effects
 				(font
