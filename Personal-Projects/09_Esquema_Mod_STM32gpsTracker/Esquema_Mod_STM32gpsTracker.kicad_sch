@@ -7700,6 +7700,18 @@
 		)
 		(uuid "2cdef27b-6705-4878-9544-8738a32b126c")
 	)
+	(text "SIM808"
+		(exclude_from_sim no)
+		(at 23.114 70.104 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3ce27d44-6975-47c3-96fb-3bc23d6b6d0b")
+	)
 	(text "Power Input"
 		(exclude_from_sim no)
 		(at 22.86 15.24 0)
@@ -7985,6 +7997,10 @@
 		(uuid "1a6c7377-7fd6-4337-8fc3-049d9771b499")
 	)
 	(no_connect
+		(at 95.25 163.83)
+		(uuid "1f17704d-6993-4863-af3d-8edf0345a660")
+	)
+	(no_connect
 		(at 369.57 166.37)
 		(uuid "203f8f8b-0c02-44ba-b32b-099f804c3cc4")
 	)
@@ -8001,6 +8017,10 @@
 		(uuid "3180b182-9fe2-4442-815b-63596aee16ee")
 	)
 	(no_connect
+		(at 95.25 171.45)
+		(uuid "318b5190-23c8-48b0-9925-bce30cb6819c")
+	)
+	(no_connect
 		(at 287.02 80.01)
 		(uuid "3910d905-307b-4460-89a2-7d87cdf675ca")
 	)
@@ -8011,6 +8031,10 @@
 	(no_connect
 		(at 287.02 74.93)
 		(uuid "427e06b7-78a7-48ff-8d57-7a7aee88d0e7")
+	)
+	(no_connect
+		(at 95.25 120.65)
+		(uuid "459fff7b-9246-4501-a5fb-2462acd3677c")
 	)
 	(no_connect
 		(at 54.61 148.59)
@@ -8025,12 +8049,28 @@
 		(uuid "4e863618-95bf-4f8f-ae40-7d3da657f8c5")
 	)
 	(no_connect
+		(at 95.25 191.77)
+		(uuid "545e1450-5f05-4942-9266-dad1e43ffc38")
+	)
+	(no_connect
 		(at 54.61 194.31)
 		(uuid "55a06e0a-24ef-4eaa-9c7f-fb270606b4db")
 	)
 	(no_connect
+		(at 95.25 186.69)
+		(uuid "5f827e50-81b1-478f-b6a9-f268c6c93b05")
+	)
+	(no_connect
+		(at 95.25 123.19)
+		(uuid "60ef265e-f3b0-4f26-a9c1-8218d5b0226e")
+	)
+	(no_connect
 		(at 54.61 138.43)
 		(uuid "636af2c6-2fa7-488d-b0d8-a57e408b022f")
+	)
+	(no_connect
+		(at 95.25 128.27)
+		(uuid "6723f23f-923d-4906-9718-78d2078ab871")
 	)
 	(no_connect
 		(at 54.61 186.69)
@@ -8043,6 +8083,18 @@
 	(no_connect
 		(at 101.6 26.67)
 		(uuid "7d6be0e6-b52e-4658-9e2e-b066f5499f76")
+	)
+	(no_connect
+		(at 95.25 194.31)
+		(uuid "7d8dfbc2-c603-4ed6-800c-8c5f7ce0ff7a")
+	)
+	(no_connect
+		(at 95.25 179.07)
+		(uuid "812d140f-6428-4fd0-85ba-ebbd70fb09c6")
+	)
+	(no_connect
+		(at 95.25 135.89)
+		(uuid "86365b1a-5a7a-4dcd-8181-e02fc1c6fa30")
 	)
 	(no_connect
 		(at 287.02 105.41)
@@ -8093,6 +8145,10 @@
 		(uuid "bebfc997-544e-4d2a-9c00-c6d39129d4d3")
 	)
 	(no_connect
+		(at 95.25 166.37)
+		(uuid "bf2f3ca1-df34-4669-9315-ac6dec37f241")
+	)
+	(no_connect
 		(at 54.61 176.53)
 		(uuid "c3479c98-70bd-41ce-9e0f-4523a0164629")
 	)
@@ -8113,6 +8169,14 @@
 		(uuid "c6a66a52-0d88-437e-99eb-03f6d980859b")
 	)
 	(no_connect
+		(at 95.25 161.29)
+		(uuid "ccb9029a-7273-49b1-8037-81668289d9a9")
+	)
+	(no_connect
+		(at 95.25 158.75)
+		(uuid "cd406d58-442a-43d2-b37d-ea5b274955be")
+	)
+	(no_connect
 		(at 54.61 156.21)
 		(uuid "d1754d73-e4ea-4b99-864b-14b9e64eb674")
 	)
@@ -8123,6 +8187,10 @@
 	(no_connect
 		(at 200.66 124.46)
 		(uuid "d82da831-37e0-449a-a805-ac5fe5fdf962")
+	)
+	(no_connect
+		(at 95.25 184.15)
+		(uuid "d8bbfe20-f364-4309-970a-3e11e5cbf152")
 	)
 	(no_connect
 		(at 317.5 82.55)
@@ -8151,6 +8219,14 @@
 	(no_connect
 		(at 287.02 67.31)
 		(uuid "fda9eb4e-b180-446f-a7e1-1ce6350477aa")
+	)
+	(no_connect
+		(at 95.25 176.53)
+		(uuid "fe439a13-237a-4288-a0f8-a92aad4290cd")
+	)
+	(no_connect
+		(at 95.25 173.99)
+		(uuid "fee74d93-b2f1-4025-afeb-73371bfeced6")
 	)
 	(wire
 		(pts
@@ -8214,6 +8290,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 113.03) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e45393-bf03-41e9-91ce-73a6fc40f74a")
+	)
+	(wire
+		(pts
 			(xy 100.33 39.37) (xy 101.6 39.37)
 		)
 		(stroke
@@ -8261,6 +8347,16 @@
 			(type default)
 		)
 		(uuid "0ee77aac-6d1a-459a-ad39-191e7de3bc57")
+	)
+	(polyline
+		(pts
+			(xy 139.7 148.59) (xy 139.7 215.9)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0ef9a697-8335-4ca1-ab26-a945db1bbe45")
 	)
 	(wire
 		(pts
@@ -8331,6 +8427,16 @@
 			(type default)
 		)
 		(uuid "1d84c87b-83f8-4402-acde-458b641d1c5d")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f153729-29e5-456a-9f23-9cc205fb4f2c")
 	)
 	(wire
 		(pts
@@ -8804,6 +8910,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 113.03) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58819b66-1cd5-4fab-b0e9-16f149a9d147")
+	)
+	(wire
+		(pts
 			(xy 242.57 96.52) (xy 242.57 100.33)
 		)
 		(stroke
@@ -9102,6 +9218,16 @@
 		)
 		(uuid "7e8f5d92-0222-48d8-b6b0-3ff28e8b4fb7")
 	)
+	(polyline
+		(pts
+			(xy 12.7 215.9) (xy 139.7 215.9)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7edc526f-ea02-41bb-b410-ed36b9c92d0d")
+	)
 	(wire
 		(pts
 			(xy 100.33 52.07) (xy 119.38 52.07)
@@ -9361,6 +9487,16 @@
 			(type default)
 		)
 		(uuid "99c46828-b020-44cf-a67f-e43174354ae1")
+	)
+	(wire
+		(pts
+			(xy 95.25 115.57) (xy 100.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af2d3ac-0d96-4fda-91aa-941901daed6d")
 	)
 	(wire
 		(pts
@@ -10032,6 +10168,16 @@
 		)
 		(uuid "03ca892e-6655-48f6-9c2f-663582833ef4")
 	)
+	(label "SIM_CLK"
+		(at 95.25 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0516a39f-c270-4383-873f-4c5ca6191874")
+	)
 	(label "SIM_RST"
 		(at 152.4 111.76 180)
 		(effects
@@ -10092,6 +10238,16 @@
 		)
 		(uuid "1bd110b8-c1f6-4955-b650-9940801cf32e")
 	)
+	(label "STATUS"
+		(at 95.25 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c718b86-b4b9-450f-b655-b4617feddd93")
+	)
 	(label "SIM_TX"
 		(at 54.61 161.29 180)
 		(effects
@@ -10101,6 +10257,16 @@
 			(justify right bottom)
 		)
 		(uuid "1e756989-6092-4315-a1be-03bbd8900fc2")
+	)
+	(label "GPS_ANT"
+		(at 95.25 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28346d4b-319a-4417-8f87-2fd660342d19")
 	)
 	(label "SIM_VDD"
 		(at 152.4 109.22 180)
@@ -10121,6 +10287,16 @@
 			(justify left bottom)
 		)
 		(uuid "2bb7d519-d39e-4c3b-9e70-85b73cd1f62a")
+	)
+	(label "SIM_VDD"
+		(at 95.25 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31a01a01-cc58-440f-98b0-e614990f4b98")
 	)
 	(label "STATUS"
 		(at 287.02 77.47 180)
@@ -10212,6 +10388,16 @@
 		)
 		(uuid "5fb4dd0d-d981-4987-b586-0864db392466")
 	)
+	(label "SIM_RST"
+		(at 95.25 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "605c0f7f-1249-4515-9888-9de67b7510d9")
+	)
 	(label "SIM_PWRKEY"
 		(at 332.74 168.91 180)
 		(effects
@@ -10271,6 +10457,16 @@
 			(justify left bottom)
 		)
 		(uuid "81cd1461-7fb9-4b74-acb5-b3ad937c5c20")
+	)
+	(label "SIM_DET"
+		(at 95.25 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86d216a4-8a81-40c7-a3b8-5e5cace543f5")
 	)
 	(label "SIM_TX"
 		(at 332.74 171.45 180)
@@ -10333,6 +10529,16 @@
 		)
 		(uuid "965c20bb-5c63-41e1-a464-1c49c98706ce")
 	)
+	(label "SIM_DET"
+		(at 107.95 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "991dc54f-1a69-4fd1-a1bc-3cbbbda99c52")
+	)
 	(label "USART2_TX"
 		(at 295.91 171.45 180)
 		(effects
@@ -10352,6 +10558,16 @@
 			(justify right bottom)
 		)
 		(uuid "a58ea3a7-e517-4ecb-9290-3de3bcc362d4")
+	)
+	(label "SIM_DATA"
+		(at 95.25 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5b12d96-a596-43f3-a355-0285d33e9db6")
 	)
 	(label "SIM_PWRKEY"
 		(at 287.02 107.95 180)
@@ -10432,6 +10648,16 @@
 			(justify right bottom)
 		)
 		(uuid "f4fa6f6e-90b0-4bc6-950f-e26d1abb39e6")
+	)
+	(label "GPS_ANT"
+		(at 95.25 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa2184c5-4d3d-49b8-8e74-7ca0b0029174")
 	)
 	(label "SIM_RESET"
 		(at 287.02 69.85 180)
@@ -12606,6 +12832,84 @@
 			(project "Esquema_Mod_STM32gpsTracker"
 				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33fc5502-02b5-4df1-ae02-e460ff5ed11d")
+		(property "Reference" "#PWR039"
+			(at 109.22 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b49fe0f-b3c6-4fa4-b64c-2409dc93746c")
+		)
+		(instances
+			(project "Esquema_Mod_STM32gpsTracker"
+				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15884,7 +16188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X125-3N"
+		(property "Footprint" "LIB_AO3407A:SOT95P280X125-3N"
 			(at 188.9 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -19421,6 +19725,167 @@
 			(project "Esquema_Mod_STM32gpsTracker"
 				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f48aadf4-47a7-40d3-aa35-b32d65ce4675")
+		(property "Reference" "R13"
+			(at 104.14 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 104.14 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 117.348 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f1e52a6-5eb6-49ec-a26d-d90f7a81498b")
+		)
+		(pin "1"
+			(uuid "f1768b58-48bb-4487-889e-da9816819bfc")
+		)
+		(instances
+			(project "Esquema_Mod_STM32gpsTracker"
+				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fabd950e-9585-4d9c-8441-967dca7605ae")
+		(property "Reference" "C19"
+			(at 113.03 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 113.03 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.1852 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dec35aa4-1a91-49e5-aaf3-4041fa441e04")
+		)
+		(pin "2"
+			(uuid "8702f014-c8fc-4ac9-9863-7a1a06c2e5c4")
+		)
+		(instances
+			(project "Esquema_Mod_STM32gpsTracker"
+				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
+					(reference "C19")
 					(unit 1)
 				)
 			)
