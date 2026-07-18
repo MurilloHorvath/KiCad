@@ -1,0 +1,65 @@
+3. Power Distribution Board (PDB)
+
+Hoje muitos drones integram essa função ao ESC, mas vale a pena projetá-la para aprendizado.
+
+Entrada
+
+XT60
+
+Proteção
+
+TVS
+
+Capacitor
+
+1000 µF
+
+Low ESR
+
+bem próximo ao XT60.
+
+BEC 5 V
+
+Buck
+
+5 V
+
+BEC 9 V
+
+Para DJI.
+
+BEC 12 V
+
+Opcional.
+
+Sensor de Corrente
+
+Shunt
+
+ou Hall.
+
+Sensor de Tensão
+
+Divisor resistivo.
+
+Filtro LC
+
+Muito importante.
+
+Reduz ruído do ESC.
+
+LEDs
+
+Power
+
+Status
+
+Conectores
+
+ESC
+
+FC
+
+VTX
+
+GPS

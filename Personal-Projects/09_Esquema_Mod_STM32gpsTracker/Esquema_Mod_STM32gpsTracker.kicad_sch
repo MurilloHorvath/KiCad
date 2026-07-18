@@ -10318,7 +10318,7 @@
 		)
 		(uuid "3bcd0202-d2d8-4c01-bedf-e0657a7a8775")
 	)
-	(label "PA7{slash}SPI_MOSI"
+	(label "PA7{slash}SPI1_MOSI"
 		(at 295.91 184.15 180)
 		(effects
 			(font
@@ -10408,7 +10408,7 @@
 		)
 		(uuid "6bc4623c-7d47-4d06-a3a7-7033178e8b3d")
 	)
-	(label "USART_RX"
+	(label "USART2_RX"
 		(at 295.91 173.99 180)
 		(effects
 			(font
@@ -11425,7 +11425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 392.1252 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11574,7 +11574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "33pF"
 			(at 55.88 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11585,7 +11585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 53.0352 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11986,7 +11986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 253.6952 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12068,7 +12068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12298,7 +12298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10pF"
 			(at 69.85 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12309,7 +12309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.0052 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12469,7 +12469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 350.2152 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12707,7 +12707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 364.1852 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12789,7 +12789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.3652 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -13426,7 +13426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 378.1552 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13875,6 +13875,84 @@
 			(project "Esquema_Mod_STM32gpsTracker"
 				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a5c2117-c3c4-4980-8074-b49f78c9ba22")
+		(property "Reference" "#FLG03"
+			(at 66.04 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef6baad6-0125-4e6b-b0eb-0458f99be8b5")
+		)
+		(instances
+			(project "Esquema_Mod_STM32gpsTracker"
+				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -14786,7 +14864,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 163.83 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14797,7 +14875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 159.0548 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15239,84 +15317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 66.04 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89aa0b69-7651-4117-8efb-dd96ccb5c002")
-		(property "Reference" "#FLG04"
-			(at 66.04 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 66.04 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 66.04 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91a1b836-154e-4b3a-a916-075e5a375d68")
-		)
-		(instances
-			(project "Esquema_Mod_STM32gpsTracker"
-				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 240.03 67.31 0)
 		(unit 1)
@@ -15431,7 +15431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 275.2852 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16754,7 +16754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.2352 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -17150,7 +17150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 153.3652 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17232,7 +17232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 336.2452 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17900,7 +17900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.3952 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -18060,7 +18060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W"
 			(at 185.1152 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18599,84 +18599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 66.04 91.44 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2607267-8311-4b40-b4bc-9fc24d2dcc6b")
-		(property "Reference" "#FLG03"
-			(at 66.04 93.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 66.04 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 66.04 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a4438c4-054e-4579-9855-a176e867a211")
-		)
-		(instances
-			(project "Esquema_Mod_STM32gpsTracker"
-				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 369.57 173.99 0)
 		(unit 1)
@@ -18856,7 +18778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100uF"
 			(at 41.91 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18867,7 +18789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 39.0652 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -19649,6 +19571,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2777e3-fec2-4cd3-98b2-c1342e8f969f")
+		(property "Reference" "#FLG04"
+			(at 66.04 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4611c747-07b9-48d9-8c80-e436eb037df5")
+		)
+		(instances
+			(project "Esquema_Mod_STM32gpsTracker"
+				(path "/86cdf00f-6270-4118-bbe0-32972eeba209"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 270.51 120.65 0)
 		(unit 1)
@@ -19682,7 +19682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 271.4752 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -19843,7 +19843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 106.68 0)
 			(hide yes)
 			(show_name no)

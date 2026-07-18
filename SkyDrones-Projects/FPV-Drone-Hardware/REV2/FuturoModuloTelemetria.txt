@@ -1,0 +1,11 @@
+5. Futuro Módulo Telemetria
+
+Pode ser um projeto separado.
+
+Componentes:
+
+ESP32-C3
+LoRa SX1262
+Wi-Fi
+Bluetooth
+USB-C

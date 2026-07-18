@@ -1,0 +1,4 @@
+1. Flight Controller (FC)
+
+Sensores
+MPU6000 -> ICM42688P

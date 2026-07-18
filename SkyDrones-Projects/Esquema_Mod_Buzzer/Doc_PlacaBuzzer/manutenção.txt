@@ -1,0 +1,42 @@
+Para fazer a manutenção em 50 placas com componentes SMD, o foco total deve ser na praticidade e em evitar retrabalho complexo (como cortar trilhas ou puxar fios).
+Abaixo estão as três soluções mais práticas para o seu cenário, ordenadas da mais fácil (apenas troca de componentes nos pads existentes) até a mais robusta.
+------------------------------
+## Solução 1: A "Gambiarra Limpa" no Pad do Optoacoplador (Mais Prática)
+Se você não quiser puxar fios e tiver espaço físico ao redor do optoacoplador, você pode soldar um Transistor Digital (Pre-biased Transistor) ou um MOSFET diretamente em cima dos pads existentes do ISOM8116.
+Como fazer sem mexer na placa:
+
+   1. No lado do LED: Remova o resistor de 0 $\Omega$. Solde um resistor de 330 $\Omega$ (tamanho 0603 ou 0805) inclinado ("em pé") ou substitua por um menor se o pad permitir. Isso salva o pino do seu microcontrolador de queimar.
+   2. No lado da Saída: Retire o optoacoplador ISOM8116 de cima da placa.
+   3. Pegue um MOSFET de Canal N em encapsulamento SOT-23 (como o BSS138 ou 2N7002, muito fáceis de achar). [1] 
+   4. Solde o MOSFET "de lado" usando os pads que ficaram vazios do optoacoplador:
+   * O Gate do MOSFET vai no pad que vinha do pino de controle do MCU (antigo pino do LED). Atenção: Isso elimina a isolação galvânica, mas como o MT3608 compartilha o GND com o MCU através da alimentação de 5V, a isolação já não era total.
+      * O Source do MOSFET vai no pad do GND.
+      * O Drain do MOSFET vai no pad que vai para o negativo do Buzzer.
+   
+Esta opção é incrivelmente rápida para fazer em escala (50 placas), pois você só troca uma peça SMD por outra adaptada nos mesmos pads.
+------------------------------
+## Solução 2: Troca Direta por um Optoacoplador de Alta Corrente (Sem alterar o circuito)
+Se você precisa obrigatoriamente manter o circuito exatamente como está por questões de layout e deseja apenas substituir peças "part-number por part-number", o problema atual é que o fototransistor do ISOM8116 satura com pouca corrente.
+Você pode tentar substituir o ISOM8116 por um optoacoplador com saída Darlington ou de Alta Corrente que caiba no mesmo encapsulamento (verifique se o pinout bate):
+
+* Procure por optoacopladores SMD pin-to-pin compatíveis que possuam CTR de 600% a 1000% ou corrente de saída ($I_C$) superior a 80mA.
+* Nota: Ainda assim, você precisará trocar o resistor de 0 $\Omega$ por um de 330 $\Omega$, caso contrário o LED interno do novo optoacoplador também vai queimar ou saturar a porta do MCU.
+
+------------------------------
+## Solução 3: Adicionar um Transistor SMD "Piggyback" (Mantendo a Isolação)
+Se você faz questão de manter a isolação galvânica do optoacoplador para proteger o microcontrolador de ruídos do Step-Up:
+
+   1. Deixe o ISOM8116 soldado na placa.
+   2. Pegue um transistor NPN SMD (como o BC817 em encapsulamento SOT-23).
+   3. Cole ele de cabeça para baixo (técnica dead bug) ao lado do optoacoplador com uma gota de adesivo ou solde direto nos pinos:
+   * Solde o pino de saída do optoacoplador direto na Base do transistor.
+      * Puxe um pequeno jumper do Emissor para o GND próximo.
+      * Levante o pino do buzzer que ia para o optoacoplador e solde no Coletor.
+   
+------------------------------
+## O Plano de Ação Recomendado para as 50 Placas:
+Para ganhar tempo, pegue apenas 1 placa e teste a Solução 1 (usando o MOSFET BSS138 ou 2N7002 no lugar do optoacoplador, e trocando o resistor de 0R por 330R).
+Se o som do buzzer ficar perfeito e alto nos acionamentos rápidos, essa será a forma mais rápida e barata de corrigir o lote inteiro na bancada de solda.
+Gostaria de ajuda para conferir se o pinout (disposição dos pinos) do BSS138 se encaixa bem nos pads do seu optoacoplador atual para facilitar essa adaptação?
+
+[1] [https://partsbox.com](https://partsbox.com/pt-br/ecdb/bss138lt1g-n-channel-mosfet-onsemi.html)

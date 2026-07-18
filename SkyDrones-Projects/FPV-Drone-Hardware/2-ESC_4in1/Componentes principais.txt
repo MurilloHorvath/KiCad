@@ -1,0 +1,89 @@
+2. ESC 4 em 1
+
+Essa será provavelmente a placa mais desafiadora do projeto.
+
+MCU
+
+Opções:
+
+STM32G071
+EFM8BB21 (Bluejay)
+AT32F421
+
+Hoje muitos ESCs modernos migraram para ARM (STM32G0 ou AT32), enquanto o EFM8BB21 ainda aparece em projetos compatíveis com Bluejay.
+
+Driver dos MOSFETs
+
+Exemplos:
+
+FD6288Q
+EG2133
+MP1907
+DRV83xx (alguns projetos)
+MOSFETs
+
+Cada motor utiliza:
+
+High Side
+Low Side
+
+Um ESC 4 em 1 possui:
+
+8 MOSFETs no mínimo.
+
+Fabricantes conhecidos:
+
+Infineon
+Nexperia
+Alpha & Omega
+Vishay
+Bootstrap
+
+Para cada fase:
+
+diodo
+capacitor bootstrap
+Regulador
+5 V
+3.3 V
+
+(depende do MCU)
+
+Capacitores
+
+Muito importantes.
+
+Cerâmicos
+
+Eletrolítico/Polímero
+
+para absorver picos.
+
+Sensor de Corrente
+
+Pode ser:
+
+Shunt
+
+Amplificador
+
+ou um CI dedicado.
+
+Telemetria
+
+UART
+
+para comunicar com a FC.
+
+Conector FC
+
+Normalmente:
+
+GND
+VBAT
+Corrente
+Telemetria
+M1
+M2
+M3
+M4

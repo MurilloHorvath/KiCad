@@ -1,0 +1,66 @@
+4. GPS
+
+Uma placa relativamente simples, mas muito útil.
+
+GNSS
+
+u-blox
+
+M10
+
+ou
+
+M9N
+
+Compass
+
+QMC5883L
+
+ou
+
+IST8310
+
+EEPROM
+
+Para armazenar configurações (alguns módulos utilizam).
+
+Antena Cerâmica
+
+25 × 25 mm
+
+ou antena ativa.
+
+LNA
+
+Dependendo do módulo.
+
+SAW Filter
+
+Alguns módulos possuem internamente.
+
+Regulador
+
+3.3 V
+
+Backup Battery
+
+Supercapacitor
+
+ou bateria.
+
+Mantém:
+
+hora
+almanac
+efemérides
+LEDs
+
+PPS
+
+Power
+
+Comunicação
+
+UART
+
+I²C (compass)
