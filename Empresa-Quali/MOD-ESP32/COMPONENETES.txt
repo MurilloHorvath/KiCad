@@ -1,0 +1,3 @@
+cartão sd
+
+esperas i2c

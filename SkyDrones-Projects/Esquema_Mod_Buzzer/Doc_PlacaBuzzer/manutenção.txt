@@ -1,4 +1,4 @@
-Para fazer a manutenção em 50 placas com componentes SMD, o foco total deve ser na praticidade e em evitar retrabalho complexo (como cortar trilhas ou puxar fios).
+ Para fazer a manutenção em 50 placas com componentes SMD, o foco total deve ser na praticidade e em evitar retrabalho complexo (como cortar trilhas ou puxar fios).
 Abaixo estão as três soluções mais práticas para o seu cenário, ordenadas da mais fácil (apenas troca de componentes nos pads existentes) até a mais robusta.
 ------------------------------
 ## Solução 1: A "Gambiarra Limpa" no Pad do Optoacoplador (Mais Prática)
