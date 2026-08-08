@@ -258,7 +258,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -708,16 +708,16 @@
       {
         "filename": "Esquema_Buzzer.kicad_sch",
         "name": "Esquema_Buzzer",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "8825ad21-b20d-4703-989f-87c3b1ead205"
       }
     ],
-    "used_designators": "",
+    "used_designators": "BZ1,R1-3,#FLG1,J1-2,U1-2,C1-4,L1,D1,#PWR1-2,Q1",
     "variants": []
   },
   "sheets": [
     [
       "8825ad21-b20d-4703-989f-87c3b1ead205",
-      "Root"
+      "Esquema_Buzzer"
     ]
   ],
   "text_variables": {},
