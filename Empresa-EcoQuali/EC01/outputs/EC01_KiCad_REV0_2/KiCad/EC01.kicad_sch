@@ -1,1 +1,306 @@
-(kicad_sch (version 20250114) (generator "ec01_engineering") (uuid "72252a77-1f02-5a9c-8d6f-a19fd74f06c9") (paper "A3") (title_block (title "EC01 Sensor Universal - Arquitetura e navegacao") (date "2026-10-04") (rev "0.2") (comment 1 "ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB") (comment 2 "Footprints e partes TBD ainda nao liberados"))(lib_symbols)(text "EC01 SENSOR UNIVERSAL" (at 20 20 0) (effects (font (size 4 4)) (justify left)) (uuid "fff9ba56-ba3f-55c7-8ebc-c91b502b7faf") )(text "Esquematico nativo KiCad | REV 0.2 | 04 outubro 2026" (at 20 29 0) (effects (font (size 2 2)) (justify left)) (uuid "de6e2332-53fb-5cd2-bc49-c117289bcc98") )(text "Duplo clique em cada folha para abrir o circuito. Redes com o mesmo nome sao globais." (at 20 38 0) (effects (font (size 1.524 1.524)) (justify left)) (uuid "488a2405-1485-5cbc-b418-fcf47cd74a5f") )(sheet (at 25 60) (size 105 32) (stroke (width 0.254) (type solid)) (fill (color 0 0 0 0)) (uuid "a7e96649-6e47-5eec-a95f-4c8c8fd58698") (property "Sheetname" "01 - Alimentacao e bateria" (at 77.5 69 0) (effects (font (size 1.27 1.27))))(property "Sheetfile" "01_Alimentacao_Bateria.kicad_sch" (at 77.5 83 0) (effects (font (size 1.016 1.016))))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9" (page "2")))))(sheet (at 152 60) (size 105 32) (stroke (width 0.254) (type solid)) (fill (color 0 0 0 0)) (uuid "ab4e4eff-78a6-5c07-b386-d14ef05a11ed") (property "Sheetname" "02 - ESP32 e inicializacao" (at 204.5 69 0) (effects (font (size 1.27 1.27))))(property "Sheetfile" "02_ESP32_Inicializacao.kicad_sch" (at 204.5 83 0) (effects (font (size 1.016 1.016))))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9" (page "3")))))(sheet (at 279 60) (size 105 32) (stroke (width 0.254) (type solid)) (fill (color 0 0 0 0)) (uuid "f2a4c686-88cc-590e-8dcb-ea2212b1e448") (property "Sheetname" "03 - BLE e cristal" (at 331.5 69 0) (effects (font (size 1.27 1.27))))(property "Sheetfile" "03_BLE_Cristal.kicad_sch" (at 331.5 83 0) (effects (font (size 1.016 1.016))))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9" (page "4")))))(sheet (at 25 112) (size 105 32) (stroke (width 0.254) (type solid)) (fill (color 0 0 0 0)) (uuid "4dfd39d2-3f59-5ee9-94ce-1be7d64da69f") (property "Sheetname" "04 - Radio LoRa 915 MHz" (at 77.5 121 0) (effects (font (size 1.27 1.27))))(property "Sheetfile" "04_LoRa_915MHz.kicad_sch" (at 77.5 135 0) (effects (font (size 1.016 1.016))))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9" (page "5")))))(sheet (at 152 112) (size 105 32) (stroke (width 0.254) (type solid)) (fill (color 0 0 0 0)) (uuid "b738d142-e812-5c5c-8610-2ecb8e2b6b2f") (property "Sheetname" "05 - Expansao e display" (at 204.5 121 0) (effects (font (size 1.27 1.27))))(property "Sheetfile" "05_Expansao_Display.kicad_sch" (at 204.5 135 0) (effects (font (size 1.016 1.016))))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9" (page "6")))))(sheet (at 279 112) (size 105 32) (stroke (width 0.254) (type solid)) (fill (color 0 0 0 0)) (uuid "d1ad1386-8e5f-5414-8103-7ff83466fcf0") (property "Sheetname" "06 - Sensores externos e CAN" (at 331.5 121 0) (effects (font (size 1.27 1.27))))(property "Sheetfile" "06_Sensores_CAN.kicad_sch" (at 331.5 135 0) (effects (font (size 1.016 1.016))))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9" (page "7")))))(sheet (at 25 164) (size 105 32) (stroke (width 0.254) (type solid)) (fill (color 0 0 0 0)) (uuid "a1c46c3c-31c8-572b-a843-6a398d8b6ca1") (property "Sheetname" "07 - USB de servico" (at 77.5 173 0) (effects (font (size 1.27 1.27))))(property "Sheetfile" "07_USB_Servico.kicad_sch" (at 77.5 187 0) (effects (font (size 1.016 1.016))))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9" (page "8")))))(text "BASE: 1S protegida -> buck-boost 3V3 -> ESP32-C3FH4 + E22-900M22S + sensores." (at 20 218 0) (effects (font (size 1.524 1.524)) (justify left)) (uuid "dead1255-98a3-5091-8895-dab219d958db") )(text "RJ1/RJ2 sao um barramento comum. CAN exige alteracao de montagem; nao basta firmware." (at 20 223 0) (effects (font (size 1.524 1.524)) (justify left)) (uuid "04a38b2a-1c41-5ba3-9050-a2023a24c138") )(text "DNP = nao montar na base OneWire. Conectores e TVS TBD exigem selecao antes da PCB." (at 20 228 0) (effects (font (size 1.524 1.524)) (justify left)) (uuid "e40a6543-b7f8-500d-8a78-5eb4ff00a103") )(text "Simulacoes PSpice e testes fisicos cancelados por solicitacao do cliente." (at 20 233 0) (effects (font (size 1.524 1.524)) (justify left)) (uuid "a6c35103-0bea-544d-b46a-873926640e30") )(text "Este projeto nao inclui PCB, antena final, firmware ou liberacao para fabricacao." (at 20 238 0) (effects (font (size 1.524 1.524)) (justify left)) (uuid "fea1c09d-3354-5418-8f2e-f59ddcdb41b1") )(text "Consultar EC01_Documento_de_Engenharia.pdf e BOM para decisoes, limites e pendencias." (at 20 243 0) (effects (font (size 1.524 1.524)) (justify left)) (uuid "90050799-4bd4-5444-a1f3-b01c6e0942cd") )(sheet_instances (path "/" (page "1"))) (embedded_fonts no))
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "72252a77-1f02-5a9c-8d6f-a19fd74f06c9")
+	(paper "A3")
+	(title_block
+		(title "EC01 Sensor Universal - Arquitetura e navegacao")
+		(date "2026-10-04")
+		(rev "0.2-R1")
+		(comment 1 "ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB")
+		(comment 2 "Footprints e partes TBD ainda nao liberados"))
+	(lib_symbols)
+	(text "RJ1/RJ2 sao um barramento comum. CAN exige alteracao de montagem; nao basta firmware."
+		(exclude_from_sim no)
+		(at 20 223 0)
+		(effects
+			(font
+				(size 1.524 1.524))
+			(justify left))
+		(uuid "04a38b2a-1c41-5ba3-9050-a2023a24c138"))
+	(text "Duplo clique abre a folha. Rotulos globais ligam folhas; locais ligam blocos na mesma folha."
+		(exclude_from_sim no)
+		(at 20 38 0)
+		(effects
+			(font
+				(size 1.524 1.524))
+			(justify left))
+		(uuid "488a2405-1485-5cbc-b418-fcf47cd74a5f"))
+	(text "Consultar ../REVISAO_METODO_EC01.md e BOM para decisoes, limites e pendencias."
+		(exclude_from_sim no)
+		(at 20 243 0)
+		(effects
+			(font
+				(size 1.524 1.524))
+			(justify left))
+		(uuid "90050799-4bd4-5444-a1f3-b01c6e0942cd"))
+	(text "Simulacoes PSpice e testes fisicos cancelados por solicitacao do cliente."
+		(exclude_from_sim no)
+		(at 20 233 0)
+		(effects
+			(font
+				(size 1.524 1.524))
+			(justify left))
+		(uuid "a6c35103-0bea-544d-b46a-873926640e30"))
+	(text "Esquematico nativo KiCad | REV 0.2-R1 | 04 outubro 2026"
+		(exclude_from_sim no)
+		(at 20 29 0)
+		(effects
+			(font
+				(size 2 2))
+			(justify left))
+		(uuid "de6e2332-53fb-5cd2-bc49-c117289bcc98"))
+	(text "BASE: 1S protegida -> buck-boost 3V3 -> ESP32-C3FH4 + E22-900M22S + sensores."
+		(exclude_from_sim no)
+		(at 20 218 0)
+		(effects
+			(font
+				(size 1.524 1.524))
+			(justify left))
+		(uuid "dead1255-98a3-5091-8895-dab219d958db"))
+	(text "DNP = nao montar na base OneWire. Conectores e TVS TBD exigem selecao antes da PCB."
+		(exclude_from_sim no)
+		(at 20 228 0)
+		(effects
+			(font
+				(size 1.524 1.524))
+			(justify left))
+		(uuid "e40a6543-b7f8-500d-8a78-5eb4ff00a103"))
+	(text "Este projeto nao inclui PCB, antena final, firmware ou liberacao para fabricacao."
+		(exclude_from_sim no)
+		(at 20 238 0)
+		(effects
+			(font
+				(size 1.524 1.524))
+			(justify left))
+		(uuid "fea1c09d-3354-5418-8f2e-f59ddcdb41b1"))
+	(text "EC01 SENSOR UNIVERSAL"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 4 4))
+			(justify left))
+		(uuid "fff9ba56-ba3f-55c7-8ebc-c91b502b7faf"))
+	(sheet
+		(at 25 112)
+		(size 105 32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "4dfd39d2-3f59-5ee9-94ce-1be7d64da69f")
+		(property "Sheetname" "04 - Radio LoRa 915 MHz"
+			(at 77.5 121 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Sheetfile" "04_LoRa_915MHz.kicad_sch"
+			(at 77.5 135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9"
+					(page "5")))))
+	(sheet
+		(at 25 164)
+		(size 105 32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "a1c46c3c-31c8-572b-a843-6a398d8b6ca1")
+		(property "Sheetname" "07 - USB de servico"
+			(at 77.5 173 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Sheetfile" "07_USB_Servico.kicad_sch"
+			(at 77.5 187 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9"
+					(page "8")))))
+	(sheet
+		(at 25 60)
+		(size 105 32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "a7e96649-6e47-5eec-a95f-4c8c8fd58698")
+		(property "Sheetname" "01 - Alimentacao e bateria"
+			(at 77.5 69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Sheetfile" "01_Alimentacao_Bateria.kicad_sch"
+			(at 77.5 83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9"
+					(page "2")))))
+	(sheet
+		(at 152 60)
+		(size 105 32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "ab4e4eff-78a6-5c07-b386-d14ef05a11ed")
+		(property "Sheetname" "02 - ESP32 e inicializacao"
+			(at 204.5 69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Sheetfile" "02_ESP32_Inicializacao.kicad_sch"
+			(at 204.5 83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9"
+					(page "3")))))
+	(sheet
+		(at 152 112)
+		(size 105 32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "b738d142-e812-5c5c-8610-2ecb8e2b6b2f")
+		(property "Sheetname" "05 - Expansao e display"
+			(at 204.5 121 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Sheetfile" "05_Expansao_Display.kicad_sch"
+			(at 204.5 135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9"
+					(page "6")))))
+	(sheet
+		(at 279 112)
+		(size 105 32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "d1ad1386-8e5f-5414-8103-7ff83466fcf0")
+		(property "Sheetname" "06 - Sensores externos e CAN"
+			(at 331.5 121 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Sheetfile" "06_Sensores_CAN.kicad_sch"
+			(at 331.5 135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9"
+					(page "7")))))
+	(sheet
+		(at 279 60)
+		(size 105 32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "f2a4c686-88cc-590e-8dcb-ea2212b1e448")
+		(property "Sheetname" "03 - BLE e cristal"
+			(at 331.5 69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Sheetfile" "03_BLE_Cristal.kicad_sch"
+			(at 331.5 83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9"
+					(page "4")))))
+	(sheet_instances
+		(path "/"
+			(page "1")))
+	(embedded_fonts no))

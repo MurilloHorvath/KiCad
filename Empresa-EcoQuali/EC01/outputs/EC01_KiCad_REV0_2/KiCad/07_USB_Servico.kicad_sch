@@ -1,1 +1,1166 @@
-(kicad_sch (version 20250114) (generator "ec01_engineering") (uuid "4ba54fb2-f8db-5e50-8726-20e74dac4f4f") (paper "A3") (title_block (title "EC01 Sensor Universal - USB de servico") (date "2026-10-04") (rev "0.2") (comment 1 "ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB") (comment 2 "Footprints e partes TBD ainda nao liberados"))(lib_symbols (symbol "EC01:EC01_J4" (pin_names (offset 0.635)) (in_bom yes) (on_board yes) (property "Reference" "J" (at 0 9.525 0) (effects (font (size 1.27 1.27))))(property "Value" "USB SERVICE 4P" (at 0 6.985 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_J4_0_1" (rectangle (start -22.86 5.715) (end 22.86 -5.715) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_J4_1_1" (pin passive line (at -25.4 1.905 0) (length 2.54) (name "GND" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at -25.4 -1.905 0) (length 2.54) (name "D-" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))(pin passive line (at 25.4 1.905 180) (length 2.54) (name "D+" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))(pin passive line (at 25.4 -1.905 180) (length 2.54) (name "NC_5V_PROIBIDO" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_R43" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "R" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "22R" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_R43_0_1" (rectangle (start -5.08 -1.27) (end 5.08 1.27) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_R43_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_R44" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "R" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "22R" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_R44_0_1" (rectangle (start -5.08 -1.27) (end 5.08 1.27) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_R44_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_U8" (pin_names (offset 0.635)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 11.43 0) (effects (font (size 1.27 1.27))))(property "Value" "USBLC6-2SC6" (at 0 8.89 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_U8_0_1" (rectangle (start -22.86 7.62) (end 22.86 -7.62) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_U8_1_1" (pin passive line (at -25.4 3.81 0) (length 2.54) (name "IO1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at -25.4 0 0) (length 2.54) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))(pin passive line (at -25.4 -3.81 0) (length 2.54) (name "IO2" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))(pin passive line (at 25.4 3.81 180) (length 2.54) (name "IO2" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))(pin passive line (at 25.4 0 180) (length 2.54) (name "VBUS" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))(pin passive line (at 25.4 -3.81 180) (length 2.54) (name "IO1" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016))))))))(text "07  USB DE SERVICO" (at 15 15 0) (effects (font (size 2.54 2.54)) (justify left)) (uuid "b625fed4-10fc-560f-ba6d-5d44dd1aa39d") )(symbol (lib_id "EC01:EC01_U8") (at 71.12 48.26 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "fa6db773-3fbf-57fa-b67d-3e7abc166777")(property "Reference" "U8" (at 71.12 35.56 0) (effects (font (size 1.27 1.27))))(property "Value" "USBLC6-2SC6" (at 71.12 38.1 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 71.12 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 71.12 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "SOT23_6" (at 71.12 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "Desenhar par diferencial 90ohm; alimentacao local 3.3V. Header de bancada, sem declaracao de conformidade USB de produto." (at 71.12 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 71.12 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "6d8701e6-34e4-57b5-825f-4bc394051d49"))(pin "2" (uuid "c4d329eb-b487-5290-a439-30ef53dd86e6"))(pin "3" (uuid "d1d9b6db-771a-5b88-adc1-d02f2b803b8a"))(pin "4" (uuid "07a97fd1-3a3e-596b-a679-0da68eb20307"))(pin "5" (uuid "530b31b2-cdb5-5876-8ade-9ecbbb95f2ee"))(pin "6" (uuid "f09be40f-0e07-5c86-8a90-9e85d2ce35e7"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1" (reference "U8") (unit 1)))))(wire (pts (xy 45.72 44.45) (xy 40.64 44.45)) (stroke (width 0) (type default)) (uuid "9f39b9d3-56e7-53a7-b0a5-5cd89f693e91"))(global_label "USB_DM" (shape bidirectional) (at 40.64 44.45 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "46e0a4ed-86f3-5eed-b9a0-a0944ad52435") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.64 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 45.72 48.26) (xy 40.64 48.26)) (stroke (width 0) (type default)) (uuid "8bf3a196-a74a-5a09-bb16-bb60f5f7e4f6"))(global_label "GND" (shape bidirectional) (at 40.64 48.26 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "0d010b38-9d7d-59d3-9ca5-d90e8409711b") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.64 48.26 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 45.72 52.07) (xy 40.64 52.07)) (stroke (width 0) (type default)) (uuid "a4353e74-318f-540b-a3b7-bedba56d2730"))(global_label "USB_DP" (shape bidirectional) (at 40.64 52.07 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "c624728f-4b80-5adf-b793-2d2ac999fa49") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.64 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 96.52 44.45) (xy 101.6 44.45)) (stroke (width 0) (type default)) (uuid "b51ebea3-9952-5caa-9824-19b15f667288"))(global_label "USB_DP" (shape bidirectional) (at 101.6 44.45 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "92e65e19-edaa-57da-89b5-4c76ead0f357") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.6 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 96.52 48.26) (xy 101.6 48.26)) (stroke (width 0) (type default)) (uuid "8dc13ea9-514f-5aaa-b125-e58c5cc864c5"))(global_label "3V3" (shape bidirectional) (at 101.6 48.26 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "023a750e-cfbf-5512-bfd6-30a070af359d") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.6 48.26 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 96.52 52.07) (xy 101.6 52.07)) (stroke (width 0) (type default)) (uuid "b12103f2-43e6-5244-bbcb-58d30907bd68"))(global_label "USB_DM" (shape bidirectional) (at 101.6 52.07 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "9fb446d6-d26f-5491-8959-c2c0c0026723") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.6 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_J4") (at 200.66 46.355 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "3f904c00-5f3b-5d86-ad82-59df9fed8255")(property "Reference" "J4" (at 200.66 35.56 0) (effects (font (size 1.27 1.27))))(property "Value" "USB SERVICE 4P" (at 200.66 38.1 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 200.66 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 200.66 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "HDR4" (at 200.66 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "Usar adaptador de servico identificado; bateria deve estar ligada. Pino4 sem cobre de alimentacao. Nao e USB-C; nao ha carregador." (at 200.66 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 200.66 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "15f5049a-0dcc-5fc1-8f4d-3e6c5025c257"))(pin "2" (uuid "9718830f-a4e4-5836-b4bf-e72e1e2ffdd3"))(pin "3" (uuid "bd9d3ead-704f-5054-805a-c12e37823b8f"))(pin "4" (uuid "9098e859-59cd-5940-842e-3436cad70fcb"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1" (reference "J4") (unit 1)))))(wire (pts (xy 175.26 44.45) (xy 170.18 44.45)) (stroke (width 0) (type default)) (uuid "c280af3f-63fd-5939-a9b8-811efc59806a"))(global_label "GND" (shape bidirectional) (at 170.18 44.45 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "c7fa3939-c421-53b2-8735-279b62f93c32") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 170.18 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 175.26 48.26) (xy 170.18 48.26)) (stroke (width 0) (type default)) (uuid "7eaf3a17-8aaf-5908-8eaa-a1af01e294a0"))(global_label "USB_DM" (shape bidirectional) (at 170.18 48.26 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "bfc4b970-4b06-515f-b2f8-ed4233fa8328") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 170.18 48.26 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 226.06 44.45) (xy 231.14 44.45)) (stroke (width 0) (type default)) (uuid "ee26f67b-62dd-5248-99f6-2e2ae1373edf"))(global_label "USB_DP" (shape bidirectional) (at 231.14 44.45 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "835eecb9-29bf-5f57-b824-58e3b71b70a7") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 231.14 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))))(no_connect (at 226.06 48.26) (uuid "b4c551dc-7fcf-5087-8f8b-c8b6086dedbf"))(symbol (lib_id "EC01:EC01_R43") (at 330.2 43.18 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e3fa40c7-42b5-5e6d-b6ba-af29636a4235")(property "Reference" "R43" (at 330.2 35.56 0) (effects (font (size 1.27 1.27))))(property "Value" "22R" (at 330.2 38.1 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0603" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "735818d9-1316-5ac4-9fb4-896edf327e32"))(pin "2" (uuid "d3798b9b-463f-561f-9a4c-7352f0874580"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1" (reference "R43") (unit 1)))))(wire (pts (xy 322.58 43.18) (xy 317.5 43.18)) (stroke (width 0) (type default)) (uuid "6ab00841-0eb1-5b00-95bd-52b2f0f79081"))(global_label "USB_DM_MCU" (shape bidirectional) (at 317.5 43.18 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "31195da9-710f-5986-bd7f-d9e607dd033c") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 317.5 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 337.82 43.18) (xy 342.9 43.18)) (stroke (width 0) (type default)) (uuid "b8c6b235-9af8-507c-8dee-16ce9c4c3e13"))(global_label "USB_DM" (shape bidirectional) (at 342.9 43.18 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "bf1cba80-c531-5099-b85c-9af107273660") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 342.9 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_R44") (at 330.2 63.5 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "dd681dd7-2405-5f81-bf63-56dd55bc4535")(property "Reference" "R44" (at 330.2 55.88 0) (effects (font (size 1.27 1.27))))(property "Value" "22R" (at 330.2 58.42 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0603" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "3342a6ef-4b00-5ac5-829d-e9ec5923ce91"))(pin "2" (uuid "403662d9-07d7-55e8-8bb3-1d8aa8a726d9"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1" (reference "R44") (unit 1)))))(wire (pts (xy 322.58 63.5) (xy 317.5 63.5)) (stroke (width 0) (type default)) (uuid "3373e576-f4e9-514a-b113-79d90d835422"))(global_label "USB_DP_MCU" (shape bidirectional) (at 317.5 63.5 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "3b0bfea0-5cbf-56cd-b4a1-7153cae4432b") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 317.5 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 337.82 63.5) (xy 342.9 63.5)) (stroke (width 0) (type default)) (uuid "879d3143-e6d4-5da5-8e11-f3d86e329bba"))(global_label "USB_DP" (shape bidirectional) (at 342.9 63.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "3575d26b-bad6-54ef-b8db-e87fa444d60a") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 342.9 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))))(text "J4 e header de servico, nao USB-C. Pino 4 NC. Nunca conectar 5 V a 3V3." (at 15 78.74 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "de6d58b2-e177-5900-8f28-185ca3798c59") )(text "Gravar com bateria ligada. D-/D+ por R43/R44 e ESD U8." (at 15 83.24 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "16e87529-3e52-553c-b8f9-2d82dbd275c0") )(text "USB Serial/JTAG nativo: GPIO18 D- e GPIO19 D+. Verificar cabo e polaridade." (at 15 87.74 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "6df3ba6f-adda-59bc-94e8-c5f47173412c") )(embedded_fonts no))
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4ba54fb2-f8db-5e50-8726-20e74dac4f4f")
+	(paper "A3")
+	(title_block
+		(title "EC01 Sensor Universal - USB de servico")
+		(date "2026-10-04")
+		(rev "0.2-R1")
+		(comment 1 "ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB")
+		(comment 2 "Footprints e partes TBD ainda nao liberados"))
+	(lib_symbols
+		(symbol "EC01:EC01_J4"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "USB SERVICE 4P"
+				(at 0 6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_J4_0_1"
+				(rectangle
+					(start -22.86 5.715)
+					(end 22.86 -5.715)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_J4_1_1"
+				(pin passive line
+					(at -25.4 1.905 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at -25.4 -1.905 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 25.4 1.905 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 25.4 -1.905 180)
+					(length 2.54)
+					(name "NC_5V_PROIBIDO"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_R43"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "22R"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_R43_0_1"
+				(rectangle
+					(start -5.08 -1.27)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_R43_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_R44"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "22R"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_R44_0_1"
+				(rectangle
+					(start -5.08 -1.27)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_R44_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_U8"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "USBLC6-2SC6"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_U8_0_1"
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_U8_1_1"
+				(pin passive line
+					(at -25.4 3.81 0)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at -25.4 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at -25.4 -3.81 0)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 25.4 3.81 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 25.4 -3.81 180)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no)))
+	(text "07  USB DE SERVICO"
+		(at 15.24 15.24 0)
+		(effects
+			(font
+				(size 2.54 2.54))
+			(justify left))
+		(uuid "a1c33463-c0ff-5cf6-af85-d98170f4fbd6"))
+	(symbol
+		(lib_id "EC01:EC01_R43")
+		(at 83.82 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3fa40c7-42b5-5e6d-b6ba-af29636a4235")
+		(property "Reference" "R43"
+			(at 83.82 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "22R"
+			(at 83.82 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 83.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 83.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 83.82 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0603"
+			(at 83.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 83.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 83.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "735818d9-1316-5ac4-9fb4-896edf327e32"))
+		(pin "2"
+			(uuid "d3798b9b-463f-561f-9a4c-7352f0874580"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1"
+					(reference "R43")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_R44")
+		(at 83.82 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd681dd7-2405-5f81-bf63-56dd55bc4535")
+		(property "Reference" "R44"
+			(at 83.82 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "22R"
+			(at 83.82 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 83.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 83.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 83.82 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0603"
+			(at 83.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 83.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 83.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "3342a6ef-4b00-5ac5-829d-e9ec5923ce91"))
+		(pin "2"
+			(uuid "403662d9-07d7-55e8-8bb3-1d8aa8a726d9"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1"
+					(reference "R44")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_J4")
+		(at 284.48 80.645 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f904c00-5f3b-5d86-ad82-59df9fed8255")
+		(property "Reference" "J4"
+			(at 284.48 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "USB SERVICE 4P"
+			(at 284.48 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 284.48 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 284.48 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 284.48 80.645 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "HDR4"
+			(at 284.48 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" "Usar adaptador de servico identificado; bateria deve estar ligada. Pino4 sem cobre de alimentacao. Nao e USB-C; nao ha carregador."
+			(at 284.48 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 284.48 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "15f5049a-0dcc-5fc1-8f4d-3e6c5025c257"))
+		(pin "2"
+			(uuid "9718830f-a4e4-5836-b4bf-e72e1e2ffdd3"))
+		(pin "3"
+			(uuid "bd9d3ead-704f-5054-805a-c12e37823b8f"))
+		(pin "4"
+			(uuid "9098e859-59cd-5940-842e-3436cad70fcb"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1"
+					(reference "J4")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_U8")
+		(at 190.5 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa6db773-3fbf-57fa-b67d-3e7abc166777")
+		(property "Reference" "U8"
+			(at 190.5 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "USBLC6-2SC6"
+			(at 190.5 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 190.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 190.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 190.5 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "SOT23_6"
+			(at 190.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" "Desenhar par diferencial 90ohm; alimentacao local 3.3V. Header de bancada, sem declaracao de conformidade USB de produto."
+			(at 190.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 190.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "6d8701e6-34e4-57b5-825f-4bc394051d49"))
+		(pin "2"
+			(uuid "c4d329eb-b487-5290-a439-30ef53dd86e6"))
+		(pin "3"
+			(uuid "d1d9b6db-771a-5b88-adc1-d02f2b803b8a"))
+		(pin "4"
+			(uuid "07a97fd1-3a3e-596b-a679-0da68eb20307"))
+		(pin "5"
+			(uuid "530b31b2-cdb5-5876-8ade-9ecbbb95f2ee"))
+		(pin "6"
+			(uuid "f09be40f-0e07-5c86-8a90-9e85d2ce35e7"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1"
+					(reference "U8")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 91.44 76.2)
+			(xy 233.68 76.2))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "1c9aeb5e-ec20-57fa-858a-7e42d6459d92"))
+	(wire
+		(pts
+			(xy 233.68 76.2)
+			(xy 233.68 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a46db156-bcb7-5d4d-ae8a-631a8153f2a1"))
+	(wire
+		(pts
+			(xy 233.68 82.55)
+			(xy 259.08 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "47b402ec-968c-5d0c-b2d7-fb9ff318c435"))
+	(label "USB_DM"
+		(at 147.32 76.2 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "0ac50d9a-a1cb-51e5-b204-27b668890343"))
+	(wire
+		(pts
+			(xy 91.44 109.22)
+			(xy 335.28 109.22))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "45afe0a4-0d0f-5e31-9200-1ff4c9a1e662"))
+	(wire
+		(pts
+			(xy 335.28 109.22)
+			(xy 335.28 78.74))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c92abd14-086d-51ad-ab9c-290bef5db90e"))
+	(wire
+		(pts
+			(xy 335.28 78.74)
+			(xy 309.88 78.74))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "25531673-641f-5085-ba1e-9b0419f0eb36"))
+	(label "USB_DP"
+		(at 147.32 109.22 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "f028216d-5489-505f-ab97-d93e06357f1a"))
+	(text "ESP32-C3  ->  RESISTORES SERIE  ->  CONECTOR DE SERVICO"
+		(at 25.4 43.18 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left))
+		(uuid "58423ca4-ac46-5666-80fe-0002bb1c010c"))
+	(text "ESD PROXIMO AO CONECTOR NA PCB"
+		(at 114.3 137.16 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left))
+		(uuid "9118a280-1278-5db7-9253-ab9ac9ffacff"))
+	(text "J4: 1=GND, 2=D-, 3=D+, 4=NC. Nao e USB-C e nao recebe VBUS/5V."
+		(at 25.4 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left))
+		(uuid "da1665db-6e2e-5974-99bd-7f2da861652b"))
+	(text "Programar com bateria ligada. D-/D+ sao GPIO18/GPIO19; verificar polaridade do cabo."
+		(at 25.4 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left))
+		(uuid "de87366a-f9a9-5215-82fe-b0e1cfb4a71a"))
+	(text "Os 22R ficam proximos ao MCU. U8 fica proximo ao conector, com retorno curto de ESD."
+		(at 25.4 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left))
+		(uuid "bf45d6dc-baf6-58d8-ab0f-db996837b110"))
+	(wire
+		(pts
+			(xy 259.08 78.74)
+			(xy 254 78.74))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f728af6c-54a0-5b5e-854d-946295b071de"))
+	(symbol
+		(lib_id "power:GND")
+		(at 254 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec83c285-e87e-549d-9ffa-b1143c8b345d")
+		(property "Reference" "#PWR701"
+			(at 254 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 248.92 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify right)))
+		(property "Footprint" ""
+			(at 254 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 254 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "421ae09b-2522-5b6a-95fe-23e3c410f9a5"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1"
+					(reference "#PWR701")
+					(unit 1)))))
+	(no_connect
+		(at 309.88 82.55)
+		(uuid "9d7a4638-dc7e-5196-a9e6-c95a00db3d16"))
+	(wire
+		(pts
+			(xy 76.2 109.22)
+			(xy 71.12 109.22))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "07e49eb2-0d60-5dbf-9e6f-aef83652a65d"))
+	(global_label "USB_DP_MCU"
+		(shape bidirectional)
+		(at 71.12 109.22 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "8dfa999e-e0b0-5b70-9474-d4c195f3d5c6"))
+	(wire
+		(pts
+			(xy 76.2 76.2)
+			(xy 71.12 76.2))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6d43d576-20cd-5213-b800-93d004ccbaaf"))
+	(global_label "USB_DM_MCU"
+		(shape bidirectional)
+		(at 71.12 76.2 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "60155b53-7b90-5e67-a70c-9ac699bbb27d"))
+	(wire
+		(pts
+			(xy 165.1 163.83)
+			(xy 160.02 163.83))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5248f6de-41f8-53c9-90de-687b48a9becc"))
+	(label "USB_DM"
+		(at 160.02 163.83 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "c9646f85-07d6-53ae-af3f-d9d40085dd16"))
+	(wire
+		(pts
+			(xy 165.1 167.64)
+			(xy 160.02 167.64))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b0cfc177-825c-51bf-b00a-e55fd22de10f"))
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 167.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17387ef3-83f6-5a85-89ea-674635b06f21")
+		(property "Reference" "#PWR702"
+			(at 160.02 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 154.94 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify right)))
+		(property "Footprint" ""
+			(at 160.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 160.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "a601e799-1101-56c7-9474-0b3c783e4a3d"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1"
+					(reference "#PWR702")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 165.1 171.45)
+			(xy 160.02 171.45))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "bc6caa04-8429-58e7-8593-60bc5f5a0f75"))
+	(label "USB_DP"
+		(at 160.02 171.45 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "1c088d1c-d15a-5845-875a-3f4ba53a1dc5"))
+	(wire
+		(pts
+			(xy 215.9 163.83)
+			(xy 220.98 163.83))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b2d37730-1f4d-5755-8ea5-6cc513a11847"))
+	(label "USB_DP"
+		(at 220.98 163.83 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "c926b60b-4c82-5024-ad64-ac496fc6d4a9"))
+	(wire
+		(pts
+			(xy 215.9 167.64)
+			(xy 220.98 167.64))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "94a3f935-4b8a-5ced-aa41-58b98b406bc0"))
+	(global_label "3V3"
+		(shape bidirectional)
+		(at 220.98 167.64 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "9a878c00-e225-5762-895b-beb90004ad3f"))
+	(wire
+		(pts
+			(xy 215.9 171.45)
+			(xy 220.98 171.45))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0d2320f4-d8c1-53fe-bf6f-ff3c637c5960"))
+	(label "USB_DM"
+		(at 220.98 171.45 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "1cd4d3f8-29bf-5069-a4bd-a798c5465ced")))

@@ -1,0 +1,20 @@
+{
+  "electrical_components": 107,
+  "pins_checked": 321,
+  "nets_checked": 63,
+  "netlist_mismatches": [],
+  "erc_errors": 0,
+  "erc_warnings": 0,
+  "erc_ignored_checks_unchanged": true,
+  "source_unchanged_during_review": true,
+  "value_changes": {
+    "L2": {
+      "before": "24nH >=500mA",
+      "after": "FILTRO RF TBD >=500mA"
+    }
+  },
+  "added_components": [
+    "L4"
+  ],
+  "note": "Connectivity compared by sets of component pins, independent of automatic net names. SW1 pin reversal is preserved as an electrically equivalent passive SPST orientation."
+}

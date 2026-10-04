@@ -1,0 +1,12 @@
+{
+  "status": "aplicado",
+  "revisao": "0.2-R1",
+  "backup": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\KiCad\\Empresa-EcoQuali\\EC01\\work\\revisao_metodo_antes_2026-10-04_c3aef1f9.zip",
+  "files_verified": 18,
+  "preserved": [
+    "EC01.kicad_pro",
+    "EC01.kicad_prl",
+    "EC01.kicad_pcb"
+  ],
+  "commit_push": false
+}

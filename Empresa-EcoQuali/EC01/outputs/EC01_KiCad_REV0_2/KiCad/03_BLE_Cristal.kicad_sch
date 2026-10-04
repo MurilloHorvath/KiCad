@@ -1,1 +1,2908 @@
-(kicad_sch (version 20250114) (generator "ec01_engineering") (uuid "94daa07d-38c6-54b5-bd69-c251acf9361c") (paper "A3") (title_block (title "EC01 Sensor Universal - BLE e cristal") (date "2026-10-04") (rev "0.2") (comment 1 "ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB") (comment 2 "Footprints e partes TBD ainda nao liberados"))(lib_symbols (symbol "EC01:EC01_Y1" (pin_names (offset 0.635)) (in_bom yes) (on_board yes) (property "Reference" "Y" (at 0 9.525 0) (effects (font (size 1.27 1.27))))(property "Value" "40MHz CL=8pF <=10ppm" (at 0 6.985 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_Y1_0_1" (rectangle (start -22.86 5.715) (end 22.86 -5.715) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_Y1_1_1" (pin passive line (at -25.4 1.905 0) (length 2.54) (name "X1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at -25.4 -1.905 0) (length 2.54) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))(pin passive line (at 25.4 1.905 180) (length 2.54) (name "X2" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))(pin passive line (at 25.4 -1.905 180) (length 2.54) (name "GND" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_C14" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "10pF C0G" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_C14_0_1" (polyline (pts (xy -2.54 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 -2.54) (xy 2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy -5.08 0) (xy -2.54 0)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 0) (xy 5.08 0)) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_C14_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_C15" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "10pF C0G" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_C15_0_1" (polyline (pts (xy -2.54 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 -2.54) (xy 2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy -5.08 0) (xy -2.54 0)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 0) (xy 5.08 0)) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_C15_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_C16" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "1.5pF C0G TUNE" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_C16_0_1" (polyline (pts (xy -2.54 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 -2.54) (xy 2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy -5.08 0) (xy -2.54 0)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 0) (xy 5.08 0)) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_C16_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_L3" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "L" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "2.7nH TUNE" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_L3_0_1" (arc (start -5.08 0) (mid -3.81 1.27) (end -2.54 0) (stroke (width 0.254) (type default)) (fill (type none)))(arc (start -2.54 0) (mid -1.27 1.27) (end 0 0) (stroke (width 0.254) (type default)) (fill (type none)))(arc (start 0 0) (mid 1.27 1.27) (end 2.54 0) (stroke (width 0.254) (type default)) (fill (type none)))(arc (start 2.54 0) (mid 3.81 1.27) (end 5.08 0) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_L3_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_C17" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "1.5pF C0G TUNE" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_C17_0_1" (polyline (pts (xy -2.54 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 -2.54) (xy 2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy -5.08 0) (xy -2.54 0)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 0) (xy 5.08 0)) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_C17_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_C18" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "TUNE DNP" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_C18_0_1" (polyline (pts (xy -2.54 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 -2.54) (xy 2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy -5.08 0) (xy -2.54 0)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 0) (xy 5.08 0)) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_C18_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_R14" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "R" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "0R TUNE" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_R14_0_1" (rectangle (start -5.08 -1.27) (end 5.08 1.27) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_R14_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_C19" (pin_names (offset 0.635) (hide yes)) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Value" "TUNE DNP" (at 0 3.81 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_C19_0_1" (polyline (pts (xy -2.54 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 -2.54) (xy 2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy -5.08 0) (xy -2.54 0)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 2.54 0) (xy 5.08 0)) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_C19_1_1" (pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))(symbol "EC01:EC01_ANT1" (pin_names (offset 0.635)) (in_bom yes) (on_board yes) (property "Reference" "ANT" (at 0 8.89 0) (effects (font (size 1.27 1.27))))(property "Value" "Antena impressa BLE 2.4GHz" (at 0 6.35 0) (effects (font (size 1.27 1.27))))(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(symbol "EC01_ANT1_0_1" (rectangle (start -22.86 5.08) (end 22.86 -5.08) (stroke (width 0.254) (type default)) (fill (type none))))(symbol "EC01_ANT1_1_1" (pin passive line (at -25.4 0 0) (length 2.54) (name "FEED" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))(pin passive line (at 25.4 0 180) (length 2.54) (name "SHORT_GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016))))))))(text "03  BLE E CRISTAL" (at 15 15 0) (effects (font (size 2.54 2.54)) (justify left)) (uuid "c1f57742-93bc-5cac-942d-4b88bcd29ccd") )(symbol (lib_id "EC01:EC01_Y1") (at 71.12 46.355 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "82e41c85-b367-532d-873e-855f344d1a41")(property "Reference" "Y1" (at 71.12 35.56 0) (effects (font (size 1.27 1.27))))(property "Value" "40MHz CL=8pF <=10ppm" (at 71.12 38.1 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 71.12 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 71.12 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "XTAL3225" (at 71.12 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "MPN a selecionar. 10pF iniciais presumem Cparasita ~3pF; verificar ESR, drive e tolerancia total." (at 71.12 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 71.12 46.355 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "a69559a1-4f19-5db5-9963-cfe0d5ba3077"))(pin "2" (uuid "a4b50237-4e74-53ef-a6b6-da00e6dac290"))(pin "3" (uuid "949d8612-51e5-5ca7-8e26-ca9e83d787b1"))(pin "4" (uuid "db19930a-4163-59d8-ba49-9101086b5363"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "Y1") (unit 1)))))(wire (pts (xy 45.72 44.45) (xy 40.64 44.45)) (stroke (width 0) (type default)) (uuid "6d81267e-5640-5e58-98bf-5784af3e4e03"))(global_label "XTAL_P" (shape bidirectional) (at 40.64 44.45 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "7011953e-342c-5624-86e0-99659c1f33e1") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.64 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 45.72 48.26) (xy 40.64 48.26)) (stroke (width 0) (type default)) (uuid "882eeda0-1b10-5603-903a-825574b3b1d5"))(global_label "GND" (shape bidirectional) (at 40.64 48.26 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "4916024d-b4b5-5bd9-b6de-7283d3869003") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.64 48.26 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 96.52 44.45) (xy 101.6 44.45)) (stroke (width 0) (type default)) (uuid "53a97743-118e-52eb-b510-79ccca1c7f0c"))(global_label "XTAL_N" (shape bidirectional) (at 101.6 44.45 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "bfa005dd-40e1-53b3-adfd-e9d48b60683b") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.6 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 96.52 48.26) (xy 101.6 48.26)) (stroke (width 0) (type default)) (uuid "2b2dd19c-9328-5136-a92d-e1c1060aad86"))(global_label "GND" (shape bidirectional) (at 101.6 48.26 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "926882b5-abd4-54a1-968f-932a092d46bd") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.6 48.26 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_C14") (at 200.66 43.18 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "634085a8-9d4d-5e3a-a6c9-818d2f17c8da")(property "Reference" "C14" (at 200.66 35.56 0) (effects (font (size 1.27 1.27))))(property "Value" "10pF C0G" (at 200.66 38.1 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 200.66 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 200.66 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0402" (at 200.66 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 200.66 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 200.66 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "5122edc9-6f7b-55bf-8b43-fb2a57e0940e"))(pin "2" (uuid "d1512f82-9dae-5457-99c8-2a89cd07aa47"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "C14") (unit 1)))))(wire (pts (xy 193.04 43.18) (xy 187.96 43.18)) (stroke (width 0) (type default)) (uuid "7361676d-b81d-5c93-9052-ca01c79c6f37"))(global_label "XTAL_P" (shape bidirectional) (at 187.96 43.18 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "05ec90dc-1c89-59c3-b89c-d4bdf9546ee0") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.96 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 208.28 43.18) (xy 213.36 43.18)) (stroke (width 0) (type default)) (uuid "9a38d149-dec5-53ca-8253-a3590bb14838"))(global_label "GND" (shape bidirectional) (at 213.36 43.18 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "ddb97efe-deef-5b46-85d1-1a79b1385ff1") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 213.36 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_C15") (at 330.2 43.18 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e4dc85cf-563d-5e76-a1ce-f85bc4e66938")(property "Reference" "C15" (at 330.2 35.56 0) (effects (font (size 1.27 1.27))))(property "Value" "10pF C0G" (at 330.2 38.1 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0402" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 330.2 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "669e6272-14de-518a-8f1e-ac8d36785527"))(pin "2" (uuid "04ff9a4b-5193-5cdc-94ee-75d2d4ae5134"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "C15") (unit 1)))))(wire (pts (xy 322.58 43.18) (xy 317.5 43.18)) (stroke (width 0) (type default)) (uuid "4c50796a-90c7-5b7b-944e-a1721c494637"))(global_label "XTAL_N" (shape bidirectional) (at 317.5 43.18 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "eee85fbe-f118-5d38-ae1f-75d75ca1232c") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 317.5 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 337.82 43.18) (xy 342.9 43.18)) (stroke (width 0) (type default)) (uuid "cfccc487-5887-566b-9450-422d41e47957"))(global_label "GND" (shape bidirectional) (at 342.9 43.18 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "fcb30796-bfe3-516d-b080-339fdb6bbec7") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 342.9 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_C16") (at 200.66 63.5 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "fff1ddb9-70e8-5320-9446-9780ffc8c9be")(property "Reference" "C16" (at 200.66 55.88 0) (effects (font (size 1.27 1.27))))(property "Value" "1.5pF C0G TUNE" (at 200.66 58.42 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 200.66 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 200.66 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0201" (at 200.66 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "Casamento inicial; exige ajuste VNA e emissao harmonica." (at 200.66 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 200.66 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "59066c61-80dc-5b87-ac4e-8dea311c271e"))(pin "2" (uuid "36014b1d-0bbf-5d0c-9562-32888f4c0721"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "C16") (unit 1)))))(wire (pts (xy 193.04 63.5) (xy 187.96 63.5)) (stroke (width 0) (type default)) (uuid "57f5e19a-5d99-5a01-80da-265ec4859a37"))(global_label "BLE_CHIP" (shape bidirectional) (at 187.96 63.5 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "ad3e94a6-adc1-5a9b-ad45-c6e9394906d1") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.96 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 208.28 63.5) (xy 213.36 63.5)) (stroke (width 0) (type default)) (uuid "f50bafbf-fc89-5093-9e24-7f1fe5adcf6d"))(global_label "GND" (shape bidirectional) (at 213.36 63.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "3cd78e24-c0da-5cbe-a44a-5e24df9332ae") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 213.36 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_L3") (at 330.2 63.5 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "8e36ee82-4de7-5165-806c-c3cbea289847")(property "Reference" "L3" (at 330.2 55.88 0) (effects (font (size 1.27 1.27))))(property "Value" "2.7nH TUNE" (at 330.2 58.42 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0201" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 330.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "c0b44762-d9bc-5555-a735-cf020fc2d016"))(pin "2" (uuid "42ec4579-2fd9-5561-969e-61c6e8d9f549"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "L3") (unit 1)))))(wire (pts (xy 322.58 63.5) (xy 317.5 63.5)) (stroke (width 0) (type default)) (uuid "1d3c3915-3500-5d64-b4e8-e64811d41363"))(global_label "BLE_CHIP" (shape bidirectional) (at 317.5 63.5 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "050271fb-4c3f-5ac3-8760-427e5e5ace0b") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 317.5 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 337.82 63.5) (xy 342.9 63.5)) (stroke (width 0) (type default)) (uuid "d219d1fd-3dbd-5f35-8746-ac8b8899ae6c"))(global_label "BLE_50R" (shape bidirectional) (at 342.9 63.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "a73c3896-66d7-540e-b53d-e48ed2d64269") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 342.9 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_C17") (at 71.12 69.85 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "93c0aa19-70d4-5078-93ed-8c35d839335f")(property "Reference" "C17" (at 71.12 62.23 0) (effects (font (size 1.27 1.27))))(property "Value" "1.5pF C0G TUNE" (at 71.12 64.77 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 71.12 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 71.12 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0201" (at 71.12 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 71.12 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 71.12 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "248feeec-c0a5-5400-9fec-8238021ce2d7"))(pin "2" (uuid "b04c4225-ecde-5eab-89c6-3a495a6d1b1e"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "C17") (unit 1)))))(wire (pts (xy 63.5 69.85) (xy 58.42 69.85)) (stroke (width 0) (type default)) (uuid "a884a073-bef2-59ef-9bbf-5872ef71e033"))(global_label "BLE_50R" (shape bidirectional) (at 58.42 69.85 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "33daf1d1-a1d3-58b0-8fb2-322146b0ce95") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 58.42 69.85 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 78.74 69.85) (xy 83.82 69.85)) (stroke (width 0) (type default)) (uuid "cc43890b-5d9f-5803-b924-55046385c134"))(global_label "GND" (shape bidirectional) (at 83.82 69.85 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "c3ab8169-5fc0-5d39-b175-68439fa510a1") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 83.82 69.85 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_C18") (at 200.66 83.82 0) (unit 1) (in_bom yes) (on_board yes) (dnp yes) (uuid "ea0707b6-3c0a-5e8d-96d4-bcad3256bd48")(property "Reference" "C18" (at 200.66 76.2 0) (effects (font (size 1.27 1.27))))(property "Value" "TUNE DNP" (at 200.66 78.74 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 200.66 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 200.66 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0201" (at 200.66 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 200.66 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "DNP" (at 200.66 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "eed88d0d-20e1-5543-b8ce-e87857e6f6bf"))(pin "2" (uuid "c3e0259c-5387-5101-b97c-4fc5e32e5195"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "C18") (unit 1)))))(wire (pts (xy 193.04 83.82) (xy 187.96 83.82)) (stroke (width 0) (type default)) (uuid "6fd88c79-7870-5018-af53-21d0bec745ff"))(global_label "BLE_50R" (shape bidirectional) (at 187.96 83.82 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "c1b33956-5883-5dfd-b9a3-9303dc4ec633") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.96 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 208.28 83.82) (xy 213.36 83.82)) (stroke (width 0) (type default)) (uuid "b8299df7-0f09-5a0a-9108-305837257de0"))(global_label "GND" (shape bidirectional) (at 213.36 83.82 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "5d688f21-c06c-5749-9162-1428f0ede3a6") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 213.36 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_R14") (at 330.2 83.82 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "64f33824-eca9-51ce-91cc-2f82316e38cb")(property "Reference" "R14" (at 330.2 76.2 0) (effects (font (size 1.27 1.27))))(property "Value" "0R TUNE" (at 330.2 78.74 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 330.2 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 330.2 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0201" (at 330.2 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 330.2 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 330.2 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "5e5c680a-8a3a-52a9-97f1-25b30a0d469a"))(pin "2" (uuid "82c2913c-6875-59fe-8573-f73119dbd092"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "R14") (unit 1)))))(wire (pts (xy 322.58 83.82) (xy 317.5 83.82)) (stroke (width 0) (type default)) (uuid "d2cde0f3-9f7f-5439-927d-3a05b50221f0"))(global_label "BLE_50R" (shape bidirectional) (at 317.5 83.82 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "97d540ad-7024-5230-b3a6-1374dee75312") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 317.5 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 337.82 83.82) (xy 342.9 83.82)) (stroke (width 0) (type default)) (uuid "e9416b12-1433-5157-aa54-3de870cfb197"))(global_label "BLE_ANT" (shape bidirectional) (at 342.9 83.82 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "0077da0c-674e-5ae6-880c-1958a17d3240") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 342.9 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_C19") (at 71.12 90.17 0) (unit 1) (in_bom yes) (on_board yes) (dnp yes) (uuid "e0fecffc-8660-528b-91a4-f5e3163e4af8")(property "Reference" "C19" (at 71.12 82.55 0) (effects (font (size 1.27 1.27))))(property "Value" "TUNE DNP" (at 71.12 85.09 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 71.12 90.17 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 71.12 90.17 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "0201" (at 71.12 90.17 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "" (at 71.12 90.17 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "DNP" (at 71.12 90.17 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "b6394b68-c6ab-5e15-b15c-99a270029ffb"))(pin "2" (uuid "c2d4f057-83d9-5666-9b45-c41076e98fdf"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "C19") (unit 1)))))(wire (pts (xy 63.5 90.17) (xy 58.42 90.17)) (stroke (width 0) (type default)) (uuid "87d4527d-b889-59cd-bed0-c5ca16e708a8"))(global_label "BLE_ANT" (shape bidirectional) (at 58.42 90.17 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "4e251f75-d258-5099-b6cb-e851e02475fd") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 58.42 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 78.74 90.17) (xy 83.82 90.17)) (stroke (width 0) (type default)) (uuid "bee09fd2-cbb6-541c-adbf-ad88c193caf9"))(global_label "GND" (shape bidirectional) (at 83.82 90.17 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "bcf19909-78d2-523c-886b-362f9d81d72a") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 83.82 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))))(symbol (lib_id "EC01:EC01_ANT1") (at 200.66 106.68 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "b7866b76-90a1-5370-adc6-cda7034fb4ca")(property "Reference" "ANT1" (at 200.66 96.52 0) (effects (font (size 1.27 1.27))))(property "Value" "Antena impressa BLE 2.4GHz" (at 200.66 99.06 0) (effects (font (size 1.016 1.016))))(property "Footprint" "" (at 200.66 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 200.66 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Encapsulamento_proposto" "PENDENTE_ANTENA" (at 200.66 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Decisao" "Representacao funcional de IFA impressa; geometria, feed e short dependem da PCB e carcaca futuras." (at 200.66 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Montagem_base" "SIM" (at 200.66 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "b3ac92ef-d9db-5fc3-b983-c5b1fbcbe483"))(pin "2" (uuid "22459692-2681-5e4c-bab0-5623f5220f55"))(instances (project "EC01" (path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448" (reference "ANT1") (unit 1)))))(wire (pts (xy 175.26 106.68) (xy 170.18 106.68)) (stroke (width 0) (type default)) (uuid "b858ae27-bdb6-5108-9f76-7b658b8142d2"))(global_label "BLE_ANT" (shape bidirectional) (at 170.18 106.68 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid "b8db6137-2a25-5d87-a3b8-10d2ceaa7d68") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 170.18 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))))(wire (pts (xy 226.06 106.68) (xy 231.14 106.68)) (stroke (width 0) (type default)) (uuid "6625e87d-52ef-5a6f-921a-df7e8210e201"))(global_label "GND" (shape bidirectional) (at 231.14 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid "024dc9c0-8a0c-58c6-92a6-095cd3c06ac9") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 231.14 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))))(text "LNA_IN isolado de 3V3. C16/L3/C17 sao valores iniciais para ajuste de RF." (at 15 124.46 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "82721754-009c-5aaa-894d-fb6a51991490") )(text "ANT1 representa a IFA futura: geometria e casamento dependem da PCB e carcaca." (at 15 128.96 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "3bf89b42-51aa-53d5-919b-2f6c586a6b3a") )(text "Cristal 40 MHz CL=8 pF: C14/C15=10 pF pressupoe ~3 pF de parasitas." (at 15 133.46 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "1acc57b2-8c7b-5655-87da-1a7cf68736f4") )(embedded_fonts no))
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "94daa07d-38c6-54b5-bd69-c251acf9361c")
+	(paper "A3")
+	(title_block
+		(title "EC01 Sensor Universal - BLE e cristal")
+		(date "2026-10-04")
+		(rev "0.2-R1")
+		(comment 1 "ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB")
+		(comment 2 "Footprints e partes TBD ainda nao liberados"))
+	(lib_symbols
+		(symbol "EC01:EC01_ANT1"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "ANT"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Antena impressa BLE 2.4GHz"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_ANT1_0_1"
+				(rectangle
+					(start -22.86 5.08)
+					(end 22.86 -5.08)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_ANT1_1_1"
+				(pin passive line
+					(at -25.4 0 0)
+					(length 2.54)
+					(name "FEED"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "SHORT_GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_C14"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "10pF C0G"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_C14_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0)
+						(xy -2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 -2.54)
+						(xy -2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 5.08 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 -2.54)
+						(xy 2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_C14_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_C15"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "10pF C0G"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_C15_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0)
+						(xy -2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 -2.54)
+						(xy -2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 5.08 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 -2.54)
+						(xy 2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_C15_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_C16"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "1.5pF C0G TUNE"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_C16_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0)
+						(xy -2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 -2.54)
+						(xy -2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 5.08 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 -2.54)
+						(xy 2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_C16_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_C17"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "1.5pF C0G TUNE"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_C17_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0)
+						(xy -2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 -2.54)
+						(xy -2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 5.08 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 -2.54)
+						(xy 2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_C17_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_C18"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "TUNE DNP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_C18_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0)
+						(xy -2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 -2.54)
+						(xy -2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 5.08 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 -2.54)
+						(xy 2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_C18_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_C19"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "TUNE DNP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_C19_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0)
+						(xy -2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 -2.54)
+						(xy -2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 5.08 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 -2.54)
+						(xy 2.54 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_C19_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_L3"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "2.7nH TUNE"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_L3_0_1"
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.27)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(arc
+					(start 0 0)
+					(mid 1.27 1.27)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.27)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_L3_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_R14"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "0R TUNE"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_R14_0_1"
+				(rectangle
+					(start -5.08 -1.27)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_R14_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_Y1"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "40MHz CL=8pF <=10ppm"
+				(at 0 6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_Y1_0_1"
+				(rectangle
+					(start -22.86 5.715)
+					(end 22.86 -5.715)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_Y1_1_1"
+				(pin passive line
+					(at -25.4 1.905 0)
+					(length 2.54)
+					(name "X1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at -25.4 -1.905 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 25.4 1.905 180)
+					(length 2.54)
+					(name "X2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 25.4 -1.905 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no))
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
+		(symbol "EC01:EC01_L4"
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "24nH TUNE"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "EC01_L4_0_1"
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.27)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(arc
+					(start 0 0)
+					(mid 1.27 1.27)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.27)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "EC01_L4_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)))))
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016))))))
+			(embedded_fonts no)))
+	(text "03  BLE E CRISTAL"
+		(at 15.24 15.24 0)
+		(effects
+			(font
+				(size 2.54 2.54))
+			(justify left))
+		(uuid "fe9fd154-5857-5c5d-aefe-4d874d5ea56b"))
+	(text "OSCILADOR 40 MHz"
+		(at 25.4 38.1 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left))
+		(uuid "02f76a48-1ace-5cb7-877d-54753c121abd"))
+	(symbol
+		(lib_id "EC01:EC01_Y1")
+		(at 125.73 70.485 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82e41c85-b367-532d-873e-855f344d1a41")
+		(property "Reference" "Y1"
+			(at 125.73 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "40MHz CL=8pF <=10ppm"
+			(at 125.73 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 125.73 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 125.73 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 125.73 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "XTAL3225"
+			(at 125.73 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" "MPN a selecionar. 10pF iniciais presumem Cparasita ~3pF; verificar ESR, drive e tolerancia total."
+			(at 125.73 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 125.73 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "a69559a1-4f19-5db5-9963-cfe0d5ba3077"))
+		(pin "2"
+			(uuid "a4b50237-4e74-53ef-a6b6-da00e6dac290"))
+		(pin "3"
+			(uuid "949d8612-51e5-5ca7-8e26-ca9e83d787b1"))
+		(pin "4"
+			(uuid "db19930a-4163-59d8-ba49-9101086b5363"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "Y1")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_L4")
+		(at 50.8 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42dc171a-22ee-5b2f-b43a-c27219f7ef16")
+		(property "Reference" "L4"
+			(at 50.8 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "24nH TUNE"
+			(at 50.8 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 50.8 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "TBD - selecionar indutor para XTAL_P"
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" "Componente serie XTAL_P, valor inicial Espressif. Validar frequencia/partida no prototipo."
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "8032acfc-0035-5958-a29c-92da8fe93b35"))
+		(pin "2"
+			(uuid "c2bccec5-2c6f-522a-af5a-f95bedd57248"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "L4")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_C14")
+		(at 83.82 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "634085a8-9d4d-5e3a-a6c9-818d2f17c8da")
+		(property "Reference" "C14"
+			(at 87.63 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Value" "10pF C0G"
+			(at 87.63 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Footprint" ""
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 83.82 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0402"
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "5122edc9-6f7b-55bf-8b43-fb2a57e0940e"))
+		(pin "2"
+			(uuid "d1512f82-9dae-5457-99c8-2a89cd07aa47"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "C14")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_C15")
+		(at 167.64 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4dc85cf-563d-5e76-a1ce-f85bc4e66938")
+		(property "Reference" "C15"
+			(at 171.45 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Value" "10pF C0G"
+			(at 171.45 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Footprint" ""
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 167.64 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0402"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "669e6272-14de-518a-8f1e-ac8d36785527"))
+		(pin "2"
+			(uuid "04ff9a4b-5193-5cdc-94ee-75d2d4ae5134"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "C15")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_L3")
+		(at 96.52 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e36ee82-4de7-5165-806c-c3cbea289847")
+		(property "Reference" "L3"
+			(at 96.52 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "2.7nH TUNE"
+			(at 96.52 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 96.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 96.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 96.52 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0201"
+			(at 96.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 96.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 96.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "c0b44762-d9bc-5555-a735-cf020fc2d016"))
+		(pin "2"
+			(uuid "42ec4579-2fd9-5561-969e-61c6e8d9f549"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "L3")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_C16")
+		(at 60.96 195.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fff1ddb9-70e8-5320-9446-9780ffc8c9be")
+		(property "Reference" "C16"
+			(at 64.77 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Value" "1.5pF C0G TUNE"
+			(at 64.77 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Footprint" ""
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 60.96 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0201"
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" "Casamento inicial; exige ajuste VNA e emissao harmonica."
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "59066c61-80dc-5b87-ac4e-8dea311c271e"))
+		(pin "2"
+			(uuid "36014b1d-0bbf-5d0c-9562-32888f4c0721"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "C16")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_C17")
+		(at 132.08 195.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93c0aa19-70d4-5078-93ed-8c35d839335f")
+		(property "Reference" "C17"
+			(at 135.89 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Value" "1.5pF C0G TUNE"
+			(at 135.89 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Footprint" ""
+			(at 132.08 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 132.08 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 132.08 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0201"
+			(at 132.08 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 132.08 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 132.08 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "248feeec-c0a5-5400-9fec-8238021ce2d7"))
+		(pin "2"
+			(uuid "b04c4225-ecde-5eab-89c6-3a495a6d1b1e"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "C17")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_C18")
+		(at 172.72 195.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "ea0707b6-3c0a-5e8d-96d4-bcad3256bd48")
+		(property "Reference" "C18"
+			(at 176.53 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Value" "TUNE DNP"
+			(at 176.53 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Footprint" ""
+			(at 172.72 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 172.72 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 172.72 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0201"
+			(at 172.72 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 172.72 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "DNP"
+			(at 172.72 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "eed88d0d-20e1-5543-b8ce-e87857e6f6bf"))
+		(pin "2"
+			(uuid "c3e0259c-5387-5101-b97c-4fc5e32e5195"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "C18")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_R14")
+		(at 213.36 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64f33824-eca9-51ce-91cc-2f82316e38cb")
+		(property "Reference" "R14"
+			(at 213.36 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "0R TUNE"
+			(at 213.36 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 213.36 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 213.36 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 213.36 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0201"
+			(at 213.36 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 213.36 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 213.36 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "5e5c680a-8a3a-52a9-97f1-25b30a0d469a"))
+		(pin "2"
+			(uuid "82c2913c-6875-59fe-8573-f73119dbd092"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "R14")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_C19")
+		(at 251.46 195.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e0fecffc-8660-528b-91a4-f5e3163e4af8")
+		(property "Reference" "C19"
+			(at 255.27 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Value" "TUNE DNP"
+			(at 255.27 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Footprint" ""
+			(at 251.46 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 251.46 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 251.46 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "0201"
+			(at 251.46 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" ""
+			(at 251.46 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "DNP"
+			(at 251.46 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "b6394b68-c6ab-5e15-b15c-99a270029ffb"))
+		(pin "2"
+			(uuid "c2d4f057-83d9-5666-9b45-c41076e98fdf"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "C19")
+					(unit 1)))))
+	(symbol
+		(lib_id "EC01:EC01_ANT1")
+		(at 322.58 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7866b76-90a1-5370-adc6-cda7034fb4ca")
+		(property "Reference" "ANT1"
+			(at 322.58 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Value" "Antena impressa BLE 2.4GHz"
+			(at 322.58 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 322.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 322.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 322.58 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Encapsulamento_proposto" "PENDENTE_ANTENA"
+			(at 322.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Decisao" "Representacao funcional de IFA impressa; geometria, feed e short dependem da PCB e carcaca futuras."
+			(at 322.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Montagem_base" "SIM"
+			(at 322.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "b3ac92ef-d9db-5fc3-b983-c5b1fbcbe483"))
+		(pin "2"
+			(uuid "22459692-2681-5e4c-bab0-5623f5220f55"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "ANT1")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 58.42 69.85)
+			(xy 58.42 68.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7118156f-0d24-5019-92d2-6d118e918a25"))
+	(wire
+		(pts
+			(xy 58.42 68.58)
+			(xy 100.33 68.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "71117e03-b10f-5a6d-b22a-72f3020ce254"))
+	(wire
+		(pts
+			(xy 83.82 91.44)
+			(xy 83.82 68.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0c1ddeed-b46c-5354-b196-3ce2a53790a2"))
+	(wire
+		(pts
+			(xy 83.82 106.68)
+			(xy 83.82 111.76))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3021fb29-f498-55bb-ae67-fad830c45be6"))
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d03f45a3-cf4d-501f-aa79-0e8242dc23b9")
+		(property "Reference" "#PWR301"
+			(at 83.82 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 83.82 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 83.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 83.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "a907920f-947e-5522-87eb-61d1607fb89e"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR301")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 151.13 68.58)
+			(xy 167.64 68.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d7dcf124-84db-5c70-b5ac-f8b98d221d87"))
+	(wire
+		(pts
+			(xy 167.64 68.58)
+			(xy 167.64 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c431a670-6fe4-508a-a5c9-39ed3c8e2e70"))
+	(global_label "XTAL_N"
+		(shape bidirectional)
+		(at 167.64 68.58 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "95c86c9d-b112-5f96-a7ac-5af7117203b5"))
+	(wire
+		(pts
+			(xy 167.64 106.68)
+			(xy 167.64 111.76))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5ff0e2f4-233b-5f1c-bd2b-39baf1ef62af"))
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78e7cea7-80d4-5276-a6f7-9d2a9c9833f4")
+		(property "Reference" "#PWR302"
+			(at 167.64 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 167.64 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 167.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 167.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "3b1fde98-a67d-57b5-b548-fc686d93f8aa"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR302")
+					(unit 1)))))
+	(text "REDE RF 2,4 GHz - VALORES INICIAIS PARA AJUSTE"
+		(at 25.4 139.7 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left))
+		(uuid "04ca6e34-76c1-53f7-8bd3-d42da8d716cd"))
+	(wire
+		(pts
+			(xy 60.96 187.96)
+			(xy 60.96 170.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4de047b0-5dc7-5d3d-bb2b-7746bf559d65"))
+	(wire
+		(pts
+			(xy 60.96 170.18)
+			(xy 88.9 170.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "da0a7f51-d773-5f56-9bf0-630412934ea6"))
+	(global_label "BLE_CHIP"
+		(shape bidirectional)
+		(at 60.96 170.18 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "04df60b5-eaf9-5515-83f5-0899825b26d0"))
+	(wire
+		(pts
+			(xy 104.14 170.18)
+			(xy 205.74 170.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3ec7083e-7363-5fe6-a1e5-02671ba1b881"))
+	(wire
+		(pts
+			(xy 132.08 187.96)
+			(xy 132.08 170.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0cae2715-1580-5c8a-a1d2-8ee191dd86a8"))
+	(wire
+		(pts
+			(xy 172.72 187.96)
+			(xy 172.72 170.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0304cbdc-0ad7-5f8c-b28c-0dc13ca6d638"))
+	(wire
+		(pts
+			(xy 220.98 170.18)
+			(xy 297.18 170.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e2bcbf01-d894-54f8-9fa5-542506d2c878"))
+	(wire
+		(pts
+			(xy 251.46 187.96)
+			(xy 251.46 170.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "949c5002-b108-5e80-b97a-453f8ddf6018"))
+	(wire
+		(pts
+			(xy 60.96 203.2)
+			(xy 60.96 208.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "664b135e-6576-5b6e-8330-869b31e0c67c"))
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "596270b6-5165-5805-beb8-f7f280e6a31a")
+		(property "Reference" "#PWR303"
+			(at 60.96 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 60.96 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 60.96 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 60.96 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "8c47a41c-95db-5855-816a-f95f61dbeb71"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR303")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 132.08 203.2)
+			(xy 132.08 208.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b6957370-a1f9-566b-9ce6-531f0db4dde7"))
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f7bdef1-4a3c-57cc-a756-b7fe8ba76abe")
+		(property "Reference" "#PWR304"
+			(at 132.08 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 132.08 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 132.08 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 132.08 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "5da5a1b9-0247-5480-81c7-43218c79c228"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR304")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 172.72 203.2)
+			(xy 172.72 208.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fe467a4c-88b6-5d1b-ae45-ac54c13beb2f"))
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87c57bdd-abf8-535c-b070-6b2331690a48")
+		(property "Reference" "#PWR305"
+			(at 172.72 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 172.72 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 172.72 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 172.72 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "c6ce5059-522d-5e60-915b-2f425fadac58"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR305")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 251.46 203.2)
+			(xy 251.46 208.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9af17b51-c9a5-5baf-8a1b-77656e56a36a"))
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c951e786-730f-569c-8634-2ba8afdef2ed")
+		(property "Reference" "#PWR306"
+			(at 251.46 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 251.46 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 251.46 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 251.46 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "2961ba77-f91e-5ef5-bcd1-af9d3d3de7e2"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR306")
+					(unit 1)))))
+	(text "L4=24nH e C14/C15=10pF sao pontos de partida; CL=8pF pressupoe cerca de 3pF parasitas."
+		(at 25.4 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left))
+		(uuid "f8f9d9f2-0f98-5f01-ab8a-ce836048cee9"))
+	(text "LNA_IN sem ligacao DC ao 3V3. Rede CLC e IFA exigem ajuste de RF e geometria de PCB."
+		(at 25.4 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left))
+		(uuid "e68c8956-2490-57c3-ba1c-481d77ee29bd"))
+	(text "Reservas C18/C19 DNP. Nao fabricar sem fechar antena, footprints e ensaios."
+		(at 25.4 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left))
+		(uuid "a4c2f74d-d3e3-5b29-ae84-facf38a704ca"))
+	(wire
+		(pts
+			(xy 100.33 72.39)
+			(xy 95.25 72.39))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "09e0601b-42a1-5282-be31-482540aae9bd"))
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c784c071-a7f3-5c81-9785-61c14b3effea")
+		(property "Reference" "#PWR307"
+			(at 95.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 90.17 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify right)))
+		(property "Footprint" ""
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "21ae65b6-1459-5ec1-ab76-2c4d6632b13c"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR307")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 151.13 72.39)
+			(xy 156.21 72.39))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ff165ef7-87bd-51c6-8c15-bcedcad37619"))
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcc4d7bb-2802-55ae-9a01-ef0b76d5f61d")
+		(property "Reference" "#PWR308"
+			(at 156.21 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 161.29 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Footprint" ""
+			(at 156.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 156.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "6a56da88-d8bc-5ee4-bf2f-d5c5ae2fc84e"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR308")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 347.98 170.18)
+			(xy 353.06 170.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "556d4485-d126-53ea-b1c7-cc81e5916b2d"))
+	(symbol
+		(lib_id "power:GND")
+		(at 353.06 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ba7b544-c2dd-59d1-aa60-82e12f39ae7b")
+		(property "Reference" "#PWR309"
+			(at 353.06 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 358.14 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016))
+				(justify left)))
+		(property "Footprint" ""
+			(at 353.06 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 353.06 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "592c99f4-d0f3-5578-a36c-49996f0637a1"))
+		(instances
+			(project "EC01"
+				(path "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448"
+					(reference "#PWR309")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 43.18 69.85)
+			(xy 38.1 69.85))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a76dd250-39c1-52b7-9159-155efb2d810c"))
+	(global_label "XTAL_P"
+		(shape bidirectional)
+		(at 38.1 69.85 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "f6cc364c-1102-53db-a97b-1ad4e39aa1c4"))
+	(junction
+		(at 251.46 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b17380df-0776-5d5c-9a60-c0d61f46ca00"))
+	(junction
+		(at 83.82 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0b31afe-06a4-505f-acac-ef4d0ff5b7c6"))
+	(junction
+		(at 172.72 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e93368b7-1dda-5e0f-adf1-321ca58cfffa"))
+	(junction
+		(at 132.08 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "305d6251-9e0e-542e-a68f-3f3240e9c251")))

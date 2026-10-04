@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\Skydrones\Documents\Codex\2026-10-03\pro\outputs\EC01_KiCad_REV0_2\KiCad\EC01.kicad_sch</source>
-    <date>2026-10-04T13:42:43</date>
-    <tool>Eeschema 10.0.6</tool>
+    <source>C:\Users\User\OneDrive\Documents\ChatGPT\EcoQuali\work\revisao_ec01\revisado\EC01.kicad_sch</source>
+    <date>2026-10-04T19:43:50</date>
+    <tool>Eeschema 10.0.3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>EC01 Sensor Universal - Arquitetura e navegacao</title>
         <company/>
-        <rev>0.2</rev>
+        <rev>0.2-R1</rev>
         <date>2026-10-04</date>
         <source>EC01.kicad_sch</source>
         <comment number="1" value="ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB"/>
@@ -22,13 +22,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/">
+    <sheet number="2" name="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/">
       <title_block>
         <title>EC01 Sensor Universal - Alimentacao e bateria</title>
         <company/>
-        <rev>0.2</rev>
+        <rev>0.2-R1</rev>
         <date>2026-10-04</date>
-        <source>Alimentacao.kicad_sch</source>
+        <source>01_Alimentacao_Bateria.kicad_sch</source>
         <comment number="1" value="ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB"/>
         <comment number="2" value="Footprints e partes TBD ainda nao liberados"/>
         <comment number="3" value=""/>
@@ -40,13 +40,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/">
+    <sheet number="3" name="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/">
       <title_block>
         <title>EC01 Sensor Universal - ESP32 e inicializacao</title>
         <company/>
-        <rev>0.2</rev>
+        <rev>0.2-R1</rev>
         <date>2026-10-04</date>
-        <source>ESP32.kicad_sch</source>
+        <source>02_ESP32_Inicializacao.kicad_sch</source>
         <comment number="1" value="ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB"/>
         <comment number="2" value="Footprints e partes TBD ainda nao liberados"/>
         <comment number="3" value=""/>
@@ -58,13 +58,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/">
+    <sheet number="4" name="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/">
       <title_block>
         <title>EC01 Sensor Universal - BLE e cristal</title>
         <company/>
-        <rev>0.2</rev>
+        <rev>0.2-R1</rev>
         <date>2026-10-04</date>
-        <source>BLE_e_cristal.kicad_sch</source>
+        <source>03_BLE_Cristal.kicad_sch</source>
         <comment number="1" value="ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB"/>
         <comment number="2" value="Footprints e partes TBD ainda nao liberados"/>
         <comment number="3" value=""/>
@@ -76,13 +76,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/">
+    <sheet number="5" name="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/">
       <title_block>
         <title>EC01 Sensor Universal - Radio LoRa 915 MHz</title>
         <company/>
-        <rev>0.2</rev>
+        <rev>0.2-R1</rev>
         <date>2026-10-04</date>
-        <source>LoRa.kicad_sch</source>
+        <source>04_LoRa_915MHz.kicad_sch</source>
         <comment number="1" value="ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB"/>
         <comment number="2" value="Footprints e partes TBD ainda nao liberados"/>
         <comment number="3" value=""/>
@@ -94,13 +94,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/">
+    <sheet number="6" name="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/">
       <title_block>
         <title>EC01 Sensor Universal - Expansao e display</title>
         <company/>
-        <rev>0.2</rev>
+        <rev>0.2-R1</rev>
         <date>2026-10-04</date>
-        <source>Expansao_e_display.kicad_sch</source>
+        <source>05_Expansao_Display.kicad_sch</source>
         <comment number="1" value="ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB"/>
         <comment number="2" value="Footprints e partes TBD ainda nao liberados"/>
         <comment number="3" value=""/>
@@ -112,13 +112,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/">
+    <sheet number="7" name="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/">
       <title_block>
         <title>EC01 Sensor Universal - Sensores externos e CAN</title>
         <company/>
-        <rev>0.2</rev>
+        <rev>0.2-R1</rev>
         <date>2026-10-04</date>
-        <source>Sensores_e_CAN.kicad_sch</source>
+        <source>06_Sensores_CAN.kicad_sch</source>
         <comment number="1" value="ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB"/>
         <comment number="2" value="Footprints e partes TBD ainda nao liberados"/>
         <comment number="3" value=""/>
@@ -130,13 +130,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/">
+    <sheet number="8" name="/07 - USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/">
       <title_block>
         <title>EC01 Sensor Universal - USB de servico</title>
         <company/>
-        <rev>0.2</rev>
+        <rev>0.2-R1</rev>
         <date>2026-10-04</date>
-        <source>USB_servico.kicad_sch</source>
+        <source>07_USB_Servico.kicad_sch</source>
         <comment number="1" value="ESQUEMATICO PRELIMINAR - SEM SIMULACAO - SEM PCB"/>
         <comment number="2" value="Footprints e partes TBD ainda nao liberados"/>
         <comment number="3" value=""/>
@@ -164,9 +164,9 @@
       <property name="Encapsulamento_proposto" value="PENDENTE_BH18650"/>
       <property name="Decisao" value="Celula 18650 1S protegida, removivel; confirmar comprimento e compatibilidade com suporte antes de escolher MPN final."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>90fc3600-587c-5c83-b8b8-70398d9c282c</tstamps>
       <units>
         <unit name="A">
@@ -191,9 +191,9 @@
       <property name="Encapsulamento_proposto" value="0805"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>22e7e03e-48b6-519e-ba5a-ccb978d476bc</tstamps>
       <units>
         <unit name="A">
@@ -218,9 +218,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>a2f12141-5cc0-59b4-92d7-c1b9198b45cd</tstamps>
       <units>
         <unit name="A">
@@ -245,9 +245,9 @@
       <property name="Encapsulamento_proposto" value="0805"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>3e878b52-0dd4-595e-b6e3-c082c50e6c90</tstamps>
       <units>
         <unit name="A">
@@ -272,9 +272,9 @@
       <property name="Encapsulamento_proposto" value="0805"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>96129acb-b129-5df0-898e-14164344c956</tstamps>
       <units>
         <unit name="A">
@@ -299,9 +299,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>37672b29-ec68-5e71-a433-fe149ab77fee</tstamps>
       <units>
         <unit name="A">
@@ -326,9 +326,9 @@
       <property name="Encapsulamento_proposto" value="1206"/>
       <property name="Decisao" value="Selecionar MPN e curva I2t antes de liberar BOM."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>86f8c76c-d882-5e2a-9ed0-3985007712d4</tstamps>
       <units>
         <unit name="A">
@@ -353,9 +353,9 @@
       <property name="Encapsulamento_proposto" value="L4X4"/>
       <property name="Decisao" value="Conferir sufixo fornecido, pads e Isat; referencia TI XFL4015-471ME."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>8a220cc7-1050-5a3f-b8bb-7ba568080b62</tstamps>
       <units>
         <unit name="A">
@@ -380,9 +380,9 @@
       <property name="Encapsulamento_proposto" value="SOT23"/>
       <property name="Decisao" value="PMOS de inversao: D no positivo da bateria, S na carga, G em GND."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>43605be1-0f08-5ac7-a9fd-7ded7f049f68</tstamps>
       <units>
         <unit name="A">
@@ -408,9 +408,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>66f0a4b0-54ae-52b6-9541-efca35386df5</tstamps>
       <units>
         <unit name="A">
@@ -435,9 +435,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>7167d316-1e00-57ee-8f0c-11927461f4f5</tstamps>
       <units>
         <unit name="A">
@@ -462,9 +462,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>38347757-657c-53dd-a265-025c7744fd10</tstamps>
       <units>
         <unit name="A">
@@ -489,9 +489,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value="UVLO nominal: liga 3.30V; desliga 3.00V. Conferir tolerancias e queda da bateria."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>61ecafbe-a5d0-5683-87a6-3dac0631594d</tstamps>
       <units>
         <unit name="A">
@@ -516,9 +516,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>5b1887cd-c016-5915-b8e5-72d127f71d44</tstamps>
       <units>
         <unit name="A">
@@ -543,9 +543,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>60e5fb63-5d6a-502e-aaf5-c67b6ddc6f16</tstamps>
       <units>
         <unit name="A">
@@ -570,9 +570,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>4b062802-5776-5ee8-8110-169a14148cea</tstamps>
       <units>
         <unit name="A">
@@ -597,9 +597,9 @@
       <property name="Encapsulamento_proposto" value="HDR2"/>
       <property name="Decisao" value="Header 2.54 mm para chave externa; selecionar chave &gt;=1A DC."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>270a0642-eab6-5569-ad13-c48b6d9c1154</tstamps>
       <units>
         <unit name="A">
@@ -624,9 +624,9 @@
       <property name="Encapsulamento_proposto" value="TP"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>b27a9235-dc8a-53a9-aa15-4f9832f097eb</tstamps>
       <units>
         <unit name="A">
@@ -650,9 +650,9 @@
       <property name="Encapsulamento_proposto" value="TP"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>399d46af-42f5-5632-b9f3-9a3e87467a2a</tstamps>
       <units>
         <unit name="A">
@@ -676,9 +676,9 @@
       <property name="Encapsulamento_proposto" value="TP"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>1161f8d5-6230-5be3-b339-2893bec85965</tstamps>
       <units>
         <unit name="A">
@@ -702,9 +702,9 @@
       <property name="Encapsulamento_proposto" value="DLA10"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Alimentacao e bateria"/>
-      <property name="Sheetfile" value="Alimentacao.kicad_sch"/>
-      <sheetpath names="/Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
+      <property name="Sheetname" value="01 - Alimentacao e bateria"/>
+      <property name="Sheetfile" value="01_Alimentacao_Bateria.kicad_sch"/>
+      <sheetpath names="/01 - Alimentacao e bateria/" tstamps="/a7e96649-6e47-5eec-a95f-4c8c8fd58698/"/>
       <tstamps>fb918552-3788-5133-a253-83b5fec8b094</tstamps>
       <units>
         <unit name="A">
@@ -737,9 +737,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>160996b6-33e7-539b-b164-e9653ffd6279</tstamps>
       <units>
         <unit name="A">
@@ -764,9 +764,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>f5c43acc-f01b-5673-8e23-78d59fc34dfc</tstamps>
       <units>
         <unit name="A">
@@ -791,9 +791,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>e34e9209-350d-5992-b406-f8f9ada2533c</tstamps>
       <units>
         <unit name="A">
@@ -818,9 +818,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>df58041a-d579-5b8f-b513-c7013c9950a9</tstamps>
       <units>
         <unit name="A">
@@ -845,9 +845,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>1698e161-1d59-5d79-83a6-fd55dc5403cd</tstamps>
       <units>
         <unit name="A">
@@ -872,9 +872,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>fcd6c249-ff65-5e34-bf84-549b1d182826</tstamps>
       <units>
         <unit name="A">
@@ -899,9 +899,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>9d189d45-bb4f-5303-8c98-2d941222c22e</tstamps>
       <units>
         <unit name="A">
@@ -926,9 +926,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>16a5379a-6973-5bcc-b81d-8a1ad5af9d55</tstamps>
       <units>
         <unit name="A">
@@ -940,10 +940,10 @@
       </units>
     </comp>
     <comp ref="L2">
-      <value>24nH &gt;=500mA</value>
+      <value>FILTRO RF TBD &gt;=500mA</value>
       <fields>
         <field name="Encapsulamento_proposto">0603</field>
-        <field name="Decisao">Filtro ALIMENTACAO, nunca conectar a LNA_IN. Valor inicial sujeito a ensaios EMC.</field>
+        <field name="Decisao">Valor 24nH removido: recomendacao de 24nH pertence ao XTAL_P. Selecionar filtro VDD3P3 com referencia e validacao de RF; valor e MPN pendentes.</field>
         <field name="Montagem_base">SIM</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
@@ -951,11 +951,11 @@
       </fields>
       <libsource lib="EC01" part="EC01_L2" description=""/>
       <property name="Encapsulamento_proposto" value="0603"/>
-      <property name="Decisao" value="Filtro ALIMENTACAO, nunca conectar a LNA_IN. Valor inicial sujeito a ensaios EMC."/>
+      <property name="Decisao" value="Valor 24nH removido: recomendacao de 24nH pertence ao XTAL_P. Selecionar filtro VDD3P3 com referencia e validacao de RF; valor e MPN pendentes."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>a87ccce8-f724-5c2c-9c6a-7752344d70a2</tstamps>
       <units>
         <unit name="A">
@@ -980,9 +980,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>aa94cf09-69fe-56dc-a7e7-b6a68ddcc698</tstamps>
       <units>
         <unit name="A">
@@ -1007,9 +1007,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>e6d5a278-3412-5ce4-8e53-2236b92aa133</tstamps>
       <units>
         <unit name="A">
@@ -1034,9 +1034,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value="GPIO2 e strapping; NSS alto no reset."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>adb42c30-ef50-58cb-8e40-c9f369357b31</tstamps>
       <units>
         <unit name="A">
@@ -1061,9 +1061,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value="Pull-up SDA interno GPIO10; nao ligado aos conectores RJ11."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>f7477de9-9e2b-5b01-832e-1166a96a40e2</tstamps>
       <units>
         <unit name="A">
@@ -1088,9 +1088,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value="GPIO8 strapping alto no reset; SCL interno. Nao conectar escravo que mantenha SCL baixo durante boot."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>bddbbb4b-61a7-5f23-b900-78e74a46b7f1</tstamps>
       <units>
         <unit name="A">
@@ -1115,9 +1115,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value="GPIO21 pode emitir UART no boot. Display mantido em reset baixo ate inicializar o expansor."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>90c99633-99b5-51d1-b865-27565d514c83</tstamps>
       <units>
         <unit name="A">
@@ -1142,9 +1142,9 @@
       <property name="Encapsulamento_proposto" value="BOTAO_A_DEFINIR"/>
       <property name="Decisao" value="Botao fisico momentaneo normalmente aberto. Selecionar MPN/footprint na etapa mecanica."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>73619407-2a3a-5514-b2b9-ddea3dec7e76</tstamps>
       <units>
         <unit name="A">
@@ -1169,9 +1169,9 @@
       <property name="Encapsulamento_proposto" value="BOTAO_A_DEFINIR"/>
       <property name="Decisao" value="Botao fisico momentaneo normalmente aberto. Pressionar BOOT durante RESET para ROM download."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>7ac1c3e3-7c62-5ea8-8603-30348d653262</tstamps>
       <units>
         <unit name="A">
@@ -1196,9 +1196,9 @@
       <property name="Encapsulamento_proposto" value="TP"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>0eef5ef1-27b0-54c4-af41-183702a23976</tstamps>
       <units>
         <unit name="A">
@@ -1222,9 +1222,9 @@
       <property name="Encapsulamento_proposto" value="TP"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>54232c06-8f62-5dda-8378-fac9234a27ae</tstamps>
       <units>
         <unit name="A">
@@ -1248,9 +1248,9 @@
       <property name="Encapsulamento_proposto" value="TP"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>1948d2f3-63ca-5db6-b639-9687715cb4e4</tstamps>
       <units>
         <unit name="A">
@@ -1274,9 +1274,9 @@
       <property name="Encapsulamento_proposto" value="QFN32_5X5_EP3_7"/>
       <property name="Decisao" value="GPIO12-17 reservados a flash; GPIO11/VDD_SPI alimenta flash. Nenhum deles e GPIO de aplicacao."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="ESP32 e inicializacao"/>
-      <property name="Sheetfile" value="ESP32.kicad_sch"/>
-      <sheetpath names="/ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
+      <property name="Sheetname" value="02 - ESP32 e inicializacao"/>
+      <property name="Sheetfile" value="02_ESP32_Inicializacao.kicad_sch"/>
+      <sheetpath names="/02 - ESP32 e inicializacao/" tstamps="/ab4e4eff-78a6-5c07-b386-d14ef05a11ed/"/>
       <tstamps>70a91c57-1541-5b22-8e18-7f059f9133c8</tstamps>
       <units>
         <unit name="A">
@@ -1332,9 +1332,9 @@
       <property name="Encapsulamento_proposto" value="PENDENTE_ANTENA"/>
       <property name="Decisao" value="Representacao funcional de IFA impressa; geometria, feed e short dependem da PCB e carcaca futuras."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>b7866b76-90a1-5370-adc6-cda7034fb4ca</tstamps>
       <units>
         <unit name="A">
@@ -1359,9 +1359,9 @@
       <property name="Encapsulamento_proposto" value="0402"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>634085a8-9d4d-5e3a-a6c9-818d2f17c8da</tstamps>
       <units>
         <unit name="A">
@@ -1386,9 +1386,9 @@
       <property name="Encapsulamento_proposto" value="0402"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>e4dc85cf-563d-5e76-a1ce-f85bc4e66938</tstamps>
       <units>
         <unit name="A">
@@ -1413,9 +1413,9 @@
       <property name="Encapsulamento_proposto" value="0201"/>
       <property name="Decisao" value="Casamento inicial; exige ajuste VNA e emissao harmonica."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>fff1ddb9-70e8-5320-9446-9780ffc8c9be</tstamps>
       <units>
         <unit name="A">
@@ -1440,9 +1440,9 @@
       <property name="Encapsulamento_proposto" value="0201"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>93c0aa19-70d4-5078-93ed-8c35d839335f</tstamps>
       <units>
         <unit name="A">
@@ -1467,10 +1467,10 @@
       <property name="Encapsulamento_proposto" value="0201"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>ea0707b6-3c0a-5e8d-96d4-bcad3256bd48</tstamps>
       <units>
         <unit name="A">
@@ -1495,10 +1495,10 @@
       <property name="Encapsulamento_proposto" value="0201"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>e0fecffc-8660-528b-91a4-f5e3163e4af8</tstamps>
       <units>
         <unit name="A">
@@ -1523,10 +1523,37 @@
       <property name="Encapsulamento_proposto" value="0201"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>8e36ee82-4de7-5165-806c-c3cbea289847</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L4">
+      <value>24nH TUNE</value>
+      <fields>
+        <field name="Encapsulamento_proposto">TBD - selecionar indutor para XTAL_P</field>
+        <field name="Decisao">Componente serie XTAL_P, valor inicial Espressif. Validar frequencia/partida no prototipo.</field>
+        <field name="Montagem_base">SIM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EC01" part="EC01_L4" description=""/>
+      <property name="Encapsulamento_proposto" value="TBD - selecionar indutor para XTAL_P"/>
+      <property name="Decisao" value="Componente serie XTAL_P, valor inicial Espressif. Validar frequencia/partida no prototipo."/>
+      <property name="Montagem_base" value="SIM"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <tstamps>42dc171a-22ee-5b2f-b43a-c27219f7ef16</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1550,9 +1577,9 @@
       <property name="Encapsulamento_proposto" value="0201"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>64f33824-eca9-51ce-91cc-2f82316e38cb</tstamps>
       <units>
         <unit name="A">
@@ -1577,9 +1604,9 @@
       <property name="Encapsulamento_proposto" value="XTAL3225"/>
       <property name="Decisao" value="MPN a selecionar. 10pF iniciais presumem Cparasita ~3pF; verificar ESR, drive e tolerancia total."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="BLE e cristal"/>
-      <property name="Sheetfile" value="BLE_e_cristal.kicad_sch"/>
-      <sheetpath names="/BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
+      <property name="Sheetname" value="03 - BLE e cristal"/>
+      <property name="Sheetfile" value="03_BLE_Cristal.kicad_sch"/>
+      <sheetpath names="/03 - BLE e cristal/" tstamps="/f2a4c686-88cc-590e-8dcb-ea2212b1e448/"/>
       <tstamps>82e41c85-b367-532d-873e-855f344d1a41</tstamps>
       <units>
         <unit name="A">
@@ -1606,9 +1633,9 @@
       <property name="Encapsulamento_proposto" value="0805"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>d9f3e5b4-75cc-52a6-a7c6-e44489620ca8</tstamps>
       <units>
         <unit name="A">
@@ -1633,9 +1660,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>0f98d8e8-4ac0-509e-bf89-ba063f3f3661</tstamps>
       <units>
         <unit name="A">
@@ -1660,9 +1687,9 @@
       <property name="Encapsulamento_proposto" value="UFL"/>
       <property name="Decisao" value="Escolher apenas J1 OU IPEX integrado no modulo. Trilha curta 50ohm, sem T aberto; layout final deve eliminar ramal nao usado."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>d104969b-002c-5466-a891-635b8ba387c2</tstamps>
       <units>
         <unit name="A">
@@ -1688,9 +1715,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>f83e5bc9-e686-55ac-bdf8-a91b4c9c52e6</tstamps>
       <units>
         <unit name="A">
@@ -1715,9 +1742,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>0a047d65-8a79-54b5-86b1-00b1422f28c5</tstamps>
       <units>
         <unit name="A">
@@ -1742,9 +1769,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>0684ca30-1d0c-54e5-a257-03fecb25b65f</tstamps>
       <units>
         <unit name="A">
@@ -1769,9 +1796,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>e1a5257c-ac9c-57a4-a87f-bd8512ca2e25</tstamps>
       <units>
         <unit name="A">
@@ -1796,9 +1823,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>f3aaa499-d9b1-5cd6-9cbe-6797a85a9c44</tstamps>
       <units>
         <unit name="A">
@@ -1823,9 +1850,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>abd52da7-360d-5387-835a-34b0b691a061</tstamps>
       <units>
         <unit name="A">
@@ -1850,9 +1877,9 @@
       <property name="Encapsulamento_proposto" value="E22_900M22S"/>
       <property name="Decisao" value="Sempre populado. Confirmar revisao fisica; p12=GND, p15=NRST no manual 2026. DIO3 interno: TCXO 2.2V."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Radio LoRa 915 MHz"/>
-      <property name="Sheetfile" value="LoRa.kicad_sch"/>
-      <sheetpath names="/Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
+      <property name="Sheetname" value="04 - Radio LoRa 915 MHz"/>
+      <property name="Sheetfile" value="04_LoRa_915MHz.kicad_sch"/>
+      <sheetpath names="/04 - Radio LoRa 915 MHz/" tstamps="/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f/"/>
       <tstamps>cd0e4e15-d886-534b-be57-459e15d022e6</tstamps>
       <units>
         <unit name="A">
@@ -1897,9 +1924,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>63271ed5-5f99-5204-911b-42496ddc9be0</tstamps>
       <units>
         <unit name="A">
@@ -1924,9 +1951,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value="Acende com P2 baixo; manter apagado entre pulsos."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>9a17bdcf-9f2c-5e10-b839-8a6fc0ce3254</tstamps>
       <units>
         <unit name="A">
@@ -1951,10 +1978,10 @@
       <property name="Encapsulamento_proposto" value="HDR8"/>
       <property name="Decisao" value="Header 2.54 mm. Interface de modulo de display 3.3V; nao aciona diretamente painel e-paper cru."/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>026d1b77-3979-528f-851c-d3532a904f43</tstamps>
       <units>
         <unit name="A">
@@ -1985,10 +2012,10 @@
       <property name="Encapsulamento_proposto" value="HDR4"/>
       <property name="Decisao" value="Reserva para pequena placa SHT40; sensor onboard integrado ainda nao definido pelo cliente."/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>efaa4add-2832-5048-a9d0-5fa03617f9ac</tstamps>
       <units>
         <unit name="A">
@@ -2015,9 +2042,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>f6a984bb-2183-50b8-af81-9a59ea676ce7</tstamps>
       <units>
         <unit name="A">
@@ -2042,9 +2069,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>6a9d4260-58be-509a-a96c-22888a47dfdb</tstamps>
       <units>
         <unit name="A">
@@ -2069,9 +2096,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>96e49632-0bfa-5515-9de5-b257bf78a9ee</tstamps>
       <units>
         <unit name="A">
@@ -2096,9 +2123,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>63977f8a-7077-5a0e-9300-96629547bb20</tstamps>
       <units>
         <unit name="A">
@@ -2123,9 +2150,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value="Mantem display em RESET durante boot."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>0cbe5df3-08c0-5f70-9780-3439277e009e</tstamps>
       <units>
         <unit name="A">
@@ -2150,9 +2177,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>a0eb5238-290b-5e80-b8db-ad940bd8d023</tstamps>
       <units>
         <unit name="A">
@@ -2177,9 +2204,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>3efb24ba-2f87-5c74-97e4-a59975793ab0</tstamps>
       <units>
         <unit name="A">
@@ -2204,10 +2231,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>28ab3dc2-8a91-57f6-8dba-69d8882c509f</tstamps>
       <units>
         <unit name="A">
@@ -2232,10 +2259,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>e73c6755-e799-5e9c-9457-0fb70c8a07e1</tstamps>
       <units>
         <unit name="A">
@@ -2260,10 +2287,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>733dea18-3e8f-59d0-8858-b8d08bf3002b</tstamps>
       <units>
         <unit name="A">
@@ -2288,10 +2315,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value="SPI: R28/R29. I2C: R30/R31. Nunca ambos os pares."/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>72bb3c64-85d7-5690-889d-d1da15a3ff97</tstamps>
       <units>
         <unit name="A">
@@ -2316,9 +2343,9 @@
       <property name="Encapsulamento_proposto" value="TSSOP16"/>
       <property name="Decisao" value="Endereco 7-bit 0x38. Portas inicializam entradas; escrever latch antes do registro de direcao."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Expansao e display"/>
-      <property name="Sheetfile" value="Expansao_e_display.kicad_sch"/>
-      <sheetpath names="/Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
+      <property name="Sheetname" value="05 - Expansao e display"/>
+      <property name="Sheetfile" value="05_Expansao_Display.kicad_sch"/>
+      <sheetpath names="/05 - Expansao e display/" tstamps="/b738d142-e812-5c5c-8610-2ecb8e2b6b2f/"/>
       <tstamps>90ebfc0b-0c04-5eab-8c2b-d460798e98fa</tstamps>
       <units>
         <unit name="A">
@@ -2357,9 +2384,9 @@
       <property name="Encapsulamento_proposto" value="0805"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>138e23d3-0706-51d5-8eaf-0469d72cf63c</tstamps>
       <units>
         <unit name="A">
@@ -2384,10 +2411,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>10d660ed-cc62-59c2-8555-3602030a9ab1</tstamps>
       <units>
         <unit name="A">
@@ -2412,10 +2439,10 @@
       <property name="Encapsulamento_proposto" value="TVS_CAN_A_DEFINIR"/>
       <property name="Decisao" value="Protecao ainda a selecionar conforme limites absolutos TCAN330 e ensaio requerido. Numeracao logica; nao e MPN nem footprint liberado."/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>cfc210ff-4799-5f52-bb89-7840d0dd3b82</tstamps>
       <units>
         <unit name="A">
@@ -2441,10 +2468,10 @@
       <property name="Encapsulamento_proposto" value="TVS_CAN_A_DEFINIR"/>
       <property name="Decisao" value="Protecao ainda a selecionar conforme limites absolutos TCAN330 e ensaio requerido. Numeracao logica; nao e MPN nem footprint liberado."/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>2da3c964-7317-5983-a4cd-b89ac96dc20c</tstamps>
       <units>
         <unit name="A">
@@ -2470,9 +2497,9 @@
       <property name="Encapsulamento_proposto" value="1206"/>
       <property name="Decisao" value="Limite de projeto 100mA TOTAL; escolher curva R/frio, disparo e derating do componente real."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>d6dec715-8f16-52f6-8831-7df4462d26b4</tstamps>
       <units>
         <unit name="A">
@@ -2497,10 +2524,10 @@
       <property name="Encapsulamento_proposto" value="HDR2"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>2ec62732-8216-5df2-b27d-b8fee288a132</tstamps>
       <units>
         <unit name="A">
@@ -2525,9 +2552,9 @@
       <property name="Encapsulamento_proposto" value="SOT23"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>39568f08-8a1a-5e8f-b23d-23304f3d81ad</tstamps>
       <units>
         <unit name="A">
@@ -2553,9 +2580,9 @@
       <property name="Encapsulamento_proposto" value="SOT23"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>52c44a5b-3fa5-5c4b-a078-597bbcd60532</tstamps>
       <units>
         <unit name="A">
@@ -2581,9 +2608,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>52a62c63-a13a-5001-9943-46614c702704</tstamps>
       <units>
         <unit name="A">
@@ -2608,9 +2635,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>ca962eb3-d6c6-53eb-848a-a362ac14625e</tstamps>
       <units>
         <unit name="A">
@@ -2635,9 +2662,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>9ee66994-2daf-52ca-8e9c-6e9f44556d0b</tstamps>
       <units>
         <unit name="A">
@@ -2662,9 +2689,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>baba87d5-e98b-55cd-a90c-b73cfb538381</tstamps>
       <units>
         <unit name="A">
@@ -2689,10 +2716,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>04347f2e-5788-58ab-8577-30572c04b037</tstamps>
       <units>
         <unit name="A">
@@ -2717,10 +2744,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>0b569c36-bcdd-5387-a1eb-4aaab2d28ace</tstamps>
       <units>
         <unit name="A">
@@ -2745,10 +2772,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>d94c6fe2-8c50-5c4e-a080-28d0c261c35f</tstamps>
       <units>
         <unit name="A">
@@ -2773,10 +2800,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>2fa02f46-80c6-5829-83fa-9f44faccf823</tstamps>
       <units>
         <unit name="A">
@@ -2801,10 +2828,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>847c92b8-4865-5617-99b5-02f6e63b7c5f</tstamps>
       <units>
         <unit name="A">
@@ -2829,10 +2856,10 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>f0da7d06-aad5-5416-9c51-31d2136a9b30</tstamps>
       <units>
         <unit name="A">
@@ -2857,10 +2884,10 @@
       <property name="Encapsulamento_proposto" value="1206"/>
       <property name="Decisao" value="Somente em uma extremidade fisica do barramento."/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>d8822dd5-60f0-5ed4-8b2f-bb074eb62914</tstamps>
       <units>
         <unit name="A">
@@ -2885,9 +2912,9 @@
       <property name="Encapsulamento_proposto" value="PENDENTE_RJ11"/>
       <property name="Decisao" value="Pinagem LOGICA do contrato; conferir orientacao dos contatos e pinos fisicos pelo desenho C51904501. Sem pads mecanicos inventados."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>3607110e-2654-5fa6-a08a-4786346753b8</tstamps>
       <units>
         <unit name="A">
@@ -2914,9 +2941,9 @@
       <property name="Encapsulamento_proposto" value="PENDENTE_RJ11"/>
       <property name="Decisao" value="Pinagem LOGICA do contrato; conferir orientacao dos contatos e pinos fisicos pelo desenho C51904501. Sem pads mecanicos inventados."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>185407be-2982-5a0a-a245-8c9a85640ebf</tstamps>
       <units>
         <unit name="A">
@@ -2943,10 +2970,10 @@
       <property name="Encapsulamento_proposto" value="SOIC8"/>
       <property name="Decisao" value="Opcao CAN comum aos dois RJ11; um transceiver pois o ESP32-C3 tem um controlador TWAI. CAN classico, nao CAN FD."/>
       <property name="Montagem_base" value="DNP"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
       <property name="dnp"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>f2937d6d-49df-59c3-9485-10e5e856beaf</tstamps>
       <units>
         <unit name="A">
@@ -2977,9 +3004,9 @@
       <property name="Encapsulamento_proposto" value="SOT23_6"/>
       <property name="Decisao" value="Protecao DIGITAL; remover na variante CAN. Validar ESD do conjunto com cabo real."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>3b98c66a-3e63-5c18-af4e-4ed24b4a481d</tstamps>
       <units>
         <unit name="A">
@@ -3008,9 +3035,9 @@
       <property name="Encapsulamento_proposto" value="SOT23_6"/>
       <property name="Decisao" value="Protecao DIGITAL; remover na variante CAN. Validar ESD do conjunto com cabo real."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="Sensores externos e CAN"/>
-      <property name="Sheetfile" value="Sensores_e_CAN.kicad_sch"/>
-      <sheetpath names="/Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
+      <property name="Sheetname" value="06 - Sensores externos e CAN"/>
+      <property name="Sheetfile" value="06_Sensores_CAN.kicad_sch"/>
+      <sheetpath names="/06 - Sensores externos e CAN/" tstamps="/d1ad1386-8e5f-5414-8103-7ff83466fcf0/"/>
       <tstamps>e0cd4c82-45cc-5cbc-8557-7cc9f572eb41</tstamps>
       <units>
         <unit name="A">
@@ -3039,9 +3066,9 @@
       <property name="Encapsulamento_proposto" value="HDR4"/>
       <property name="Decisao" value="Usar adaptador de servico identificado; bateria deve estar ligada. Pino4 sem cobre de alimentacao. Nao e USB-C; nao ha carregador."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="USB de servico"/>
-      <property name="Sheetfile" value="USB_servico.kicad_sch"/>
-      <sheetpath names="/USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/"/>
+      <property name="Sheetname" value="07 - USB de servico"/>
+      <property name="Sheetfile" value="07_USB_Servico.kicad_sch"/>
+      <sheetpath names="/07 - USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/"/>
       <tstamps>3f904c00-5f3b-5d86-ad82-59df9fed8255</tstamps>
       <units>
         <unit name="A">
@@ -3068,9 +3095,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="USB de servico"/>
-      <property name="Sheetfile" value="USB_servico.kicad_sch"/>
-      <sheetpath names="/USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/"/>
+      <property name="Sheetname" value="07 - USB de servico"/>
+      <property name="Sheetfile" value="07_USB_Servico.kicad_sch"/>
+      <sheetpath names="/07 - USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/"/>
       <tstamps>e3fa40c7-42b5-5e6d-b6ba-af29636a4235</tstamps>
       <units>
         <unit name="A">
@@ -3095,9 +3122,9 @@
       <property name="Encapsulamento_proposto" value="0603"/>
       <property name="Decisao" value=""/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="USB de servico"/>
-      <property name="Sheetfile" value="USB_servico.kicad_sch"/>
-      <sheetpath names="/USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/"/>
+      <property name="Sheetname" value="07 - USB de servico"/>
+      <property name="Sheetfile" value="07_USB_Servico.kicad_sch"/>
+      <sheetpath names="/07 - USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/"/>
       <tstamps>dd681dd7-2405-5f81-bf63-56dd55bc4535</tstamps>
       <units>
         <unit name="A">
@@ -3122,9 +3149,9 @@
       <property name="Encapsulamento_proposto" value="SOT23_6"/>
       <property name="Decisao" value="Desenhar par diferencial 90ohm; alimentacao local 3.3V. Header de bancada, sem declaracao de conformidade USB de produto."/>
       <property name="Montagem_base" value="SIM"/>
-      <property name="Sheetname" value="USB de servico"/>
-      <property name="Sheetfile" value="USB_servico.kicad_sch"/>
-      <sheetpath names="/USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/"/>
+      <property name="Sheetname" value="07 - USB de servico"/>
+      <property name="Sheetfile" value="07_USB_Servico.kicad_sch"/>
+      <sheetpath names="/07 - USB de servico/" tstamps="/a1c46c3c-31c8-572b-a843-6a398d8b6ca1/"/>
       <tstamps>fa6db773-3fbf-57fa-b67d-3e7abc166777</tstamps>
       <units>
         <unit name="A">
@@ -3652,6 +3679,19 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">2.7nH TUNE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EC01" part="EC01_L4">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">24nH TUNE</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -4633,7 +4673,95 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="3V3" class="Default">
+    <net code="1" name="/05 - Expansao e display/DISP_BUSY" class="Default">
+      <node ref="J2" pin="8" pinfunction="BUSY_8" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="P5_10" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/05 - Expansao e display/DISP_CLK" class="Default">
+      <node ref="J2" pin="3" pinfunction="CLK_3" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R30" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/05 - Expansao e display/DISP_DATA" class="Default">
+      <node ref="J2" pin="4" pinfunction="DATA_4" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/05 - Expansao e display/DISP_DC" class="Default">
+      <node ref="J2" pin="6" pinfunction="DC_6" pintype="passive"/>
+      <node ref="R26" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="P3_7" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/05 - Expansao e display/DISP_RST_N" class="Default">
+      <node ref="J2" pin="7" pinfunction="RST_7" pintype="passive"/>
+      <node ref="R25" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="P4_9" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/05 - Expansao e display/LED_N" class="Default">
+      <node ref="D1" pin="2" pinfunction="K_2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="P2_6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/06 - Sensores externos e CAN/BUS_A" class="Default">
+      <node ref="D2" pin="1" pinfunction="LINE1_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="LINE1_1" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R35" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R39" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="RJ1" pin="3" pinfunction="A_3" pintype="passive"/>
+      <node ref="RJ2" pin="3" pinfunction="A_3" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="IO1_1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="IO1_6" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="IO1_1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="IO1_6" pintype="passive"/>
+    </net>
+    <net code="8" name="/06 - Sensores externos e CAN/BUS_B" class="Default">
+      <node ref="D2" pin="2" pinfunction="LINE2_2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="LINE2_2" pintype="passive"/>
+      <node ref="R34" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R36" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="RJ1" pin="4" pinfunction="B_4" pintype="passive"/>
+      <node ref="RJ2" pin="4" pinfunction="B_4" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="IO2_3" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="IO2_4" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="IO2_3" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="IO2_4" pintype="passive"/>
+    </net>
+    <net code="9" name="/06 - Sensores externos e CAN/CAN_H" class="Default">
+      <node ref="R39" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R42" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="CANH_7" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/06 - Sensores externos e CAN/CAN_L" class="Default">
+      <node ref="JP1" pin="2" pinfunction="CANL_2" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="CANL_6" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/06 - Sensores externos e CAN/VEXT" class="Default">
+      <node ref="C23" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R35" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R36" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="RJ1" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="RJ2" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="VBUS_5" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="VBUS_5" pintype="passive"/>
+    </net>
+    <net code="12" name="/07 - USB de servico/USB_DM" class="Default">
+      <node ref="J4" pin="2" pinfunction="D-_2" pintype="passive"/>
+      <node ref="R43" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="IO1_1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="IO1_6" pintype="passive"/>
+    </net>
+    <net code="13" name="/07 - USB de servico/USB_DP" class="Default">
+      <node ref="J4" pin="3" pinfunction="D+_3" pintype="passive"/>
+      <node ref="R44" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="IO2_3" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="IO2_4" pintype="passive"/>
+    </net>
+    <net code="14" name="3V3" class="Default">
       <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="C20" pin="1" pinfunction="1_1" pintype="passive"/>
@@ -4673,153 +4801,56 @@
       <node ref="U5" pin="3" pinfunction="VCC_3" pintype="power_in"/>
       <node ref="U8" pin="5" pinfunction="VBUS_5" pintype="passive"/>
     </net>
-    <net code="2" name="3V3_RF" class="Default">
+    <net code="15" name="3V3_RF" class="Default">
       <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="VDD3P3_2" pintype="power_in"/>
       <node ref="U2" pin="3" pinfunction="VDD3P3_3" pintype="power_in"/>
     </net>
-    <net code="3" name="BAT_ADC" class="Default">
+    <net code="16" name="BAT_ADC" class="Default">
       <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="GPIO0_4" pintype="bidirectional"/>
     </net>
-    <net code="4" name="BAT_FUSED" class="Default">
-      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
-    </net>
-    <net code="5" name="BAT_PROT" class="Default">
-      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
-      <node ref="SW1" pin="1" pinfunction="IN_1" pintype="passive"/>
-    </net>
-    <net code="6" name="BAT_RAW" class="Default">
-      <node ref="BT1" pin="1" pinfunction="+_1" pintype="passive"/>
-      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
-    </net>
-    <net code="7" name="BAT_SW" class="Default">
+    <net code="17" name="BAT_SW" class="Default">
       <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="SW1" pin="2" pinfunction="OUT_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="IN_1" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="BAT_SW_1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="VIN_10" pintype="power_in"/>
     </net>
-    <net code="8" name="BLE_50R" class="Default">
-      <node ref="C17" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="C18" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="L3" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
-    </net>
-    <net code="9" name="BLE_ANT" class="Default">
-      <node ref="ANT1" pin="1" pinfunction="FEED_1" pintype="passive"/>
-      <node ref="C19" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
-    </net>
-    <net code="10" name="BLE_CHIP" class="Default">
+    <net code="18" name="BLE_CHIP" class="Default">
       <node ref="C16" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="L3" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="LNA_IN_1" pintype="passive"/>
     </net>
-    <net code="11" name="BOOT_N" class="Default">
+    <net code="19" name="BOOT_N" class="Default">
       <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="SW3" pin="1" pinfunction="GPIO9_1" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="GPIO9_15" pintype="bidirectional"/>
     </net>
-    <net code="12" name="BUS_A" class="Default">
-      <node ref="D2" pin="1" pinfunction="LINE1_1" pintype="passive"/>
-      <node ref="D3" pin="1" pinfunction="LINE1_1" pintype="passive"/>
-      <node ref="R33" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R35" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R39" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="RJ1" pin="3" pinfunction="A_3" pintype="passive"/>
-      <node ref="RJ2" pin="3" pinfunction="A_3" pintype="passive"/>
-      <node ref="U6" pin="1" pinfunction="IO1_1" pintype="passive"/>
-      <node ref="U6" pin="6" pinfunction="IO1_6" pintype="passive"/>
-      <node ref="U7" pin="1" pinfunction="IO1_1" pintype="passive"/>
-      <node ref="U7" pin="6" pinfunction="IO1_6" pintype="passive"/>
-    </net>
-    <net code="13" name="BUS_B" class="Default">
-      <node ref="D2" pin="2" pinfunction="LINE2_2" pintype="passive"/>
-      <node ref="D3" pin="2" pinfunction="LINE2_2" pintype="passive"/>
-      <node ref="R34" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R36" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R40" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="RJ1" pin="4" pinfunction="B_4" pintype="passive"/>
-      <node ref="RJ2" pin="4" pinfunction="B_4" pintype="passive"/>
-      <node ref="U6" pin="3" pinfunction="IO2_3" pintype="passive"/>
-      <node ref="U6" pin="4" pinfunction="IO2_4" pintype="passive"/>
-      <node ref="U7" pin="3" pinfunction="IO2_3" pintype="passive"/>
-      <node ref="U7" pin="4" pinfunction="IO2_4" pintype="passive"/>
-    </net>
-    <net code="14" name="CAN_H" class="Default">
-      <node ref="R39" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="R42" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U5" pin="7" pinfunction="CANH_7" pintype="bidirectional"/>
-    </net>
-    <net code="15" name="CAN_L" class="Default">
-      <node ref="JP1" pin="2" pinfunction="CANL_2" pintype="passive"/>
-      <node ref="R40" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U5" pin="6" pinfunction="CANL_6" pintype="bidirectional"/>
-    </net>
-    <net code="16" name="CAN_RX" class="Default">
-      <node ref="R38" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U5" pin="4" pinfunction="RXD_4" pintype="output"/>
-    </net>
-    <net code="17" name="CAN_SHDN" class="Default">
+    <net code="20" name="CAN_SHDN" class="Default">
       <node ref="R24" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="U4" pin="12" pinfunction="P7_12" pintype="bidirectional"/>
       <node ref="U5" pin="5" pinfunction="SHDN_5" pintype="input"/>
     </net>
-    <net code="18" name="CAN_TERM" class="Default">
-      <node ref="JP1" pin="1" pinfunction="TERM_1" pintype="passive"/>
-      <node ref="R42" pin="2" pinfunction="2_2" pintype="passive"/>
-    </net>
-    <net code="19" name="CAN_TX" class="Default">
-      <node ref="R37" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R41" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="U5" pin="1" pinfunction="TXD_1" pintype="input"/>
-    </net>
-    <net code="20" name="CHIP_EN" class="Default">
+    <net code="21" name="CHIP_EN" class="Default">
       <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="EN_1" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="CHIP_EN_1" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="CHIP_EN_7" pintype="input"/>
     </net>
-    <net code="21" name="DISP_BUSY" class="Default">
-      <node ref="J2" pin="8" pinfunction="BUSY_8" pintype="passive"/>
-      <node ref="R27" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U4" pin="10" pinfunction="P5_10" pintype="bidirectional"/>
-    </net>
-    <net code="22" name="DISP_CLK" class="Default">
-      <node ref="J2" pin="3" pinfunction="CLK_3" pintype="passive"/>
-      <node ref="R28" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R30" pin="2" pinfunction="2_2" pintype="passive"/>
-    </net>
-    <net code="23" name="DISP_CS" class="Default">
+    <net code="22" name="DISP_CS" class="Default">
       <node ref="J2" pin="5" pinfunction="CS_5" pintype="passive"/>
       <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="U2" pin="28" pinfunction="GPIO21_28" pintype="bidirectional"/>
     </net>
-    <net code="24" name="DISP_DATA" class="Default">
-      <node ref="J2" pin="4" pinfunction="DATA_4" pintype="passive"/>
-      <node ref="R29" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R31" pin="2" pinfunction="2_2" pintype="passive"/>
-    </net>
-    <net code="25" name="DISP_DC" class="Default">
-      <node ref="J2" pin="6" pinfunction="DC_6" pintype="passive"/>
-      <node ref="R26" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U4" pin="7" pinfunction="P3_7" pintype="bidirectional"/>
-    </net>
-    <net code="26" name="DISP_RST_N" class="Default">
-      <node ref="J2" pin="7" pinfunction="RST_7" pintype="passive"/>
-      <node ref="R25" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U4" pin="9" pinfunction="P4_9" pintype="bidirectional"/>
-    </net>
-    <net code="27" name="GND" class="Default">
+    <net code="23" name="GND" class="Default">
       <node ref="ANT1" pin="2" pinfunction="SHORT_GND_2" pintype="passive"/>
       <node ref="BT1" pin="2" pinfunction="-_2" pintype="passive"/>
       <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
@@ -4895,201 +4926,214 @@
       <node ref="Y1" pin="2" pinfunction="GND_2" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="GND_4" pintype="passive"/>
     </net>
-    <net code="28" name="I2C_INT_SCL" class="Default">
+    <net code="24" name="I2C_INT_SCL" class="Default">
       <node ref="J3" pin="4" pinfunction="SCL_4" pintype="passive"/>
       <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="R30" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="14" pinfunction="GPIO8_14" pintype="bidirectional"/>
       <node ref="U4" pin="14" pinfunction="SCL_14" pintype="input"/>
     </net>
-    <net code="29" name="I2C_INT_SDA" class="Default">
+    <net code="25" name="I2C_INT_SDA" class="Default">
       <node ref="J3" pin="3" pinfunction="SDA_3" pintype="passive"/>
       <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="R31" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="GPIO10_16" pintype="bidirectional"/>
       <node ref="U4" pin="15" pinfunction="SDA_15" pintype="bidirectional"/>
     </net>
-    <net code="30" name="LED_A" class="Default">
-      <node ref="D1" pin="1" pinfunction="A_1" pintype="passive"/>
-      <node ref="R21" pin="2" pinfunction="2_2" pintype="passive"/>
-    </net>
-    <net code="31" name="LED_N" class="Default">
-      <node ref="D1" pin="2" pinfunction="K_2" pintype="passive"/>
-      <node ref="R22" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="U4" pin="6" pinfunction="P2_6" pintype="bidirectional"/>
-    </net>
-    <net code="32" name="LORA_ANT" class="Default">
-      <node ref="J1" pin="1" pinfunction="RF_1" pintype="passive"/>
-      <node ref="U3" pin="21" pinfunction="ANT_21" pintype="passive"/>
-    </net>
-    <net code="33" name="LORA_BUSY" class="Default">
+    <net code="26" name="LORA_BUSY" class="Default">
       <node ref="TP6" pin="1" pinfunction="LORA_BUSY_1" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="GPIO4_9" pintype="bidirectional"/>
       <node ref="U3" pin="14" pinfunction="BUSY_14" pintype="output"/>
     </net>
-    <net code="34" name="LORA_DIO1" class="Default">
+    <net code="27" name="LORA_DIO1" class="Default">
       <node ref="U2" pin="8" pinfunction="GPIO3_8" pintype="bidirectional"/>
       <node ref="U3" pin="13" pinfunction="DIO1_13" pintype="output"/>
     </net>
-    <net code="35" name="LORA_DIO2" class="Default">
-      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U3" pin="8" pinfunction="DIO2_8" pintype="output"/>
-    </net>
-    <net code="36" name="LORA_MOSI" class="Default">
-      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="U3" pin="17" pinfunction="MOSI_17" pintype="input"/>
-    </net>
-    <net code="37" name="LORA_NSS" class="Default">
+    <net code="28" name="LORA_NSS" class="Default">
       <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="GPIO2_6" pintype="bidirectional"/>
       <node ref="U3" pin="19" pinfunction="NSS_19" pintype="input"/>
     </net>
-    <net code="38" name="LORA_RST_N" class="Default">
+    <net code="29" name="LORA_RST_N" class="Default">
       <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="U3" pin="15" pinfunction="NRST_15" pintype="input"/>
       <node ref="U4" pin="4" pinfunction="P0_4" pintype="bidirectional"/>
     </net>
-    <net code="39" name="LORA_RXEN" class="Default">
+    <net code="30" name="LORA_RXEN" class="Default">
       <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="RXEN_6" pintype="input"/>
       <node ref="U4" pin="5" pinfunction="P1_5" pintype="bidirectional"/>
     </net>
-    <net code="40" name="LORA_SCK" class="Default">
-      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="U3" pin="18" pinfunction="SCK_18" pintype="input"/>
+    <net code="31" name="Net-(ANT1-FEED)" class="Default">
+      <node ref="ANT1" pin="1" pinfunction="FEED_1" pintype="passive"/>
+      <node ref="C19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="41" name="LORA_TXEN" class="Default">
-      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U3" pin="7" pinfunction="TXEN_7" pintype="input"/>
+    <net code="32" name="Net-(BT1-+)" class="Default">
+      <node ref="BT1" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
-    <net code="42" name="PORT_A_IO" class="Default">
-      <node ref="R33" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="R37" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U2" pin="5" pinfunction="GPIO1_5" pintype="bidirectional"/>
+    <net code="33" name="Net-(C17-Pad1)" class="Default">
+      <node ref="C17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
-    <net code="43" name="PORT_B_IO" class="Default">
-      <node ref="R34" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="R38" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="U2" pin="27" pinfunction="GPIO20_27" pintype="bidirectional"/>
+    <net code="34" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="44" name="PSU_EN" class="Default">
-      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="EN_1" pintype="input"/>
+    <net code="35" name="Net-(J1-RF)" class="Default">
+      <node ref="J1" pin="1" pinfunction="RF_1" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="ANT_21" pintype="passive"/>
     </net>
-    <net code="45" name="PSU_FB" class="Default">
-      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="FB_4" pintype="input"/>
+    <net code="36" name="Net-(JP1-TERM)" class="Default">
+      <node ref="JP1" pin="1" pinfunction="TERM_1" pintype="passive"/>
+      <node ref="R42" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="46" name="PSU_PG" class="Default">
-      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="TP5" pin="1" pinfunction="PSU_PG_1" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="PG_5" pintype="open_collector"/>
+    <net code="37" name="Net-(Q1-D)" class="Default">
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
     </net>
-    <net code="47" name="SENS_EN" class="Default">
-      <node ref="Q3" pin="1" pinfunction="G_1" pintype="passive"/>
-      <node ref="R23" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U4" pin="11" pinfunction="P6_11" pintype="bidirectional"/>
+    <net code="38" name="Net-(Q1-S)" class="Default">
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="OUT_2" pintype="passive"/>
     </net>
-    <net code="48" name="SENS_GATE" class="Default">
+    <net code="39" name="Net-(Q2-D)" class="Default">
+      <node ref="F2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q2-G)" class="Default">
       <node ref="Q2" pin="1" pinfunction="G_1" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D_3" pintype="passive"/>
       <node ref="R32" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="49" name="SENS_PRE" class="Default">
-      <node ref="F2" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="D_3" pintype="passive"/>
+    <net code="41" name="Net-(U1-FB)" class="Default">
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="FB_4" pintype="input"/>
     </net>
-    <net code="50" name="SPI_MISO" class="Default">
+    <net code="42" name="Net-(U1-L1)" class="Default">
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="L1_9" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(U1-L2)" class="Default">
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="L2_7" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(U3-DIO2)" class="Default">
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="DIO2_8" pintype="output"/>
+    </net>
+    <net code="45" name="Net-(U3-MOSI)" class="Default">
+      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="MOSI_17" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(U3-SCK)" class="Default">
+      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="SCK_18" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(U3-TXEN)" class="Default">
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="TXEN_7" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U5-RXD)" class="Default">
+      <node ref="R38" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="RXD_4" pintype="output"/>
+    </net>
+    <net code="49" name="Net-(U5-TXD)" class="Default">
+      <node ref="R37" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R41" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="TXD_1" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(Y1-X1)" class="Default">
+      <node ref="C14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="X1_1" pintype="passive"/>
+    </net>
+    <net code="51" name="PORT_A_IO" class="Default">
+      <node ref="R33" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R37" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GPIO1_5" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="PORT_B_IO" class="Default">
+      <node ref="R34" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R38" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="GPIO20_27" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="PSU_EN" class="Default">
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN_1" pintype="input"/>
+    </net>
+    <net code="54" name="PSU_PG" class="Default">
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="PSU_PG_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PG_5" pintype="open_collector"/>
+    </net>
+    <net code="55" name="SENS_EN" class="Default">
+      <node ref="Q3" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="R23" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="P6_11" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="SPI_MISO" class="Default">
       <node ref="U2" pin="10" pinfunction="GPIO5_10" pintype="bidirectional"/>
       <node ref="U3" pin="16" pinfunction="MISO_16" pintype="output"/>
     </net>
-    <net code="51" name="SPI_MOSI" class="Default">
+    <net code="57" name="SPI_MOSI" class="Default">
       <node ref="R20" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="R29" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="GPIO7_13" pintype="bidirectional"/>
     </net>
-    <net code="52" name="SPI_SCK" class="Default">
+    <net code="58" name="SPI_SCK" class="Default">
       <node ref="R19" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="R28" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="GPIO6_12" pintype="bidirectional"/>
     </net>
-    <net code="53" name="SW_L1" class="Default">
-      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U1" pin="9" pinfunction="L1_9" pintype="passive"/>
-    </net>
-    <net code="54" name="SW_L2" class="Default">
-      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="L2_7" pintype="passive"/>
-    </net>
-    <net code="55" name="USB_DM" class="Default">
-      <node ref="J4" pin="2" pinfunction="D-_2" pintype="passive"/>
-      <node ref="R43" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="U8" pin="1" pinfunction="IO1_1" pintype="passive"/>
-      <node ref="U8" pin="6" pinfunction="IO1_6" pintype="passive"/>
-    </net>
-    <net code="56" name="USB_DM_MCU" class="Default">
+    <net code="59" name="USB_DM_MCU" class="Default">
       <node ref="R43" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="25" pinfunction="GPIO18_USB_DM_25" pintype="bidirectional"/>
     </net>
-    <net code="57" name="USB_DP" class="Default">
-      <node ref="J4" pin="3" pinfunction="D+_3" pintype="passive"/>
-      <node ref="R44" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="U8" pin="3" pinfunction="IO2_3" pintype="passive"/>
-      <node ref="U8" pin="4" pinfunction="IO2_4" pintype="passive"/>
-    </net>
-    <net code="58" name="USB_DP_MCU" class="Default">
+    <net code="60" name="USB_DP_MCU" class="Default">
       <node ref="R44" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="26" pinfunction="GPIO19_USB_DP_26" pintype="bidirectional"/>
     </net>
-    <net code="59" name="VDD_SPI" class="Default">
+    <net code="61" name="VDD_SPI" class="Default">
       <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="VDD_SPI_18" pintype="power_out"/>
     </net>
-    <net code="60" name="VEXT" class="Default">
-      <node ref="C23" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="F2" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="R35" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="R36" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="RJ1" pin="1" pinfunction="VCC_1" pintype="passive"/>
-      <node ref="RJ2" pin="1" pinfunction="VCC_1" pintype="passive"/>
-      <node ref="U6" pin="5" pinfunction="VBUS_5" pintype="passive"/>
-      <node ref="U7" pin="5" pinfunction="VBUS_5" pintype="passive"/>
-    </net>
-    <net code="61" name="XTAL_N" class="Default">
+    <net code="62" name="XTAL_N" class="Default">
       <node ref="C15" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="29" pinfunction="XTAL_N_29" pintype="passive"/>
       <node ref="Y1" pin="3" pinfunction="X2_3" pintype="passive"/>
     </net>
-    <net code="62" name="XTAL_P" class="Default">
-      <node ref="C14" pin="1" pinfunction="1_1" pintype="passive"/>
+    <net code="63" name="XTAL_P" class="Default">
+      <node ref="L4" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U2" pin="30" pinfunction="XTAL_P_30" pintype="passive"/>
-      <node ref="Y1" pin="1" pinfunction="X1_1" pintype="passive"/>
     </net>
-    <net code="63" name="unconnected-(J4-NC_5V_PROIBIDO-Pad4)" class="Default">
+    <net code="64" name="unconnected-(J4-NC_5V_PROIBIDO-Pad4)" class="Default">
       <node ref="J4" pin="4" pinfunction="NC_5V_PROIBIDO_4" pintype="passive+no_connect"/>
     </net>
-    <net code="64" name="unconnected-(U2-SPICLK_FLASH-Pad22)" class="Default">
+    <net code="65" name="unconnected-(U2-SPICLK_FLASH-Pad22)" class="Default">
       <node ref="U2" pin="22" pinfunction="SPICLK_FLASH_22" pintype="no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U2-SPICS0_FLASH-Pad21)" class="Default">
+    <net code="66" name="unconnected-(U2-SPICS0_FLASH-Pad21)" class="Default">
       <node ref="U2" pin="21" pinfunction="SPICS0_FLASH_21" pintype="no_connect"/>
     </net>
-    <net code="66" name="unconnected-(U2-SPID_FLASH-Pad23)" class="Default">
+    <net code="67" name="unconnected-(U2-SPID_FLASH-Pad23)" class="Default">
       <node ref="U2" pin="23" pinfunction="SPID_FLASH_23" pintype="no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U2-SPIHD_FLASH-Pad19)" class="Default">
+    <net code="68" name="unconnected-(U2-SPIHD_FLASH-Pad19)" class="Default">
       <node ref="U2" pin="19" pinfunction="SPIHD_FLASH_19" pintype="no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U2-SPIQ_FLASH-Pad24)" class="Default">
+    <net code="69" name="unconnected-(U2-SPIQ_FLASH-Pad24)" class="Default">
       <node ref="U2" pin="24" pinfunction="SPIQ_FLASH_24" pintype="no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U2-SPIWP_FLASH-Pad20)" class="Default">
+    <net code="70" name="unconnected-(U2-SPIWP_FLASH-Pad20)" class="Default">
       <node ref="U2" pin="20" pinfunction="SPIWP_FLASH_20" pintype="no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U4-INT-Pad13)" class="Default">
+    <net code="71" name="unconnected-(U4-INT-Pad13)" class="Default">
       <node ref="U4" pin="13" pinfunction="INT_13" pintype="open_collector+no_connect"/>
     </net>
   </nets>

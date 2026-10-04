@@ -1,12 +1,31 @@
 [
   {
+    "ref": "ANT1",
+    "value": "Antena impressa BLE 2.4GHz",
+    "package": "PENDENTE_ANTENA",
+    "pins": {
+      "1": [
+        "FEED",
+        "Net-(ANT1-FEED)"
+      ],
+      "2": [
+        "SHORT_GND",
+        "GND"
+      ]
+    },
+    "section": 2,
+    "fit": "SIM",
+    "note": "Representacao funcional de IFA impressa; geometria, feed e short dependem da PCB e carcaca futuras.",
+    "uid": "gge46"
+  },
+  {
     "ref": "BT1",
     "value": "BH-18650-A1AJ005",
     "package": "PENDENTE_BH18650",
     "pins": {
       "1": [
         "+",
-        "BAT_RAW"
+        "Net-(BT1-+)"
       ],
       "2": [
         "-",
@@ -17,137 +36,6 @@
     "fit": "SIM",
     "note": "Celula 18650 1S protegida, removivel; confirmar comprimento e compatibilidade com suporte antes de escolher MPN final.",
     "uid": "gge1"
-  },
-  {
-    "ref": "F1",
-    "value": "Fusivel 1A lento",
-    "package": "1206",
-    "pins": {
-      "1": [
-        "1",
-        "BAT_RAW"
-      ],
-      "2": [
-        "2",
-        "BAT_FUSED"
-      ]
-    },
-    "section": 0,
-    "fit": "SIM",
-    "note": "Selecionar MPN e curva I2t antes de liberar BOM.",
-    "uid": "gge2"
-  },
-  {
-    "ref": "Q1",
-    "value": "AO3401A",
-    "package": "SOT23",
-    "pins": {
-      "1": [
-        "G",
-        "GND"
-      ],
-      "2": [
-        "S",
-        "BAT_PROT"
-      ],
-      "3": [
-        "D",
-        "BAT_FUSED"
-      ]
-    },
-    "section": 0,
-    "fit": "SIM",
-    "note": "PMOS de inversao: D no positivo da bateria, S na carga, G em GND.",
-    "uid": "gge3"
-  },
-  {
-    "ref": "SW1",
-    "value": "CHAVE GERAL",
-    "package": "HDR2",
-    "pins": {
-      "1": [
-        "IN",
-        "BAT_PROT"
-      ],
-      "2": [
-        "OUT",
-        "BAT_SW"
-      ]
-    },
-    "section": 0,
-    "fit": "SIM",
-    "note": "Header 2.54 mm para chave externa; selecionar chave >=1A DC.",
-    "uid": "gge4"
-  },
-  {
-    "ref": "U1",
-    "value": "TPS63802DLAR",
-    "package": "DLA10",
-    "pins": {
-      "1": [
-        "EN",
-        "PSU_EN"
-      ],
-      "2": [
-        "MODE",
-        "GND"
-      ],
-      "3": [
-        "AGND",
-        "GND"
-      ],
-      "4": [
-        "FB",
-        "PSU_FB"
-      ],
-      "5": [
-        "PG",
-        "PSU_PG"
-      ],
-      "6": [
-        "VOUT",
-        "3V3"
-      ],
-      "7": [
-        "L2",
-        "SW_L2"
-      ],
-      "8": [
-        "PGND",
-        "GND"
-      ],
-      "9": [
-        "L1",
-        "SW_L1"
-      ],
-      "10": [
-        "VIN",
-        "BAT_SW"
-      ]
-    },
-    "section": 0,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge5"
-  },
-  {
-    "ref": "L1",
-    "value": "XFL4015-471MEC 0.47uH",
-    "package": "L4X4",
-    "pins": {
-      "1": [
-        "1",
-        "SW_L1"
-      ],
-      "2": [
-        "2",
-        "SW_L2"
-      ]
-    },
-    "section": 0,
-    "fit": "SIM",
-    "note": "Conferir sufixo fornecido, pads e Isat; referencia TI XFL4015-471ME.",
-    "uid": "gge6"
   },
   {
     "ref": "C1",
@@ -226,6 +114,772 @@
     "uid": "gge10"
   },
   {
+    "ref": "C5",
+    "value": "100nF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "BAT_ADC"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 0,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge18"
+  },
+  {
+    "ref": "C6",
+    "value": "10uF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3_RF"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge21"
+  },
+  {
+    "ref": "C7",
+    "value": "100nF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3_RF"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge22"
+  },
+  {
+    "ref": "C8",
+    "value": "100nF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge23"
+  },
+  {
+    "ref": "C9",
+    "value": "100nF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge24"
+  },
+  {
+    "ref": "C10",
+    "value": "1uF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "VDD_SPI"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge25"
+  },
+  {
+    "ref": "C11",
+    "value": "1uF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge26"
+  },
+  {
+    "ref": "C12",
+    "value": "100nF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge27"
+  },
+  {
+    "ref": "C13",
+    "value": "1uF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "CHIP_EN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge29"
+  },
+  {
+    "ref": "C14",
+    "value": "10pF C0G",
+    "package": "0402",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(Y1-X1)"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 2,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge38"
+  },
+  {
+    "ref": "C15",
+    "value": "10pF C0G",
+    "package": "0402",
+    "pins": {
+      "1": [
+        "1",
+        "XTAL_N"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 2,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge39"
+  },
+  {
+    "ref": "C16",
+    "value": "1.5pF C0G TUNE",
+    "package": "0201",
+    "pins": {
+      "1": [
+        "1",
+        "BLE_CHIP"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 2,
+    "fit": "SIM",
+    "note": "Casamento inicial; exige ajuste VNA e emissao harmonica.",
+    "uid": "gge40"
+  },
+  {
+    "ref": "C17",
+    "value": "1.5pF C0G TUNE",
+    "package": "0201",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(C17-Pad1)"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 2,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge42"
+  },
+  {
+    "ref": "C18",
+    "value": "TUNE DNP",
+    "package": "0201",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(C17-Pad1)"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 2,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge43"
+  },
+  {
+    "ref": "C19",
+    "value": "TUNE DNP",
+    "package": "0201",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(ANT1-FEED)"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 2,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge45"
+  },
+  {
+    "ref": "C20",
+    "value": "22uF 10V",
+    "package": "0805",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 3,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge54"
+  },
+  {
+    "ref": "C21",
+    "value": "100nF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 3,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge55"
+  },
+  {
+    "ref": "C22",
+    "value": "100nF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge58"
+  },
+  {
+    "ref": "C23",
+    "value": "10uF",
+    "package": "0805",
+    "pins": {
+      "1": [
+        "1",
+        "/06 - Sensores externos e CAN/VEXT"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge77"
+  },
+  {
+    "ref": "C24",
+    "value": "100nF",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge85"
+  },
+  {
+    "ref": "D1",
+    "value": "LED verde",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "A",
+        "Net-(D1-A)"
+      ],
+      "2": [
+        "K",
+        "/05 - Expansao e display/LED_N"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "Acende com P2 baixo; manter apagado entre pulsos.",
+    "uid": "gge60"
+  },
+  {
+    "ref": "D2",
+    "value": "TVS CAN 2 canais TBD",
+    "package": "TVS_CAN_A_DEFINIR",
+    "pins": {
+      "1": [
+        "LINE1",
+        "/06 - Sensores externos e CAN/BUS_A"
+      ],
+      "2": [
+        "LINE2",
+        "/06 - Sensores externos e CAN/BUS_B"
+      ],
+      "3": [
+        "GND",
+        "GND"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "Protecao ainda a selecionar conforme limites absolutos TCAN330 e ensaio requerido. Numeracao logica; nao e MPN nem footprint liberado.",
+    "uid": "gge95"
+  },
+  {
+    "ref": "D3",
+    "value": "TVS CAN 2 canais TBD",
+    "package": "TVS_CAN_A_DEFINIR",
+    "pins": {
+      "1": [
+        "LINE1",
+        "/06 - Sensores externos e CAN/BUS_A"
+      ],
+      "2": [
+        "LINE2",
+        "/06 - Sensores externos e CAN/BUS_B"
+      ],
+      "3": [
+        "GND",
+        "GND"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "Protecao ainda a selecionar conforme limites absolutos TCAN330 e ensaio requerido. Numeracao logica; nao e MPN nem footprint liberado.",
+    "uid": "gge96"
+  },
+  {
+    "ref": "F1",
+    "value": "Fusivel 1A lento",
+    "package": "1206",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(BT1-+)"
+      ],
+      "2": [
+        "2",
+        "Net-(Q1-D)"
+      ]
+    },
+    "section": 0,
+    "fit": "SIM",
+    "note": "Selecionar MPN e curva I2t antes de liberar BOM.",
+    "uid": "gge2"
+  },
+  {
+    "ref": "F2",
+    "value": "PTC Ihold 100mA",
+    "package": "1206",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(Q2-D)"
+      ],
+      "2": [
+        "2",
+        "/06 - Sensores externos e CAN/VEXT"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "Limite de projeto 100mA TOTAL; escolher curva R/frio, disparo e derating do componente real.",
+    "uid": "gge76"
+  },
+  {
+    "ref": "J1",
+    "value": "U.FL-R-SMT-1",
+    "package": "UFL",
+    "pins": {
+      "1": [
+        "RF",
+        "Net-(J1-RF)"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "GND",
+        "GND"
+      ]
+    },
+    "section": 3,
+    "fit": "SIM",
+    "note": "Escolher apenas J1 OU IPEX integrado no modulo. Trilha curta 50ohm, sem T aberto; layout final deve eliminar ramal nao usado.",
+    "uid": "gge56"
+  },
+  {
+    "ref": "J2",
+    "value": "DISPLAY 8P DNP",
+    "package": "HDR8",
+    "pins": {
+      "1": [
+        "VCC",
+        "3V3"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "CLK",
+        "/05 - Expansao e display/DISP_CLK"
+      ],
+      "4": [
+        "DATA",
+        "/05 - Expansao e display/DISP_DATA"
+      ],
+      "5": [
+        "CS",
+        "DISP_CS"
+      ],
+      "6": [
+        "DC",
+        "/05 - Expansao e display/DISP_DC"
+      ],
+      "7": [
+        "RST",
+        "/05 - Expansao e display/DISP_RST_N"
+      ],
+      "8": [
+        "BUSY",
+        "/05 - Expansao e display/DISP_BUSY"
+      ]
+    },
+    "section": 4,
+    "fit": "NAO",
+    "note": "Header 2.54 mm. Interface de modulo de display 3.3V; nao aciona diretamente painel e-paper cru.",
+    "uid": "gge67"
+  },
+  {
+    "ref": "J3",
+    "value": "SENSOR INTERNO I2C DNP",
+    "package": "HDR4",
+    "pins": {
+      "1": [
+        "3V3",
+        "3V3"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "SDA",
+        "I2C_INT_SDA"
+      ],
+      "4": [
+        "SCL",
+        "I2C_INT_SCL"
+      ]
+    },
+    "section": 4,
+    "fit": "NAO",
+    "note": "Reserva para pequena placa SHT40; sensor onboard integrado ainda nao definido pelo cliente.",
+    "uid": "gge72"
+  },
+  {
+    "ref": "J4",
+    "value": "USB SERVICE 4P",
+    "package": "HDR4",
+    "pins": {
+      "1": [
+        "GND",
+        "GND"
+      ],
+      "2": [
+        "D-",
+        "/07 - USB de servico/USB_DM"
+      ],
+      "3": [
+        "D+",
+        "/07 - USB de servico/USB_DP"
+      ],
+      "4": [
+        "NC_5V_PROIBIDO",
+        null
+      ]
+    },
+    "section": 6,
+    "fit": "SIM",
+    "note": "Usar adaptador de servico identificado; bateria deve estar ligada. Pino4 sem cobre de alimentacao. Nao e USB-C; nao ha carregador.",
+    "uid": "gge97"
+  },
+  {
+    "ref": "JP1",
+    "value": "TERMINACAO CAN",
+    "package": "HDR2",
+    "pins": {
+      "1": [
+        "TERM",
+        "Net-(JP1-TERM)"
+      ],
+      "2": [
+        "CANL",
+        "/06 - Sensores externos e CAN/CAN_L"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge92"
+  },
+  {
+    "ref": "L1",
+    "value": "XFL4015-471MEC 0.47uH",
+    "package": "L4X4",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(U1-L1)"
+      ],
+      "2": [
+        "2",
+        "Net-(U1-L2)"
+      ]
+    },
+    "section": 0,
+    "fit": "SIM",
+    "note": "Conferir sufixo fornecido, pads e Isat; referencia TI XFL4015-471ME.",
+    "uid": "gge6"
+  },
+  {
+    "ref": "L2",
+    "value": "FILTRO RF TBD >=500mA",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "3V3_RF"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "Valor 24nH removido: recomendacao de 24nH pertence ao XTAL_P. Selecionar filtro VDD3P3 com referencia e validacao de RF; valor e MPN pendentes.",
+    "uid": "gge20"
+  },
+  {
+    "ref": "L3",
+    "value": "2.7nH TUNE",
+    "package": "0201",
+    "pins": {
+      "1": [
+        "1",
+        "BLE_CHIP"
+      ],
+      "2": [
+        "2",
+        "Net-(C17-Pad1)"
+      ]
+    },
+    "section": 2,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge41"
+  },
+  {
+    "ref": "L4",
+    "value": "24nH TUNE",
+    "section": 2,
+    "fit": "SIM",
+    "pins": {
+      "1": [
+        "1",
+        "XTAL_P"
+      ],
+      "2": [
+        "2",
+        "Net-(Y1-X1)"
+      ]
+    },
+    "note": "Componente serie XTAL_P, valor inicial Espressif. Validar frequencia/partida no prototipo.",
+    "package": "TBD - selecionar indutor para XTAL_P"
+  },
+  {
+    "ref": "Q1",
+    "value": "AO3401A",
+    "package": "SOT23",
+    "pins": {
+      "1": [
+        "G",
+        "GND"
+      ],
+      "2": [
+        "S",
+        "Net-(Q1-S)"
+      ],
+      "3": [
+        "D",
+        "Net-(Q1-D)"
+      ]
+    },
+    "section": 0,
+    "fit": "SIM",
+    "note": "PMOS de inversao: D no positivo da bateria, S na carga, G em GND.",
+    "uid": "gge3"
+  },
+  {
+    "ref": "Q2",
+    "value": "AO3401A",
+    "package": "SOT23",
+    "pins": {
+      "1": [
+        "G",
+        "Net-(Q2-G)"
+      ],
+      "2": [
+        "S",
+        "3V3"
+      ],
+      "3": [
+        "D",
+        "Net-(Q2-D)"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge73"
+  },
+  {
+    "ref": "Q3",
+    "value": "2N7002",
+    "package": "SOT23",
+    "pins": {
+      "1": [
+        "G",
+        "SENS_EN"
+      ],
+      "2": [
+        "S",
+        "GND"
+      ],
+      "3": [
+        "D",
+        "Net-(Q2-G)"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge74"
+  },
+  {
     "ref": "R1",
     "value": "511k 1%",
     "package": "0603",
@@ -236,7 +890,7 @@
       ],
       "2": [
         "2",
-        "PSU_FB"
+        "Net-(U1-FB)"
       ]
     },
     "section": 0,
@@ -251,7 +905,7 @@
     "pins": {
       "1": [
         "1",
-        "PSU_FB"
+        "Net-(U1-FB)"
       ],
       "2": [
         "2",
@@ -359,23 +1013,959 @@
     "uid": "gge17"
   },
   {
-    "ref": "C5",
-    "value": "100nF",
+    "ref": "R8",
+    "value": "10k",
     "package": "0603",
     "pins": {
       "1": [
         "1",
-        "BAT_ADC"
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "CHIP_EN"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge28"
+  },
+  {
+    "ref": "R9",
+    "value": "10k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "BOOT_N"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge31"
+  },
+  {
+    "ref": "R10",
+    "value": "10k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "LORA_NSS"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "GPIO2 e strapping; NSS alto no reset.",
+    "uid": "gge33"
+  },
+  {
+    "ref": "R11",
+    "value": "4.7k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "I2C_INT_SDA"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "Pull-up SDA interno GPIO10; nao ligado aos conectores RJ11.",
+    "uid": "gge34"
+  },
+  {
+    "ref": "R12",
+    "value": "4.7k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "I2C_INT_SCL"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "GPIO8 strapping alto no reset; SCL interno. Nao conectar escravo que mantenha SCL baixo durante boot.",
+    "uid": "gge35"
+  },
+  {
+    "ref": "R13",
+    "value": "10k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "DISP_CS"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "GPIO21 pode emitir UART no boot. Display mantido em reset baixo ate inicializar o expansor.",
+    "uid": "gge36"
+  },
+  {
+    "ref": "R14",
+    "value": "0R TUNE",
+    "package": "0201",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(C17-Pad1)"
+      ],
+      "2": [
+        "2",
+        "Net-(ANT1-FEED)"
+      ]
+    },
+    "section": 2,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge44"
+  },
+  {
+    "ref": "R15",
+    "value": "0R",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(U3-DIO2)"
+      ],
+      "2": [
+        "2",
+        "Net-(U3-TXEN)"
+      ]
+    },
+    "section": 3,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge48"
+  },
+  {
+    "ref": "R16",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(U3-TXEN)"
       ],
       "2": [
         "2",
         "GND"
       ]
     },
+    "section": 3,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge49"
+  },
+  {
+    "ref": "R17",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "LORA_RXEN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 3,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge50"
+  },
+  {
+    "ref": "R18",
+    "value": "10k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "LORA_RST_N"
+      ]
+    },
+    "section": 3,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge51"
+  },
+  {
+    "ref": "R19",
+    "value": "22R",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "SPI_SCK"
+      ],
+      "2": [
+        "2",
+        "Net-(U3-SCK)"
+      ]
+    },
+    "section": 3,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge52"
+  },
+  {
+    "ref": "R20",
+    "value": "22R",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "SPI_MOSI"
+      ],
+      "2": [
+        "2",
+        "Net-(U3-MOSI)"
+      ]
+    },
+    "section": 3,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge53"
+  },
+  {
+    "ref": "R21",
+    "value": "2.2k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "Net-(D1-A)"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge59"
+  },
+  {
+    "ref": "R22",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "/05 - Expansao e display/LED_N"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge61"
+  },
+  {
+    "ref": "R23",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "SENS_EN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge62"
+  },
+  {
+    "ref": "R24",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "CAN_SHDN"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge63"
+  },
+  {
+    "ref": "R25",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "/05 - Expansao e display/DISP_RST_N"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "Mantem display em RESET durante boot.",
+    "uid": "gge64"
+  },
+  {
+    "ref": "R26",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "/05 - Expansao e display/DISP_DC"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge65"
+  },
+  {
+    "ref": "R27",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "/05 - Expansao e display/DISP_BUSY"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "section": 4,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge66"
+  },
+  {
+    "ref": "R28",
+    "value": "0R SPI",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "SPI_SCK"
+      ],
+      "2": [
+        "2",
+        "/05 - Expansao e display/DISP_CLK"
+      ]
+    },
+    "section": 4,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge68"
+  },
+  {
+    "ref": "R29",
+    "value": "0R SPI",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "SPI_MOSI"
+      ],
+      "2": [
+        "2",
+        "/05 - Expansao e display/DISP_DATA"
+      ]
+    },
+    "section": 4,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge69"
+  },
+  {
+    "ref": "R30",
+    "value": "0R I2C",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "I2C_INT_SCL"
+      ],
+      "2": [
+        "2",
+        "/05 - Expansao e display/DISP_CLK"
+      ]
+    },
+    "section": 4,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge70"
+  },
+  {
+    "ref": "R31",
+    "value": "0R I2C",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "I2C_INT_SDA"
+      ],
+      "2": [
+        "2",
+        "/05 - Expansao e display/DISP_DATA"
+      ]
+    },
+    "section": 4,
+    "fit": "NAO",
+    "note": "SPI: R28/R29. I2C: R30/R31. Nunca ambos os pares.",
+    "uid": "gge71"
+  },
+  {
+    "ref": "R32",
+    "value": "100k",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "Net-(Q2-G)"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge75"
+  },
+  {
+    "ref": "R33",
+    "value": "33R DIGITAL",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "PORT_A_IO"
+      ],
+      "2": [
+        "2",
+        "/06 - Sensores externos e CAN/BUS_A"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge78"
+  },
+  {
+    "ref": "R34",
+    "value": "33R DIGITAL",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "PORT_B_IO"
+      ],
+      "2": [
+        "2",
+        "/06 - Sensores externos e CAN/BUS_B"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge79"
+  },
+  {
+    "ref": "R35",
+    "value": "4.7k DIGITAL",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "/06 - Sensores externos e CAN/VEXT"
+      ],
+      "2": [
+        "2",
+        "/06 - Sensores externos e CAN/BUS_A"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge80"
+  },
+  {
+    "ref": "R36",
+    "value": "4.7k I2C",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "/06 - Sensores externos e CAN/VEXT"
+      ],
+      "2": [
+        "2",
+        "/06 - Sensores externos e CAN/BUS_B"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge81"
+  },
+  {
+    "ref": "R37",
+    "value": "0R CAN",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "PORT_A_IO"
+      ],
+      "2": [
+        "2",
+        "Net-(U5-TXD)"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge86"
+  },
+  {
+    "ref": "R38",
+    "value": "0R CAN",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "Net-(U5-RXD)"
+      ],
+      "2": [
+        "2",
+        "PORT_B_IO"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge87"
+  },
+  {
+    "ref": "R39",
+    "value": "0R CAN",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "/06 - Sensores externos e CAN/CAN_H"
+      ],
+      "2": [
+        "2",
+        "/06 - Sensores externos e CAN/BUS_A"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge88"
+  },
+  {
+    "ref": "R40",
+    "value": "0R CAN",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "/06 - Sensores externos e CAN/CAN_L"
+      ],
+      "2": [
+        "2",
+        "/06 - Sensores externos e CAN/BUS_B"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge89"
+  },
+  {
+    "ref": "R41",
+    "value": "10k CAN",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "Net-(U5-TXD)"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "",
+    "uid": "gge90"
+  },
+  {
+    "ref": "R42",
+    "value": "120R 1% 0.25W",
+    "package": "1206",
+    "pins": {
+      "1": [
+        "1",
+        "/06 - Sensores externos e CAN/CAN_H"
+      ],
+      "2": [
+        "2",
+        "Net-(JP1-TERM)"
+      ]
+    },
+    "section": 5,
+    "fit": "NAO",
+    "note": "Somente em uma extremidade fisica do barramento.",
+    "uid": "gge91"
+  },
+  {
+    "ref": "R43",
+    "value": "22R",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "USB_DM_MCU"
+      ],
+      "2": [
+        "2",
+        "/07 - USB de servico/USB_DM"
+      ]
+    },
+    "section": 6,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge98"
+  },
+  {
+    "ref": "R44",
+    "value": "22R",
+    "package": "0603",
+    "pins": {
+      "1": [
+        "1",
+        "USB_DP_MCU"
+      ],
+      "2": [
+        "2",
+        "/07 - USB de servico/USB_DP"
+      ]
+    },
+    "section": 6,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge99"
+  },
+  {
+    "ref": "RJ1",
+    "value": "R-RJ11M04P-A002",
+    "package": "PENDENTE_RJ11",
+    "pins": {
+      "1": [
+        "VCC",
+        "/06 - Sensores externos e CAN/VEXT"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "A",
+        "/06 - Sensores externos e CAN/BUS_A"
+      ],
+      "4": [
+        "B",
+        "/06 - Sensores externos e CAN/BUS_B"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "Pinagem LOGICA do contrato; conferir orientacao dos contatos e pinos fisicos pelo desenho C51904501. Sem pads mecanicos inventados.",
+    "uid": "gge82"
+  },
+  {
+    "ref": "RJ2",
+    "value": "R-RJ11M04P-A002",
+    "package": "PENDENTE_RJ11",
+    "pins": {
+      "1": [
+        "VCC",
+        "/06 - Sensores externos e CAN/VEXT"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "A",
+        "/06 - Sensores externos e CAN/BUS_A"
+      ],
+      "4": [
+        "B",
+        "/06 - Sensores externos e CAN/BUS_B"
+      ]
+    },
+    "section": 5,
+    "fit": "SIM",
+    "note": "Pinagem LOGICA do contrato; conferir orientacao dos contatos e pinos fisicos pelo desenho C51904501. Sem pads mecanicos inventados.",
+    "uid": "gge83"
+  },
+  {
+    "ref": "SW1",
+    "value": "CHAVE GERAL",
+    "package": "HDR2",
+    "pins": {
+      "1": [
+        "IN",
+        "BAT_SW"
+      ],
+      "2": [
+        "OUT",
+        "Net-(Q1-S)"
+      ]
+    },
+    "section": 0,
+    "fit": "SIM",
+    "note": "Header 2.54 mm para chave externa; selecionar chave >=1A DC.",
+    "uid": "gge4"
+  },
+  {
+    "ref": "SW2",
+    "value": "RESET SPST-NO",
+    "package": "BOTAO_A_DEFINIR",
+    "pins": {
+      "1": [
+        "EN",
+        "CHIP_EN"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "Botao fisico momentaneo normalmente aberto. Selecionar MPN/footprint na etapa mecanica.",
+    "uid": "gge30"
+  },
+  {
+    "ref": "SW3",
+    "value": "BOOT SPST-NO",
+    "package": "BOTAO_A_DEFINIR",
+    "pins": {
+      "1": [
+        "GPIO9",
+        "BOOT_N"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "Botao fisico momentaneo normalmente aberto. Pressionar BOOT durante RESET para ROM download.",
+    "uid": "gge32"
+  },
+  {
+    "ref": "TP1",
+    "value": "GND",
+    "package": "TP",
+    "pins": {
+      "1": [
+        "GND",
+        "GND"
+      ]
+    },
     "section": 0,
     "fit": "SIM",
     "note": "",
-    "uid": "gge18"
+    "uid": "gge101"
+  },
+  {
+    "ref": "TP2",
+    "value": "3V3",
+    "package": "TP",
+    "pins": {
+      "1": [
+        "3V3",
+        "3V3"
+      ]
+    },
+    "section": 0,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge102"
+  },
+  {
+    "ref": "TP3",
+    "value": "BAT_SW",
+    "package": "TP",
+    "pins": {
+      "1": [
+        "BAT_SW",
+        "BAT_SW"
+      ]
+    },
+    "section": 0,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge103"
+  },
+  {
+    "ref": "TP4",
+    "value": "CHIP_EN",
+    "package": "TP",
+    "pins": {
+      "1": [
+        "CHIP_EN",
+        "CHIP_EN"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge104"
+  },
+  {
+    "ref": "TP5",
+    "value": "PSU_PG",
+    "package": "TP",
+    "pins": {
+      "1": [
+        "PSU_PG",
+        "PSU_PG"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge105"
+  },
+  {
+    "ref": "TP6",
+    "value": "LORA_BUSY",
+    "package": "TP",
+    "pins": {
+      "1": [
+        "LORA_BUSY",
+        "LORA_BUSY"
+      ]
+    },
+    "section": 1,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge106"
+  },
+  {
+    "ref": "U1",
+    "value": "TPS63802DLAR",
+    "package": "DLA10",
+    "pins": {
+      "1": [
+        "EN",
+        "PSU_EN"
+      ],
+      "2": [
+        "MODE",
+        "GND"
+      ],
+      "3": [
+        "AGND",
+        "GND"
+      ],
+      "4": [
+        "FB",
+        "Net-(U1-FB)"
+      ],
+      "5": [
+        "PG",
+        "PSU_PG"
+      ],
+      "6": [
+        "VOUT",
+        "3V3"
+      ],
+      "7": [
+        "L2",
+        "Net-(U1-L2)"
+      ],
+      "8": [
+        "PGND",
+        "GND"
+      ],
+      "9": [
+        "L1",
+        "Net-(U1-L1)"
+      ],
+      "10": [
+        "VIN",
+        "BAT_SW"
+      ]
+    },
+    "section": 0,
+    "fit": "SIM",
+    "note": "",
+    "uid": "gge5"
   },
   {
     "ref": "U2",
@@ -521,527 +2111,6 @@
     "uid": "gge19"
   },
   {
-    "ref": "L2",
-    "value": "24nH >=500mA",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "3V3_RF"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "Filtro ALIMENTACAO, nunca conectar a LNA_IN. Valor inicial sujeito a ensaios EMC.",
-    "uid": "gge20"
-  },
-  {
-    "ref": "C6",
-    "value": "10uF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3_RF"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge21"
-  },
-  {
-    "ref": "C7",
-    "value": "100nF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3_RF"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge22"
-  },
-  {
-    "ref": "C8",
-    "value": "100nF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge23"
-  },
-  {
-    "ref": "C9",
-    "value": "100nF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge24"
-  },
-  {
-    "ref": "C10",
-    "value": "1uF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "VDD_SPI"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge25"
-  },
-  {
-    "ref": "C11",
-    "value": "1uF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge26"
-  },
-  {
-    "ref": "C12",
-    "value": "100nF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge27"
-  },
-  {
-    "ref": "R8",
-    "value": "10k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "CHIP_EN"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge28"
-  },
-  {
-    "ref": "C13",
-    "value": "1uF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "CHIP_EN"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge29"
-  },
-  {
-    "ref": "SW2",
-    "value": "RESET SPST-NO",
-    "package": "BOTAO_A_DEFINIR",
-    "pins": {
-      "1": [
-        "EN",
-        "CHIP_EN"
-      ],
-      "2": [
-        "GND",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "Botao fisico momentaneo normalmente aberto. Selecionar MPN/footprint na etapa mecanica.",
-    "uid": "gge30"
-  },
-  {
-    "ref": "R9",
-    "value": "10k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "BOOT_N"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge31"
-  },
-  {
-    "ref": "SW3",
-    "value": "BOOT SPST-NO",
-    "package": "BOTAO_A_DEFINIR",
-    "pins": {
-      "1": [
-        "GPIO9",
-        "BOOT_N"
-      ],
-      "2": [
-        "GND",
-        "GND"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "Botao fisico momentaneo normalmente aberto. Pressionar BOOT durante RESET para ROM download.",
-    "uid": "gge32"
-  },
-  {
-    "ref": "R10",
-    "value": "10k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "LORA_NSS"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "GPIO2 e strapping; NSS alto no reset.",
-    "uid": "gge33"
-  },
-  {
-    "ref": "R11",
-    "value": "4.7k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "I2C_INT_SDA"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "Pull-up SDA interno GPIO10; nao ligado aos conectores RJ11.",
-    "uid": "gge34"
-  },
-  {
-    "ref": "R12",
-    "value": "4.7k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "I2C_INT_SCL"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "GPIO8 strapping alto no reset; SCL interno. Nao conectar escravo que mantenha SCL baixo durante boot.",
-    "uid": "gge35"
-  },
-  {
-    "ref": "R13",
-    "value": "10k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "DISP_CS"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "GPIO21 pode emitir UART no boot. Display mantido em reset baixo ate inicializar o expansor.",
-    "uid": "gge36"
-  },
-  {
-    "ref": "Y1",
-    "value": "40MHz CL=8pF <=10ppm",
-    "package": "XTAL3225",
-    "pins": {
-      "1": [
-        "X1",
-        "XTAL_P"
-      ],
-      "2": [
-        "GND",
-        "GND"
-      ],
-      "3": [
-        "X2",
-        "XTAL_N"
-      ],
-      "4": [
-        "GND",
-        "GND"
-      ]
-    },
-    "section": 2,
-    "fit": "SIM",
-    "note": "MPN a selecionar. 10pF iniciais presumem Cparasita ~3pF; verificar ESR, drive e tolerancia total.",
-    "uid": "gge37"
-  },
-  {
-    "ref": "C14",
-    "value": "10pF C0G",
-    "package": "0402",
-    "pins": {
-      "1": [
-        "1",
-        "XTAL_P"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 2,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge38"
-  },
-  {
-    "ref": "C15",
-    "value": "10pF C0G",
-    "package": "0402",
-    "pins": {
-      "1": [
-        "1",
-        "XTAL_N"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 2,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge39"
-  },
-  {
-    "ref": "C16",
-    "value": "1.5pF C0G TUNE",
-    "package": "0201",
-    "pins": {
-      "1": [
-        "1",
-        "BLE_CHIP"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 2,
-    "fit": "SIM",
-    "note": "Casamento inicial; exige ajuste VNA e emissao harmonica.",
-    "uid": "gge40"
-  },
-  {
-    "ref": "L3",
-    "value": "2.7nH TUNE",
-    "package": "0201",
-    "pins": {
-      "1": [
-        "1",
-        "BLE_CHIP"
-      ],
-      "2": [
-        "2",
-        "BLE_50R"
-      ]
-    },
-    "section": 2,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge41"
-  },
-  {
-    "ref": "C17",
-    "value": "1.5pF C0G TUNE",
-    "package": "0201",
-    "pins": {
-      "1": [
-        "1",
-        "BLE_50R"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 2,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge42"
-  },
-  {
-    "ref": "C18",
-    "value": "TUNE DNP",
-    "package": "0201",
-    "pins": {
-      "1": [
-        "1",
-        "BLE_50R"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 2,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge43"
-  },
-  {
-    "ref": "R14",
-    "value": "0R TUNE",
-    "package": "0201",
-    "pins": {
-      "1": [
-        "1",
-        "BLE_50R"
-      ],
-      "2": [
-        "2",
-        "BLE_ANT"
-      ]
-    },
-    "section": 2,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge44"
-  },
-  {
-    "ref": "C19",
-    "value": "TUNE DNP",
-    "package": "0201",
-    "pins": {
-      "1": [
-        "1",
-        "BLE_ANT"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 2,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge45"
-  },
-  {
-    "ref": "ANT1",
-    "value": "Antena impressa BLE 2.4GHz",
-    "package": "PENDENTE_ANTENA",
-    "pins": {
-      "1": [
-        "FEED",
-        "BLE_ANT"
-      ],
-      "2": [
-        "SHORT_GND",
-        "GND"
-      ]
-    },
-    "section": 2,
-    "fit": "SIM",
-    "note": "Representacao funcional de IFA impressa; geometria, feed e short dependem da PCB e carcaca futuras.",
-    "uid": "gge46"
-  },
-  {
     "ref": "U3",
     "value": "E22-900M22S SX1262",
     "package": "E22_900M22S",
@@ -1072,11 +2141,11 @@
       ],
       "7": [
         "TXEN",
-        "LORA_TXEN"
+        "Net-(U3-TXEN)"
       ],
       "8": [
         "DIO2",
-        "LORA_DIO2"
+        "Net-(U3-DIO2)"
       ],
       "9": [
         "VCC",
@@ -1112,11 +2181,11 @@
       ],
       "17": [
         "MOSI",
-        "LORA_MOSI"
+        "Net-(U3-MOSI)"
       ],
       "18": [
         "SCK",
-        "LORA_SCK"
+        "Net-(U3-SCK)"
       ],
       "19": [
         "NSS",
@@ -1128,7 +2197,7 @@
       ],
       "21": [
         "ANT",
-        "LORA_ANT"
+        "Net-(J1-RF)"
       ],
       "22": [
         "GND",
@@ -1139,181 +2208,6 @@
     "fit": "SIM",
     "note": "Sempre populado. Confirmar revisao fisica; p12=GND, p15=NRST no manual 2026. DIO3 interno: TCXO 2.2V.",
     "uid": "gge47"
-  },
-  {
-    "ref": "R15",
-    "value": "0R",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "LORA_DIO2"
-      ],
-      "2": [
-        "2",
-        "LORA_TXEN"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge48"
-  },
-  {
-    "ref": "R16",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "LORA_TXEN"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge49"
-  },
-  {
-    "ref": "R17",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "LORA_RXEN"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge50"
-  },
-  {
-    "ref": "R18",
-    "value": "10k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "LORA_RST_N"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge51"
-  },
-  {
-    "ref": "R19",
-    "value": "22R",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "SPI_SCK"
-      ],
-      "2": [
-        "2",
-        "LORA_SCK"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge52"
-  },
-  {
-    "ref": "R20",
-    "value": "22R",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "SPI_MOSI"
-      ],
-      "2": [
-        "2",
-        "LORA_MOSI"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge53"
-  },
-  {
-    "ref": "C20",
-    "value": "22uF 10V",
-    "package": "0805",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge54"
-  },
-  {
-    "ref": "C21",
-    "value": "100nF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge55"
-  },
-  {
-    "ref": "J1",
-    "value": "U.FL-R-SMT-1",
-    "package": "UFL",
-    "pins": {
-      "1": [
-        "RF",
-        "LORA_ANT"
-      ],
-      "2": [
-        "GND",
-        "GND"
-      ],
-      "3": [
-        "GND",
-        "GND"
-      ]
-    },
-    "section": 3,
-    "fit": "SIM",
-    "note": "Escolher apenas J1 OU IPEX integrado no modulo. Trilha curta 50ohm, sem T aberto; layout final deve eliminar ramal nao usado.",
-    "uid": "gge56"
   },
   {
     "ref": "U4",
@@ -1342,11 +2236,11 @@
       ],
       "6": [
         "P2",
-        "LED_N"
+        "/05 - Expansao e display/LED_N"
       ],
       "7": [
         "P3",
-        "DISP_DC"
+        "/05 - Expansao e display/DISP_DC"
       ],
       "8": [
         "GND",
@@ -1354,11 +2248,11 @@
       ],
       "9": [
         "P4",
-        "DISP_RST_N"
+        "/05 - Expansao e display/DISP_RST_N"
       ],
       "10": [
         "P5",
-        "DISP_BUSY"
+        "/05 - Expansao e display/DISP_BUSY"
       ],
       "11": [
         "P6",
@@ -1391,563 +2285,13 @@
     "uid": "gge57"
   },
   {
-    "ref": "C22",
-    "value": "100nF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge58"
-  },
-  {
-    "ref": "R21",
-    "value": "2.2k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "LED_A"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge59"
-  },
-  {
-    "ref": "D1",
-    "value": "LED verde",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "A",
-        "LED_A"
-      ],
-      "2": [
-        "K",
-        "LED_N"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "Acende com P2 baixo; manter apagado entre pulsos.",
-    "uid": "gge60"
-  },
-  {
-    "ref": "R22",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "LED_N"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge61"
-  },
-  {
-    "ref": "R23",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "SENS_EN"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge62"
-  },
-  {
-    "ref": "R24",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "CAN_SHDN"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge63"
-  },
-  {
-    "ref": "R25",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "DISP_RST_N"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "Mantem display em RESET durante boot.",
-    "uid": "gge64"
-  },
-  {
-    "ref": "R26",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "DISP_DC"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge65"
-  },
-  {
-    "ref": "R27",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "DISP_BUSY"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 4,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge66"
-  },
-  {
-    "ref": "J2",
-    "value": "DISPLAY 8P DNP",
-    "package": "HDR8",
-    "pins": {
-      "1": [
-        "VCC",
-        "3V3"
-      ],
-      "2": [
-        "GND",
-        "GND"
-      ],
-      "3": [
-        "CLK",
-        "DISP_CLK"
-      ],
-      "4": [
-        "DATA",
-        "DISP_DATA"
-      ],
-      "5": [
-        "CS",
-        "DISP_CS"
-      ],
-      "6": [
-        "DC",
-        "DISP_DC"
-      ],
-      "7": [
-        "RST",
-        "DISP_RST_N"
-      ],
-      "8": [
-        "BUSY",
-        "DISP_BUSY"
-      ]
-    },
-    "section": 4,
-    "fit": "NAO",
-    "note": "Header 2.54 mm. Interface de modulo de display 3.3V; nao aciona diretamente painel e-paper cru.",
-    "uid": "gge67"
-  },
-  {
-    "ref": "R28",
-    "value": "0R SPI",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "SPI_SCK"
-      ],
-      "2": [
-        "2",
-        "DISP_CLK"
-      ]
-    },
-    "section": 4,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge68"
-  },
-  {
-    "ref": "R29",
-    "value": "0R SPI",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "SPI_MOSI"
-      ],
-      "2": [
-        "2",
-        "DISP_DATA"
-      ]
-    },
-    "section": 4,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge69"
-  },
-  {
-    "ref": "R30",
-    "value": "0R I2C",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "I2C_INT_SCL"
-      ],
-      "2": [
-        "2",
-        "DISP_CLK"
-      ]
-    },
-    "section": 4,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge70"
-  },
-  {
-    "ref": "R31",
-    "value": "0R I2C",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "I2C_INT_SDA"
-      ],
-      "2": [
-        "2",
-        "DISP_DATA"
-      ]
-    },
-    "section": 4,
-    "fit": "NAO",
-    "note": "SPI: R28/R29. I2C: R30/R31. Nunca ambos os pares.",
-    "uid": "gge71"
-  },
-  {
-    "ref": "J3",
-    "value": "SENSOR INTERNO I2C DNP",
-    "package": "HDR4",
-    "pins": {
-      "1": [
-        "3V3",
-        "3V3"
-      ],
-      "2": [
-        "GND",
-        "GND"
-      ],
-      "3": [
-        "SDA",
-        "I2C_INT_SDA"
-      ],
-      "4": [
-        "SCL",
-        "I2C_INT_SCL"
-      ]
-    },
-    "section": 4,
-    "fit": "NAO",
-    "note": "Reserva para pequena placa SHT40; sensor onboard integrado ainda nao definido pelo cliente.",
-    "uid": "gge72"
-  },
-  {
-    "ref": "Q2",
-    "value": "AO3401A",
-    "package": "SOT23",
-    "pins": {
-      "1": [
-        "G",
-        "SENS_GATE"
-      ],
-      "2": [
-        "S",
-        "3V3"
-      ],
-      "3": [
-        "D",
-        "SENS_PRE"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge73"
-  },
-  {
-    "ref": "Q3",
-    "value": "2N7002",
-    "package": "SOT23",
-    "pins": {
-      "1": [
-        "G",
-        "SENS_EN"
-      ],
-      "2": [
-        "S",
-        "GND"
-      ],
-      "3": [
-        "D",
-        "SENS_GATE"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge74"
-  },
-  {
-    "ref": "R32",
-    "value": "100k",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "SENS_GATE"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge75"
-  },
-  {
-    "ref": "F2",
-    "value": "PTC Ihold 100mA",
-    "package": "1206",
-    "pins": {
-      "1": [
-        "1",
-        "SENS_PRE"
-      ],
-      "2": [
-        "2",
-        "VEXT"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "Limite de projeto 100mA TOTAL; escolher curva R/frio, disparo e derating do componente real.",
-    "uid": "gge76"
-  },
-  {
-    "ref": "C23",
-    "value": "10uF",
-    "package": "0805",
-    "pins": {
-      "1": [
-        "1",
-        "VEXT"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge77"
-  },
-  {
-    "ref": "R33",
-    "value": "33R DIGITAL",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "PORT_A_IO"
-      ],
-      "2": [
-        "2",
-        "BUS_A"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge78"
-  },
-  {
-    "ref": "R34",
-    "value": "33R DIGITAL",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "PORT_B_IO"
-      ],
-      "2": [
-        "2",
-        "BUS_B"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge79"
-  },
-  {
-    "ref": "R35",
-    "value": "4.7k DIGITAL",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "VEXT"
-      ],
-      "2": [
-        "2",
-        "BUS_A"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge80"
-  },
-  {
-    "ref": "R36",
-    "value": "4.7k I2C",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "VEXT"
-      ],
-      "2": [
-        "2",
-        "BUS_B"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge81"
-  },
-  {
-    "ref": "RJ1",
-    "value": "R-RJ11M04P-A002",
-    "package": "PENDENTE_RJ11",
-    "pins": {
-      "1": [
-        "VCC",
-        "VEXT"
-      ],
-      "2": [
-        "GND",
-        "GND"
-      ],
-      "3": [
-        "A",
-        "BUS_A"
-      ],
-      "4": [
-        "B",
-        "BUS_B"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "Pinagem LOGICA do contrato; conferir orientacao dos contatos e pinos fisicos pelo desenho C51904501. Sem pads mecanicos inventados.",
-    "uid": "gge82"
-  },
-  {
-    "ref": "RJ2",
-    "value": "R-RJ11M04P-A002",
-    "package": "PENDENTE_RJ11",
-    "pins": {
-      "1": [
-        "VCC",
-        "VEXT"
-      ],
-      "2": [
-        "GND",
-        "GND"
-      ],
-      "3": [
-        "A",
-        "BUS_A"
-      ],
-      "4": [
-        "B",
-        "BUS_B"
-      ]
-    },
-    "section": 5,
-    "fit": "SIM",
-    "note": "Pinagem LOGICA do contrato; conferir orientacao dos contatos e pinos fisicos pelo desenho C51904501. Sem pads mecanicos inventados.",
-    "uid": "gge83"
-  },
-  {
     "ref": "U5",
     "value": "TCAN330DR",
     "package": "SOIC8",
     "pins": {
       "1": [
         "TXD",
-        "CAN_TX"
+        "Net-(U5-TXD)"
       ],
       "2": [
         "GND",
@@ -1959,7 +2303,7 @@
       ],
       "4": [
         "RXD",
-        "CAN_RX"
+        "Net-(U5-RXD)"
       ],
       "5": [
         "SHDN",
@@ -1967,11 +2311,11 @@
       ],
       "6": [
         "CANL",
-        "CAN_L"
+        "/06 - Sensores externos e CAN/CAN_L"
       ],
       "7": [
         "CANH",
-        "CAN_H"
+        "/06 - Sensores externos e CAN/CAN_H"
       ],
       "8": [
         "S",
@@ -1984,165 +2328,13 @@
     "uid": "gge84"
   },
   {
-    "ref": "C24",
-    "value": "100nF",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "GND"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge85"
-  },
-  {
-    "ref": "R37",
-    "value": "0R CAN",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "PORT_A_IO"
-      ],
-      "2": [
-        "2",
-        "CAN_TX"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge86"
-  },
-  {
-    "ref": "R38",
-    "value": "0R CAN",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "CAN_RX"
-      ],
-      "2": [
-        "2",
-        "PORT_B_IO"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge87"
-  },
-  {
-    "ref": "R39",
-    "value": "0R CAN",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "CAN_H"
-      ],
-      "2": [
-        "2",
-        "BUS_A"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge88"
-  },
-  {
-    "ref": "R40",
-    "value": "0R CAN",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "CAN_L"
-      ],
-      "2": [
-        "2",
-        "BUS_B"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge89"
-  },
-  {
-    "ref": "R41",
-    "value": "10k CAN",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "3V3"
-      ],
-      "2": [
-        "2",
-        "CAN_TX"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge90"
-  },
-  {
-    "ref": "R42",
-    "value": "120R 1% 0.25W",
-    "package": "1206",
-    "pins": {
-      "1": [
-        "1",
-        "CAN_H"
-      ],
-      "2": [
-        "2",
-        "CAN_TERM"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "Somente em uma extremidade fisica do barramento.",
-    "uid": "gge91"
-  },
-  {
-    "ref": "JP1",
-    "value": "TERMINACAO CAN",
-    "package": "HDR2",
-    "pins": {
-      "1": [
-        "TERM",
-        "CAN_TERM"
-      ],
-      "2": [
-        "CANL",
-        "CAN_L"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "",
-    "uid": "gge92"
-  },
-  {
     "ref": "U6",
     "value": "USBLC6-2SC6 DIGITAL",
     "package": "SOT23_6",
     "pins": {
       "1": [
         "IO1",
-        "BUS_A"
+        "/06 - Sensores externos e CAN/BUS_A"
       ],
       "2": [
         "GND",
@@ -2150,19 +2342,19 @@
       ],
       "3": [
         "IO2",
-        "BUS_B"
+        "/06 - Sensores externos e CAN/BUS_B"
       ],
       "4": [
         "IO2",
-        "BUS_B"
+        "/06 - Sensores externos e CAN/BUS_B"
       ],
       "5": [
         "VBUS",
-        "VEXT"
+        "/06 - Sensores externos e CAN/VEXT"
       ],
       "6": [
         "IO1",
-        "BUS_A"
+        "/06 - Sensores externos e CAN/BUS_A"
       ]
     },
     "section": 5,
@@ -2177,7 +2369,7 @@
     "pins": {
       "1": [
         "IO1",
-        "BUS_A"
+        "/06 - Sensores externos e CAN/BUS_A"
       ],
       "2": [
         "GND",
@@ -2185,19 +2377,19 @@
       ],
       "3": [
         "IO2",
-        "BUS_B"
+        "/06 - Sensores externos e CAN/BUS_B"
       ],
       "4": [
         "IO2",
-        "BUS_B"
+        "/06 - Sensores externos e CAN/BUS_B"
       ],
       "5": [
         "VBUS",
-        "VEXT"
+        "/06 - Sensores externos e CAN/VEXT"
       ],
       "6": [
         "IO1",
-        "BUS_A"
+        "/06 - Sensores externos e CAN/BUS_A"
       ]
     },
     "section": 5,
@@ -2206,124 +2398,13 @@
     "uid": "gge94"
   },
   {
-    "ref": "D2",
-    "value": "TVS CAN 2 canais TBD",
-    "package": "TVS_CAN_A_DEFINIR",
-    "pins": {
-      "1": [
-        "LINE1",
-        "BUS_A"
-      ],
-      "2": [
-        "LINE2",
-        "BUS_B"
-      ],
-      "3": [
-        "GND",
-        "GND"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "Protecao ainda a selecionar conforme limites absolutos TCAN330 e ensaio requerido. Numeracao logica; nao e MPN nem footprint liberado.",
-    "uid": "gge95"
-  },
-  {
-    "ref": "D3",
-    "value": "TVS CAN 2 canais TBD",
-    "package": "TVS_CAN_A_DEFINIR",
-    "pins": {
-      "1": [
-        "LINE1",
-        "BUS_A"
-      ],
-      "2": [
-        "LINE2",
-        "BUS_B"
-      ],
-      "3": [
-        "GND",
-        "GND"
-      ]
-    },
-    "section": 5,
-    "fit": "NAO",
-    "note": "Protecao ainda a selecionar conforme limites absolutos TCAN330 e ensaio requerido. Numeracao logica; nao e MPN nem footprint liberado.",
-    "uid": "gge96"
-  },
-  {
-    "ref": "J4",
-    "value": "USB SERVICE 4P",
-    "package": "HDR4",
-    "pins": {
-      "1": [
-        "GND",
-        "GND"
-      ],
-      "2": [
-        "D-",
-        "USB_DM"
-      ],
-      "3": [
-        "D+",
-        "USB_DP"
-      ],
-      "4": [
-        "NC_5V_PROIBIDO",
-        null
-      ]
-    },
-    "section": 6,
-    "fit": "SIM",
-    "note": "Usar adaptador de servico identificado; bateria deve estar ligada. Pino4 sem cobre de alimentacao. Nao e USB-C; nao ha carregador.",
-    "uid": "gge97"
-  },
-  {
-    "ref": "R43",
-    "value": "22R",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "USB_DM_MCU"
-      ],
-      "2": [
-        "2",
-        "USB_DM"
-      ]
-    },
-    "section": 6,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge98"
-  },
-  {
-    "ref": "R44",
-    "value": "22R",
-    "package": "0603",
-    "pins": {
-      "1": [
-        "1",
-        "USB_DP_MCU"
-      ],
-      "2": [
-        "2",
-        "USB_DP"
-      ]
-    },
-    "section": 6,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge99"
-  },
-  {
     "ref": "U8",
     "value": "USBLC6-2SC6",
     "package": "SOT23_6",
     "pins": {
       "1": [
         "IO1",
-        "USB_DM"
+        "/07 - USB de servico/USB_DM"
       ],
       "2": [
         "GND",
@@ -2331,11 +2412,11 @@
       ],
       "3": [
         "IO2",
-        "USB_DP"
+        "/07 - USB de servico/USB_DP"
       ],
       "4": [
         "IO2",
-        "USB_DP"
+        "/07 - USB de servico/USB_DP"
       ],
       "5": [
         "VBUS",
@@ -2343,7 +2424,7 @@
       ],
       "6": [
         "IO1",
-        "USB_DM"
+        "/07 - USB de servico/USB_DM"
       ]
     },
     "section": 6,
@@ -2352,93 +2433,30 @@
     "uid": "gge100"
   },
   {
-    "ref": "TP1",
-    "value": "GND",
-    "package": "TP",
+    "ref": "Y1",
+    "value": "40MHz CL=8pF <=10ppm",
+    "package": "XTAL3225",
     "pins": {
       "1": [
+        "X1",
+        "Net-(Y1-X1)"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "X2",
+        "XTAL_N"
+      ],
+      "4": [
         "GND",
         "GND"
       ]
     },
-    "section": 0,
+    "section": 2,
     "fit": "SIM",
-    "note": "",
-    "uid": "gge101"
-  },
-  {
-    "ref": "TP2",
-    "value": "3V3",
-    "package": "TP",
-    "pins": {
-      "1": [
-        "3V3",
-        "3V3"
-      ]
-    },
-    "section": 0,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge102"
-  },
-  {
-    "ref": "TP3",
-    "value": "BAT_SW",
-    "package": "TP",
-    "pins": {
-      "1": [
-        "BAT_SW",
-        "BAT_SW"
-      ]
-    },
-    "section": 0,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge103"
-  },
-  {
-    "ref": "TP4",
-    "value": "CHIP_EN",
-    "package": "TP",
-    "pins": {
-      "1": [
-        "CHIP_EN",
-        "CHIP_EN"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge104"
-  },
-  {
-    "ref": "TP5",
-    "value": "PSU_PG",
-    "package": "TP",
-    "pins": {
-      "1": [
-        "PSU_PG",
-        "PSU_PG"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge105"
-  },
-  {
-    "ref": "TP6",
-    "value": "LORA_BUSY",
-    "package": "TP",
-    "pins": {
-      "1": [
-        "LORA_BUSY",
-        "LORA_BUSY"
-      ]
-    },
-    "section": 1,
-    "fit": "SIM",
-    "note": "",
-    "uid": "gge106"
+    "note": "MPN a selecionar. 10pF iniciais presumem Cparasita ~3pF; verificar ESR, drive e tolerancia total.",
+    "uid": "gge37"
   }
 ]
