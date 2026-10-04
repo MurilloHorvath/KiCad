@@ -1,0 +1,317 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2160 965" style="background:white">
+<text x="50" y="30" font-family="Arial, sans-serif" font-size="22" text-anchor="start" fill="#173047">02 ESP32 e inicializacao</text>
+<text x="50" y="51" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a04b12">EC01 REV0.1 | Esquematico preliminar | Sem simulacao | DNP conforme tabela de montagem</text>
+<text x="190" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">U2</text>
+<text x="190" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">ESP32-C3FH4</text>
+<rect x="190" y="115" width="170" height="355" fill="#fffdf1" stroke="#802b20"/>
+<path d="M170 130h20" stroke="#802b20"/>
+<text x="180.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="193" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">LNA_IN</text>
+<text x="166" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BLE_CHIP</text>
+<path d="M170 150h20" stroke="#802b20"/>
+<text x="180.0" y="147" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="193" y="153" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">VDD3P3</text>
+<text x="166" y="146" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3_RF</text>
+<path d="M170 170h20" stroke="#802b20"/>
+<text x="180.0" y="167" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">3</text>
+<text x="193" y="173" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">VDD3P3</text>
+<text x="166" y="166" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3_RF</text>
+<path d="M170 190h20" stroke="#802b20"/>
+<text x="180.0" y="187" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">4</text>
+<text x="193" y="193" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO0</text>
+<text x="166" y="186" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_ADC</text>
+<path d="M170 210h20" stroke="#802b20"/>
+<text x="180.0" y="207" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">5</text>
+<text x="193" y="213" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO1</text>
+<text x="166" y="206" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">PORT_A_IO</text>
+<path d="M170 230h20" stroke="#802b20"/>
+<text x="180.0" y="227" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">6</text>
+<text x="193" y="233" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO2</text>
+<text x="166" y="226" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">LORA_NSS</text>
+<path d="M170 250h20" stroke="#802b20"/>
+<text x="180.0" y="247" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">7</text>
+<text x="193" y="253" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">CHIP_EN</text>
+<text x="166" y="246" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">CHIP_EN</text>
+<path d="M170 270h20" stroke="#802b20"/>
+<text x="180.0" y="267" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">8</text>
+<text x="193" y="273" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO3</text>
+<text x="166" y="266" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">LORA_DIO1</text>
+<path d="M170 290h20" stroke="#802b20"/>
+<text x="180.0" y="287" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">9</text>
+<text x="193" y="293" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO4</text>
+<text x="166" y="286" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">LORA_BUSY</text>
+<path d="M170 310h20" stroke="#802b20"/>
+<text x="180.0" y="307" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">10</text>
+<text x="193" y="313" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO5</text>
+<text x="166" y="306" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">SPI_MISO</text>
+<path d="M170 330h20" stroke="#802b20"/>
+<text x="180.0" y="327" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">11</text>
+<text x="193" y="333" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">VDD3P3_RTC</text>
+<text x="166" y="326" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M170 350h20" stroke="#802b20"/>
+<text x="180.0" y="347" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">12</text>
+<text x="193" y="353" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO6</text>
+<text x="166" y="346" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">SPI_SCK</text>
+<path d="M170 370h20" stroke="#802b20"/>
+<text x="180.0" y="367" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">13</text>
+<text x="193" y="373" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO7</text>
+<text x="166" y="366" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">SPI_MOSI</text>
+<path d="M170 390h20" stroke="#802b20"/>
+<text x="180.0" y="387" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">14</text>
+<text x="193" y="393" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO8</text>
+<text x="166" y="386" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">I2C_INT_SCL</text>
+<path d="M170 410h20" stroke="#802b20"/>
+<text x="180.0" y="407" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">15</text>
+<text x="193" y="413" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO9</text>
+<text x="166" y="406" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BOOT_N</text>
+<path d="M170 430h20" stroke="#802b20"/>
+<text x="180.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">16</text>
+<text x="193" y="433" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO10</text>
+<text x="166" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">I2C_INT_SDA</text>
+<path d="M170 450h20" stroke="#802b20"/>
+<text x="180.0" y="447" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">17</text>
+<text x="193" y="453" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">VDD3P3_CPU</text>
+<text x="166" y="446" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M380 130h-20" stroke="#802b20"/>
+<text x="370.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">18</text>
+<text x="357" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">VDD_SPI</text>
+<text x="384" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">VDD_SPI</text>
+<path d="M380 150h-20" stroke="#802b20"/>
+<text x="370.0" y="147" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">19</text>
+<text x="357" y="153" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">SPIHD_FLASH</text>
+<path d="M377 147l6 6 m-6 0l6 -6" stroke="#149443"/>
+<path d="M380 170h-20" stroke="#802b20"/>
+<text x="370.0" y="167" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">20</text>
+<text x="357" y="173" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">SPIWP_FLASH</text>
+<path d="M377 167l6 6 m-6 0l6 -6" stroke="#149443"/>
+<path d="M380 190h-20" stroke="#802b20"/>
+<text x="370.0" y="187" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">21</text>
+<text x="357" y="193" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">SPICS0_FLASH</text>
+<path d="M377 187l6 6 m-6 0l6 -6" stroke="#149443"/>
+<path d="M380 210h-20" stroke="#802b20"/>
+<text x="370.0" y="207" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">22</text>
+<text x="357" y="213" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">SPICLK_FLASH</text>
+<path d="M377 207l6 6 m-6 0l6 -6" stroke="#149443"/>
+<path d="M380 230h-20" stroke="#802b20"/>
+<text x="370.0" y="227" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">23</text>
+<text x="357" y="233" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">SPID_FLASH</text>
+<path d="M377 227l6 6 m-6 0l6 -6" stroke="#149443"/>
+<path d="M380 250h-20" stroke="#802b20"/>
+<text x="370.0" y="247" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">24</text>
+<text x="357" y="253" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">SPIQ_FLASH</text>
+<path d="M377 247l6 6 m-6 0l6 -6" stroke="#149443"/>
+<path d="M380 270h-20" stroke="#802b20"/>
+<text x="370.0" y="267" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">25</text>
+<text x="357" y="273" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">GPIO18_USB_DM</text>
+<text x="384" y="266" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">USB_DM_MCU</text>
+<path d="M380 290h-20" stroke="#802b20"/>
+<text x="370.0" y="287" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">26</text>
+<text x="357" y="293" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">GPIO19_USB_DP</text>
+<text x="384" y="286" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">USB_DP_MCU</text>
+<path d="M380 310h-20" stroke="#802b20"/>
+<text x="370.0" y="307" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">27</text>
+<text x="357" y="313" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">GPIO20</text>
+<text x="384" y="306" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">PORT_B_IO</text>
+<path d="M380 330h-20" stroke="#802b20"/>
+<text x="370.0" y="327" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">28</text>
+<text x="357" y="333" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">GPIO21</text>
+<text x="384" y="326" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">DISP_CS</text>
+<path d="M380 350h-20" stroke="#802b20"/>
+<text x="370.0" y="347" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">29</text>
+<text x="357" y="353" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">XTAL_N</text>
+<text x="384" y="346" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">XTAL_N</text>
+<path d="M380 370h-20" stroke="#802b20"/>
+<text x="370.0" y="367" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">30</text>
+<text x="357" y="373" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">XTAL_P</text>
+<text x="384" y="366" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">XTAL_P</text>
+<path d="M380 390h-20" stroke="#802b20"/>
+<text x="370.0" y="387" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">31</text>
+<text x="357" y="393" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">VDDA</text>
+<text x="384" y="386" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">3V3</text>
+<path d="M380 410h-20" stroke="#802b20"/>
+<text x="370.0" y="407" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">32</text>
+<text x="357" y="413" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">VDDA</text>
+<text x="384" y="406" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">3V3</text>
+<path d="M380 430h-20" stroke="#802b20"/>
+<text x="370.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">33</text>
+<text x="357" y="433" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">EP_GND</text>
+<text x="384" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="700" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">L2</text>
+<text x="700" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">24nH &gt;=500mA</text>
+<rect x="700" y="123" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M680 130h20" stroke="#802b20"/>
+<text x="690.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M760 130h-20" stroke="#802b20"/>
+<text x="750.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">3V3_RF</text>
+<text x="1210" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C6</text>
+<text x="1210" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">10uF</text>
+<path d="M1210 130h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1190 130h20" stroke="#802b20"/>
+<text x="1200.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3_RF</text>
+<path d="M1270 130h-20" stroke="#802b20"/>
+<text x="1260.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C7</text>
+<text x="1720" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100nF</text>
+<path d="M1720 130h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1700 130h20" stroke="#802b20"/>
+<text x="1710.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3_RF</text>
+<path d="M1780 130h-20" stroke="#802b20"/>
+<text x="1770.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="700" y="237" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C8</text>
+<text x="700" y="251" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100nF</text>
+<path d="M700 280h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M680 280h20" stroke="#802b20"/>
+<text x="690.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M760 280h-20" stroke="#802b20"/>
+<text x="750.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1210" y="237" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C9</text>
+<text x="1210" y="251" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100nF</text>
+<path d="M1210 280h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1190 280h20" stroke="#802b20"/>
+<text x="1200.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1270 280h-20" stroke="#802b20"/>
+<text x="1260.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="237" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C10</text>
+<text x="1720" y="251" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">1uF</text>
+<path d="M1720 280h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1700 280h20" stroke="#802b20"/>
+<text x="1710.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">VDD_SPI</text>
+<path d="M1780 280h-20" stroke="#802b20"/>
+<text x="1770.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="700" y="387" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C11</text>
+<text x="700" y="401" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">1uF</text>
+<path d="M700 430h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M680 430h20" stroke="#802b20"/>
+<text x="690.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M760 430h-20" stroke="#802b20"/>
+<text x="750.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1210" y="387" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C12</text>
+<text x="1210" y="401" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100nF</text>
+<path d="M1210 430h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1190 430h20" stroke="#802b20"/>
+<text x="1200.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1270 430h-20" stroke="#802b20"/>
+<text x="1260.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="387" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R8</text>
+<text x="1720" y="401" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">10k</text>
+<rect x="1720" y="423" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M1700 430h20" stroke="#802b20"/>
+<text x="1710.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1780 430h-20" stroke="#802b20"/>
+<text x="1770.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">CHIP_EN</text>
+<text x="190" y="537" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C13</text>
+<text x="190" y="551" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">1uF</text>
+<path d="M190 580h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M170 580h20" stroke="#802b20"/>
+<text x="180.0" y="577" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="166" y="576" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">CHIP_EN</text>
+<path d="M250 580h-20" stroke="#802b20"/>
+<text x="240.0" y="577" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="254" y="576" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="700" y="537" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">SW2</text>
+<text x="700" y="551" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">RESET SPST-NO</text>
+<rect x="700" y="565" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M680 580h20" stroke="#802b20"/>
+<text x="690.0" y="577" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="703" y="583" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">EN</text>
+<text x="676" y="576" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">CHIP_EN</text>
+<path d="M890 580h-20" stroke="#802b20"/>
+<text x="880.0" y="577" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="867" y="583" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">GND</text>
+<text x="894" y="576" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1210" y="537" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R9</text>
+<text x="1210" y="551" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">10k</text>
+<rect x="1210" y="573" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M1190 580h20" stroke="#802b20"/>
+<text x="1200.0" y="577" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="576" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1270 580h-20" stroke="#802b20"/>
+<text x="1260.0" y="577" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="576" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">BOOT_N</text>
+<text x="1720" y="537" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">SW3</text>
+<text x="1720" y="551" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">BOOT SPST-NO</text>
+<rect x="1720" y="565" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M1700 580h20" stroke="#802b20"/>
+<text x="1710.0" y="577" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1723" y="583" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GPIO9</text>
+<text x="1696" y="576" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BOOT_N</text>
+<path d="M1910 580h-20" stroke="#802b20"/>
+<text x="1900.0" y="577" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1887" y="583" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">GND</text>
+<text x="1914" y="576" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="190" y="687" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R10</text>
+<text x="190" y="701" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">10k</text>
+<rect x="190" y="723" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M170 730h20" stroke="#802b20"/>
+<text x="180.0" y="727" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="166" y="726" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M250 730h-20" stroke="#802b20"/>
+<text x="240.0" y="727" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="254" y="726" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">LORA_NSS</text>
+<text x="1210" y="687" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R11</text>
+<text x="1210" y="701" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">4.7k</text>
+<rect x="1210" y="723" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M1190 730h20" stroke="#802b20"/>
+<text x="1200.0" y="727" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="726" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1270 730h-20" stroke="#802b20"/>
+<text x="1260.0" y="727" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="726" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">I2C_INT_SDA</text>
+<text x="700" y="702" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R12</text>
+<text x="700" y="716" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">4.7k</text>
+<rect x="700" y="738" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M680 745h20" stroke="#802b20"/>
+<text x="690.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M760 745h-20" stroke="#802b20"/>
+<text x="750.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">I2C_INT_SCL</text>
+<text x="1720" y="702" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R13</text>
+<text x="1720" y="716" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">10k</text>
+<rect x="1720" y="738" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M1700 745h20" stroke="#802b20"/>
+<text x="1710.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1780 745h-20" stroke="#802b20"/>
+<text x="1770.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">DISP_CS</text>
+<text x="190" y="837" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">TP4</text>
+<text x="190" y="851" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">CHIP_EN</text>
+<rect x="190" y="865" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M170 880h20" stroke="#802b20"/>
+<text x="180.0" y="877" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="193" y="883" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">CHIP_EN</text>
+<text x="166" y="876" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">CHIP_EN</text>
+<text x="1210" y="837" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">TP5</text>
+<text x="1210" y="851" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">PSU_PG</text>
+<rect x="1210" y="865" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M1190 880h20" stroke="#802b20"/>
+<text x="1200.0" y="877" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1213" y="883" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">PSU_PG</text>
+<text x="1186" y="876" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">PSU_PG</text>
+<text x="700" y="852" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">TP6</text>
+<text x="700" y="866" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">LORA_BUSY</text>
+<rect x="700" y="880" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M680 895h20" stroke="#802b20"/>
+<text x="690.0" y="892" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="703" y="898" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">LORA_BUSY</text>
+<text x="676" y="891" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">LORA_BUSY</text>
+</svg>

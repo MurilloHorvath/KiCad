@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-04",
+  "tipo": "inventario_e_portabilidade_sem_testes_funcionais",
+  "folhas_filhas": [
+    "Alimentacao.kicad_sch",
+    "ESP32.kicad_sch",
+    "BLE_e_cristal.kicad_sch",
+    "LoRa.kicad_sch",
+    "Expansao_e_display.kicad_sch",
+    "Sensores_e_CAN.kicad_sch",
+    "USB_servico.kicad_sch"
+  ],
+  "biblioteca_relativa_ok": true,
+  "imports_python": {
+    "build_ec01.py": [
+      "collections",
+      "csv",
+      "html",
+      "json",
+      "math",
+      "pathlib",
+      "zipfile"
+    ],
+    "build_kicad.py": [
+      "collections",
+      "csv",
+      "json",
+      "math",
+      "os",
+      "pathlib",
+      "re",
+      "shutil",
+      "subprocess",
+      "uuid"
+    ]
+  },
+  "erc_existente_violacoes": 0,
+  "erc_nova_execucao": false,
+  "pdf_netlist_reexportados": false,
+  "originais_preservados": true,
+  "arquivos_originais_no_pacote": 68,
+  "nao_concluido": [
+    "relatorio_completo_de_engenharia",
+    "exportacao_pdf_netlist_da_ultima_edicao",
+    "revisao_visual_final",
+    "simulacoes",
+    "testes_fisicos",
+    "firmware",
+    "PCB"
+  ]
+}

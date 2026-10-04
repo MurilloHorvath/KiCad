@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2160 500" style="background:white">
+<text x="50" y="30" font-family="Arial, sans-serif" font-size="22" text-anchor="start" fill="#173047">03 BLE e cristal</text>
+<text x="50" y="51" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a04b12">EC01 REV0.1 | Esquematico preliminar | Sem simulacao | DNP conforme tabela de montagem</text>
+<text x="190" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">Y1</text>
+<text x="190" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">40MHz CL=8pF &lt;=10ppm</text>
+<rect x="190" y="115" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M170 130h20" stroke="#802b20"/>
+<text x="180.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="193" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">X1</text>
+<text x="166" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">XTAL_P</text>
+<path d="M170 150h20" stroke="#802b20"/>
+<text x="180.0" y="147" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="193" y="153" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GND</text>
+<text x="166" y="146" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">GND</text>
+<path d="M380 130h-20" stroke="#802b20"/>
+<text x="370.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">3</text>
+<text x="357" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">X2</text>
+<text x="384" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">XTAL_N</text>
+<path d="M380 150h-20" stroke="#802b20"/>
+<text x="370.0" y="147" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">4</text>
+<text x="357" y="153" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">GND</text>
+<text x="384" y="146" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="700" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C14</text>
+<text x="700" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">10pF C0G</text>
+<path d="M700 130h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M680 130h20" stroke="#802b20"/>
+<text x="690.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">XTAL_P</text>
+<path d="M760 130h-20" stroke="#802b20"/>
+<text x="750.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1210" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C15</text>
+<text x="1210" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">10pF C0G</text>
+<path d="M1210 130h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1190 130h20" stroke="#802b20"/>
+<text x="1200.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">XTAL_N</text>
+<path d="M1270 130h-20" stroke="#802b20"/>
+<text x="1260.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C16</text>
+<text x="1720" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">1.5pF C0G TUNE</text>
+<path d="M1720 130h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1700 130h20" stroke="#802b20"/>
+<text x="1710.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BLE_CHIP</text>
+<path d="M1780 130h-20" stroke="#802b20"/>
+<text x="1770.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="700" y="237" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">L3</text>
+<text x="700" y="251" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">2.7nH TUNE</text>
+<rect x="700" y="273" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M680 280h20" stroke="#802b20"/>
+<text x="690.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BLE_CHIP</text>
+<path d="M760 280h-20" stroke="#802b20"/>
+<text x="750.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">BLE_50R</text>
+<text x="1210" y="237" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C17</text>
+<text x="1210" y="251" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">1.5pF C0G TUNE</text>
+<path d="M1210 280h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1190 280h20" stroke="#802b20"/>
+<text x="1200.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BLE_50R</text>
+<path d="M1270 280h-20" stroke="#802b20"/>
+<text x="1260.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="237" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C18</text>
+<text x="1720" y="251" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">TUNE DNP</text>
+<text x="1720" y="262" font-family="Arial, sans-serif" font-size="8" text-anchor="start" fill="#ab571c">DNP</text>
+<path d="M1720 280h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1700 280h20" stroke="#802b20"/>
+<text x="1710.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BLE_50R</text>
+<path d="M1780 280h-20" stroke="#802b20"/>
+<text x="1770.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="190" y="252" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R14</text>
+<text x="190" y="266" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">0R TUNE</text>
+<rect x="190" y="288" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M170 295h20" stroke="#802b20"/>
+<text x="180.0" y="292" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="166" y="291" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BLE_50R</text>
+<path d="M250 295h-20" stroke="#802b20"/>
+<text x="240.0" y="292" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="254" y="291" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">BLE_ANT</text>
+<text x="700" y="387" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C19</text>
+<text x="700" y="401" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">TUNE DNP</text>
+<text x="700" y="412" font-family="Arial, sans-serif" font-size="8" text-anchor="start" fill="#ab571c">DNP</text>
+<path d="M700 430h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M680 430h20" stroke="#802b20"/>
+<text x="690.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BLE_ANT</text>
+<path d="M760 430h-20" stroke="#802b20"/>
+<text x="750.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1210" y="387" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">ANT1</text>
+<text x="1210" y="401" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">Antena impressa BLE 2.4GHz</text>
+<rect x="1210" y="415" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M1190 430h20" stroke="#802b20"/>
+<text x="1200.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1213" y="433" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">FEED</text>
+<text x="1186" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BLE_ANT</text>
+<path d="M1400 430h-20" stroke="#802b20"/>
+<text x="1390.0" y="427" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1377" y="433" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">SHORT_GND</text>
+<text x="1404" y="426" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+</svg>

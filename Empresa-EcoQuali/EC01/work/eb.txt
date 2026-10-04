@@ -1,0 +1,1173 @@
+
+
+
+    
+    
+    E22-900M22S_SX1262_LoRa_Module_
+
+
+
+
+
+
+
+
+    
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "E22-900M22S",
+  "brand": {
+    "@type": "Brand",
+    "name": " EBYTE"
+  },
+           "image": "https://www.cdebyte.com/Uploadfiles/Picture/2022-7-27/20227271437432852.jpg",
+"offers": {
+  "@type": "Offer",
+  "availability": "https://schema.org/InStock",
+  "price": "0",
+  "priceCurrency": "USD"
+},
+"keywords": "E22-900M22S,SX1262,LoRa Module",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "EBYTE",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "service@cdebyte.com",
+      "contactType": "sales",
+      "areaServed": "worldwide"
+    }
+  },
+  "description": "E22 series is the first wireless module in China to adopt Semtech's SX1262, RF chip. Its special LoRaTM modulation method increases the communication distance.",
+  
+    
+"additionalProperty":[
+{
+"@type":"PropertyValue",
+"name":"Chip solution",
+"value":"SX1262"
+},
+{
+"@type":"PropertyValue",
+"name":"Frequency",
+"value":"850~930MHz"
+},
+{
+"@type":"PropertyValue",
+"name":"Transmitter power",
+"value":"22dBm"
+},
+{
+"@type":"PropertyValue",
+"name":"Communication diatance",
+"value":"7km"
+},
+{
+"@type":"PropertyValue",
+"name":"Size",
+"value":"14 * 20 mm"
+},
+{
+"@type":"PropertyValue",
+"name":"Product weight",
+"value":"1.5±0.1g"
+}
+],
+
+  "sku": "E22-900M22S"
+}
+    
+
+
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+     
+
+
+
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "oh9snoychn");
+
+
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied", 
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        functionality_storage: "denied",
+        personalization_storage: "denied",
+        security_storage: "granted",
+        wait_for_update: 2000,
+    });
+    gtag("set", "ads_data_redaction", true);
+    gtag("set", "url_passthrough", true);
+
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YQYYBFPDGW');
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LWS7BV9K53');
+
+
+
+
+
+
+
+
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3901376,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+
+
+
+LA.init({id:"JwAqoy2mlik0sWwj",ck:"JwAqoy2mlik0sWwj"})
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-87PTK0Y2S4');
+
+
+
+
+
+
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-717553269',{'allow_enhanced_conversions': true });
+
+	
+
+
+
+
+window.addEventListener('load', function (event) {
+document.querySelectorAll("a[href*='mailto:']").forEach(function (e) {
+e.addEventListener('click', function () {
+gtag('event', 'conversion', { 'send_to': 'AW-717553269/p5iSCN7q2YMYEPX8k9YC' });
+});
+});
+});
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVN2KBT');
+
+
+
+    
+
+   
+        
+
+
+
+
+
+
+
+    
+        
+            
+                  
+            
+                
+                     
+                        
+                        
+                    
+                    
+                      
+                                                                                                            
+                          Click for Wholesale Price
+                          Shop
+                        
+
+                        
+
+                             Share
+
+                            
+                            
+                                
+                                    
+                                            
+                                                
+                                                    X.com
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    facebook
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    ins
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    youtube
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    github
+                                                
+                                            
+                                        
+                                
+                            
+                        
+                    
+                    
+                        
+                            
+                            English
+                            
+                        
+                        
+                            
+                                                                                                                    FR                                                                                                                        ES                                    
+                            
+                        
+                    
+                
+                																				Home																						Module																																																		LoRa												SPI/SOC/UART												WiFi												BLE												SLE												Zigbee												Audio Transmission												Video Transmission												UWB												4G/NB/GPRS/GNSS/CAN												Millimeter Wave Radar												Superheterodyne												Test kits																																																																																	LLCC68SX1262SX1268SX1281SX1278SX1276SX1301SX1302																												ASR6505ASR6601LR1121other																																																																																																																																																																																																																					SX13**SX12**CC11**CC13**CC25**CC26**SI44**SI24R1																												nRF24**nRF528**JN516*EFR32ASR**AX5243TLSR8359A7139																												PAN3060PAN3120CMT2300ATLSR8208AX5045STM32WLBC3603Other																																																																																																																																																																																																																					ESP8266EXCC3200ESP32W600CC3235SESP8285N08Other																																																																																																																																																																																																																					nRF528**nRF518**CC25**CC26**TLSR**CSRA64215EFR32**Other																																																																																																																																																																																																																					BS21TR5336TR5330																																																																																																																																																																																																																					CC2530CC2531CC2652RBCC2630JN5168JN5169EFR32TLSR82**																												JN5189Other																																																																																																																																																																																																																					Wireless Audio																																																																																																																																																																																																																					Wireless Video																																																																																																																																																																																																																					Ranging and Positioning Module																																																																																																																																																																																																																					GNSS																																																																																																																																																																																																																					E54																																																																																																																																																																																																																					E160																																																																																																																																																																																																																					E220EA01E49E200E108E103E70E180																												E810E83E104E78E77E73E72E52																												E32E43E31E30E07E15E06E18																												E220PE22E21E610EoRa PICC DebuggeCableESP32																												E42E35E48E53E105E80E611E290																												E51E71E28E04EWM47EWT76E291																																																																																																																																																																																																																																										Modem																																																		Serial server/Ethernet												Remote IO module												4G/NB-IoT/GNSS												CAN Bus												Signal Transmission/Synchroniz												Industrial Gateway												Communication Converter												Distributed IO												LoRaWAN												Wireless modem												Profinet																																																																																	Single serial port serverMulti-serial serverWiFi Serial Port serverEthernet module																																																																																								
+																																																																																																																													Serial IOEthernet IOWireless IO																																																																																																																																																																																																																					4G Module4G DTUGNSS Module																																																																																																																																																																																																																					CAN GatewayCAN ModuleCANFD GatewayCANFD Module																																																																																																																																																																																																																					Analog SignalSwitching Signal																																																																																																																																																																																																																					Wireless GatewaysIndustrial router																																																																																																																																																																																																																					RS485 HubCANFD HubUSB to Serial ConverterIndustrial Bus ConverterIsolated Converter																																																																																																																																																																																																																					Ethernet/RS485 IOLoRa IOProfinet IOEthercat IO																																																																																																																																																																																																																					LoRaWAN GatewayLoRaWAN Module																																																																																																																																																																																																																					LoRa wirelss modemHigh speed low latency																																																																																																																																																																																																																					Profinet Gateway																																																																																																																																																																																																																																										Industrial Computing																																																		CPU Module												SBC Module												Embedded Computers												Accessoires																																																																																	ECK 10 SeriesECK 20 SeriesECK 30 SeriesECK 40 Series																																																																																																																																																																																																																					ECB10 SeriesECB20 SeriesECB30 SeriesECB40 Series																																																																																																																																																																																																																					ECM 50 Series																																																																																																																																																																																																																					Accessoires																																																																																																																																																																																																																																										Accessories																																																		Antenna												Power module												Sensor																																																																																	170Mhz230Mhz433Mhz470Mhz490Mhz780Mhz868Mhz915Mhz																												2.4Ghz Antenna5.8Ghz1575MhzGPRS4G AntennaNBiotGPS																																																																																																																																																																																																																					AC-DC single channelAC-DC dualDC-DC non-isolatedDC-DC isolation typePower Adapter																																																																																								AC-DC single channel														AM11-12W05V 12W low power AC-DC buck power supply module																																																																																																															Modbus Nixie TubeMethane SensorPropane SensorsTemperature Humidity Transmitt																																																																																																																																																																																																																																									Product Selection																					About Us																											OEM										About Us										Honors										Team Demeanor										Social Responsibility										University-Company Partnership										Exhibitions										Company News										Join US										New Product Express																																						Technical Support																											FAQ										Contact Us										Service support										video										Free Trial										privacy policy										University Sponsorship																																						Blog																											Application Cases										Product dynamics										Industry dynamics																																			
+            
+            
+                
+            
+            
+                
+                    
+                        FRES
+                    
+                    
+                        
+                    
+                
+                
+                    
+                        
+                                Home
+                            
+                                								Module																		LoRa										SPI/SOC/UART										WiFi										BLE										SLE										Zigbee										Audio Transmission										Video Transmission										UWB										4G/NB/GPRS/GNSS/CAN										Millimeter Wave Radar										Superheterodyne										Test kits															
+                            
+                                								Modem																		Serial server/Ethernet										Remote IO module										4G/NB-IoT/GNSS										CAN Bus										Signal Transmission/Synchroniz										Industrial Gateway										Communication Converter										Distributed IO										LoRaWAN										Wireless modem										Profinet															
+                            
+                                								Industrial Computing																		CPU Module										SBC Module										Embedded Computers										Accessoires															
+                            
+                                								Accessories																		Antenna										Power module										Sensor															
+                            
+                                Product Selection
+                            
+                                								About Us																		OEM										About Us										Honors										Team Demeanor										Social Responsibility										University-Company Partnership										Exhibitions										Company News										Join US										New Product Express															
+                            
+                                								Technical Support																		FAQ										Contact Us										Service support										video										Free Trial										privacy policy										University Sponsorship															
+                            
+                                								Blog																		Application Cases										Product dynamics										Industry dynamics															
+                            
+                    
+                
+            
+        
+
+        
+
+            
+            
+                Home
+                >Module>LoRa>SX1262
+            
+
+        
+        
+    
+
+        
+        
+            
+            
+                
+            
+        
+
+    
+    
+        
+
+            
+                																													 																														 																																																																					
+
+            
+            
+                
+                    E22-900M22S Ebyte TCXO 22dBm 6500m SX1262 900Mhz New LoRa Module SMD Wireless Transceiver Module  
+                    
+                        
+                        
+                            Facebook
+                            Twitter
+                            Alibaba
+                        
+                    
+                
+                
+                    
+                        1 - 99 Pieces
+                        
+                    
+                    
+                        100-999 Pieces
+                        
+                    
+                    
+                        1000-2999 Pieces
+                        
+                    
+                    
+                        ≥3000 Pieces
+                        
+                    
+                
+                
+                    [Chip solution]：SX1262[Frequency]：850~930MHz[Transmitter power]：22dBm[Communication diatance]：7km[Size]：14 * 20 mm[Product weight]：1.5±0.1g
+
+
+                 
+                      [Introduction]：E22-900M22S is the first wireless module in China to adopt Semtech's SX1262, RF chip. Its special LoRaTM modulation method increases the communication distance.Le modèle E22-900M22S a obtenu les certifications CE, FCC et RoHS. 
+
+                   
+                
+                
+                    
+                        Send Inquiry
+                    
+                        Purchase
+                        
+                            
+
+                                    Official Store
+
+                                
+
+                                    Aliexpress
+
+                                
+
+                                    Alibaba
+
+                                
+                            
+                         
+                        
+                    
+
+                    File Downloads
+                    Compare
+                
+            
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+        
+            
+
+
+
+                Specification
+                Parameters
+                Pin Definition
+                Order Way
+                File Downloads
+                Video Tutoria
+                FAQ
+                Series Products
+                Certifications
+
+
+            
+        
+        
+            
+                                    Product Descriptio                                                                                                                Mannual                                                                                                                                            Development Testin                                                                                                                DEMO                                                                                                                                                                                PCB                                                                                                                                            Company Profile                                                                                                                Application Note                                                                                                                                                                                Ebyte Company Profile                                                                                                                                            Certification                                                                                                                【Certification】E22-900M22S ROHS                                                                                                                                                                                【Certification】E22-900M22S-CE                                                                                                                                                                                【Certification】E22-900M22S-FCC                                                                                                                        
+
+                
+
+
+                
+            
+        
+
+        
+        
+    
+
+    
+    
+    
+    
+        
+            Accessories
+            
+        
+        
+
+            
+
+         
+
+        
+
+        
+            Related Products
+            
+        
+        
+
+            
+
+          
+           
+
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+        
+            
+                
+                    
+                        
+                                
+                                    About Us
+                                    
+                                        
+                                                 Company News
+                                            
+                                                 Enterprise Honor
+                                            
+                                                 Product dynamics
+                                            
+                                                 Industry dynamics
+                                            
+                                                 Social Responsibility
+                                            
+                                    
+                                
+                            
+                                
+                                    Quick Access
+                                    
+                                        
+                                                 LoRa module
+                                            
+                                                 BLE Module
+                                            
+                                                 ZigBee module
+                                            
+                                                 Industrial Router/Gateway
+                                            
+                                                 LoRaWAN
+                                            
+                                                 Antenna power
+                                            
+                                    
+                                
+                            
+                                
+                                    Resources
+                                    
+                                        
+                                                 Technical FAQ
+                                            
+                                                 FREE TRIAL
+                                            
+                                                 Service Support
+                                            
+                                                 OEM Custom
+                                            
+                                                 Module Catalog
+                                            
+                                    
+                                
+                            
+                                
+                                    Hotspot search
+                                    
+                                        
+                                                 LoRaWAN server Tutorial
+                                            
+                                                 LoRa spread spectrum technology
+                                            
+                                                 IoT Wireless Communication Protocols
+                                            
+                                                 UART Communication
+                                            
+                                                 Low-power wireless communication
+                                            
+                                                 ModBus RTU/TCP protocol
+                                            
+                                    
+                                
+                            
+
+
+                    
+                    
+                        
+                                
+                                    
+                            
+                                
+                                    
+                            
+                                
+                                    
+                            
+                                
+                                    
+                            
+                                
+                                    
+                            
+                                
+                                    
+                            
+                    
+                
+                
+                    
+                        Technical Support：service@cdebyte.com Complaint Email：cdebyte_hidden_@ebyte.com
+                     
+                     
+                    
+                    
+                        
+                            
+                                Your Email* 
+                                
+                            
+                            
+                                Product Model* 
+                                
+                            
+                            
+                                Company name *
+                                
+                            
+                        
+                        
+                            
+                                
+                                    Country* 
+                                    
+                                
+                                
+                                    Ever Used  BeforeNever Used 
+
+                                
+                            
+                            
+                                
+                                    Needs/Questions:
+                                    
+                                
+                            
+                        
+                        
+                            
+                                For Business
+                                
+                                    
+                                        
+                                            
+                                            
+                                            Yes
+                                        
+
+                                    
+                                    
+                                        
+                                            
+                                            
+                                            NO
+                                        
+                                    
+                                
+                            
+                            
+                                
+                            
+                        
+                    
+                    
+
+                        
+                
+            
+            
+                
+                    
+                            Cookie
+                        
+                            Privacy
+                        
+                            Terms
+                        
+                            Low-power wireless communication
+                        
+                            Sitemap
+                        
+                            EBYTE Official Online Store
+                        
+                            CDSENET
+                        
+                
+                
+                    Copyright © Chengdu Ebyte Electronic Technology Co.,Ltd. All Rights Reserved. 
+                
+            
+
+
+
+
+            
+				
+				
+					
+					Send Inquiry
+					
+						
+							
+								Your email*
+								
+							
+							
+								    Product Model*
+                                
+							
+							
+								 Company name*
+                                
+							
+						
+						
+							
+								
+									 Country*
+                                    
+								
+
+								   
+                                    Ever Used  BeforeNever Used 
+
+                                
+
+								
+							
+							
+								
+									  Needs/Questions
+                                    
+								
+							
+						
+						
+							
+								For Business
+								
+									
+										
+											
+											
+											Yes
+										
+										
+									
+									
+										
+											
+											
+											no
+										
+									
+								
+							
+							
+						
+					
+				
+			
+
+
+              
+
+ 
+                                
+                                        LEAVE MESSAGE
+                                
+                                
+                                        
+                                        LEAVE MESSAGE
+                                        
+                                                
+
+                                                    
+                                                        
+                                                     
+                                                
+                                                
+                                                     
+                                                        
+                                                
+                                                
+                                                       
+                                                        
+                                                
+                                                
+                                                  
+                                                        
+                                                
+                                                
+                                                    
+                                                        
+                                                
+                                                
+                                                       
+                                                        
+                                                
+                                                
+                                        
+                                
+                        
+
+            
+
+            			
+			
+			
+				
+				
+					
+					Online Service
+				
+				
+					
+					
+					Online Service
+					
+                        
+
+                                	
+							
+								
+								Online Inquiry
+							
+						
+
+                            
+
+                                	
+							
+								
+								Service Email
+							
+						
+
+                            
+
+                                	
+							
+								
+								Complain Email
+							
+						
+
+                            
+
+                                	
+							
+								
+								Buy Online
+							
+						
+
+                            
+
+                                	
+							
+								
+								86-028-61543675
+							
+						
+
+                            
+
+
+					
+					
+						
+							
+							86-028-61543675
+
+						
+					
+				
+			
+
+
+
+
+
+        
+          
+      
+        
+    
+    
+
+    
+    
+    
+
+    
+    
+        function b() {
+            var s = $(window).scrollTop();
+            var f = $(".footer").offset().top;
+            console.log(f);
+            console.log(s);
+
+            s >= (f - w_height) ? $(".contrast-flex").addClass('pos') : $(".contrast-flex").removeClass('pos');
+        }
+        $(window).scroll(b);
+        b();
+
+
+        var supplier = new Swiper('.contrast-swiprs', {
+            autoplay: 0,
+            speed: 700,
+            spaceBetween: 20,
+            slidesPerView: 4,
+            slidesPerGroup: 1,
+            touchRatio: '0.5',
+            autoHeight: true,
+            prevButton: '.contra-prev.prev',
+            nextButton: '.contra-prev.next',
+            breakpoints: {
+                1500: {
+                    slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 2,
+                },
+                860: {
+                    slidesPerView: 1,
+                }
+            }
+        });
+        //删除当前第几个
+        $(".contrast-swiprs .contrast-item a b").click(function (e) {
+            e.preventDefault();
+            supplier.removeSlide($(this).parents(".contrast-item").index());
+        });
+
+        $(".clear-all").click(function () {
+            supplier.removeAllSlides();
+            $(".contrast-flex").fadeOut();
+        });
+        $(".module-min").slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: false,
+            speed: 800,
+            dots: false,
+            infinite: true,
+            autoplay: false,
+            asNavFor: '.module-max',
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        speed: 800,
+                        autoplay: false,
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 750,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        speed: 800,
+                        autoplay: false,
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        speed: 800,
+                        autoplay: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                }
+            ]
+        });
+
+        $(".module-max").slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000,
+            speed: 850,
+            arrows: false,
+            infinite: false,
+            autoplay: false,
+            asNavFor: '.module-min',
+        });
+
+        $(".module-video").click(function () {
+            var srcs = $(this).attr("data-src");
+            $(".banner-pop").addClass("show");
+            $(".pop-wraps .pop-video").attr("src", srcs).trigger("play");
+        });
+
+        $(".pop-wraps .pop-close").click(function () {
+            $(".banner-pop").removeClass("show");
+            $(".pop-wraps .pop-video").trigger("pause");
+        });
+        to_show_compare();
+        $(".download-in").click(function () {
+            $(".pop-inquiry").addClass("show");
+        });
+
+        $(".send-inquiry .send-close,.pop-bg").click(function () {
+            $(".pop-inquiry").removeClass("show");
+        });
+
+
+
+
+    
+
+    
+  window.okkiConfigs = window.okkiConfigs || [];
+  function okkiAdd() { okkiConfigs.push(arguments); };
+  okkiAdd("analytics", { siteId: "12569-33436", gId: "" });
+
+
+    
+
+        
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "oheyg74ovw");
+
+    
+
+
+
+
+
+
+
+  
+    
+
+
+  
+    
+
+        function to_serch() {
+            var key = $('#txt_serch').val().trim();
+            key = $.trim(key);
+            window.location.href = "/product_serch/" + key + "/1/";
+        }
+
+
+
+        function to_m_serch() {
+            var key = $('#txt_m_serch').val().trim();
+            key = $.trim(key);
+            window.location.href = "/product_serch/" + key + "/1/";
+        }
+
+
+
+        function keydownEvent() {
+
+            var e = window.event || arguments.callee.caller.arguments[0];
+
+            if (e && e.keyCode == 13) {
+
+                to_serch();
+
+            }
+
+        }
+
+        function m_keydownEvent() {
+
+            var e = window.event || arguments.callee.caller.arguments[0];
+
+            if (e && e.keyCode == 13) {
+
+                to_m_serch();
+
+            }
+
+        }
+
+
+
+        jQuery(function () {
+            $('#txt_serch').keyup(function (event) {
+
+                if (event.keyCode == "13") {
+                    to_serch();
+                    return false;
+                }
+
+            });
+
+            $('#txt_m_serch').keyup(function (event) {
+
+                if (event.keyCode == "13") {
+                    to_m_serch();
+                    return false;
+                }
+
+            });
+
+
+
+        });
+
+        $(document).on("click", ".download-in", function () {
+            $(".pop-inquiry").addClass("show");
+        });
+
+        $(document).on("click", ".send-inquiry .send-close,.pop-bg", function () {
+            $(".pop-inquiry").removeClass("show");
+        });
+    
+    
+
+    
+
+
+

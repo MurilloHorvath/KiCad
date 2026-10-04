@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-04T13:44:44",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9",
+            "violations": []
+        },
+        {
+            "path": "/Alimentacao e bateria/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a7e96649-6e47-5eec-a95f-4c8c8fd58698",
+            "violations": []
+        },
+        {
+            "path": "/ESP32 e inicializacao/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/ab4e4eff-78a6-5c07-b386-d14ef05a11ed",
+            "violations": []
+        },
+        {
+            "path": "/BLE e cristal/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448",
+            "violations": []
+        },
+        {
+            "path": "/Radio LoRa 915 MHz/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f",
+            "violations": []
+        },
+        {
+            "path": "/Expansao e display/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/b738d142-e812-5c5c-8610-2ecb8e2b6b2f",
+            "violations": []
+        },
+        {
+            "path": "/Sensores externos e CAN/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/d1ad1386-8e5f-5414-8103-7ff83466fcf0",
+            "violations": []
+        },
+        {
+            "path": "/USB de servico/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1",
+            "violations": []
+        }
+    ],
+    "source": "EC01.kicad_sch"
+}

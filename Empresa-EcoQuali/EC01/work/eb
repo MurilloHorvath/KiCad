@@ -1,0 +1,1186 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    
+    <title>E22-900M22S_SX1262_LoRa_Module_</title>
+<meta name="keywords" content="E22-900M22S,SX1262,LoRa Module">
+<meta name="description" content="E22 series is the first wireless module in China to adopt Semtech's SX1262, RF chip. Its special LoRaTM modulation method increases the communication distance.">
+<meta name="author" content="EBYTE">
+<meta name="copyright" content="EBYTE">
+<meta name="robots" content="All">
+<meta property="og:title" content="E22-900M22S_SX1262_LoRa_Module_">
+<meta property="og:description" content="E22 series is the first wireless module in China to adopt Semtech's SX1262, RF chip. Its special LoRaTM modulation method increases the communication distance.">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "E22-900M22S",
+  "brand": {
+    "@type": "Brand",
+    "name": " EBYTE"
+  },
+           "image": "https://www.cdebyte.com/Uploadfiles/Picture/2022-7-27/20227271437432852.jpg",
+"offers": {
+  "@type": "Offer",
+  "availability": "https://schema.org/InStock",
+  "price": "0",
+  "priceCurrency": "USD"
+},
+"keywords": "E22-900M22S,SX1262,LoRa Module",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "EBYTE",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "service@cdebyte.com",
+      "contactType": "sales",
+      "areaServed": "worldwide"
+    }
+  },
+  "description": "E22 series is the first wireless module in China to adopt Semtech's SX1262, RF chip. Its special LoRaTM modulation method increases the communication distance.",
+  
+    
+"additionalProperty":[
+{
+"@type":"PropertyValue",
+"name":"Chip solution",
+"value":"SX1262"
+},
+{
+"@type":"PropertyValue",
+"name":"Frequency",
+"value":"850~930MHz"
+},
+{
+"@type":"PropertyValue",
+"name":"Transmitter power",
+"value":"22dBm"
+},
+{
+"@type":"PropertyValue",
+"name":"Communication diatance",
+"value":"7km"
+},
+{
+"@type":"PropertyValue",
+"name":"Size",
+"value":"14 * 20 mm"
+},
+{
+"@type":"PropertyValue",
+"name":"Product weight",
+"value":"1.5±0.1g"
+}
+],
+
+  "sku": "E22-900M22S"
+}
+    </script>
+
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    
+
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://www.cdebyte.com/css/fancybox.css">
+    <link rel="stylesheet" type="text/css" href="https://www.cdebyte.com/css/swiper.min.css?t=310">
+    <link rel="stylesheet" type="text/css" href="https://www.cdebyte.com/css/common.css?t=310">
+    <link rel="stylesheet" type="text/css" href="https://www.cdebyte.com/css/style.css?t=310">
+    <link rel="stylesheet" type="text/css" href="https://www.cdebyte.com/css/responsive.css?t=310">
+    <script src="https://www.cdebyte.com/js/jquery-2.2.4.min.js?t=310"></script>
+
+    <!--[if lt IE 9]>
+	      <script type="text/javascript" src="https://www.cdebyte.com/js/css3-mediaqueries.js?t=310"></script>
+	    <![endif]-->
+     <script language="javascript" src="https://awt.zoosnet.net/JS/LsJS.aspx?siteid=AWT50842684&float=1&lng=en"></script>
+
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "oh9snoychn");
+</script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied", 
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        functionality_storage: "denied",
+        personalization_storage: "denied",
+        security_storage: "granted",
+        wait_for_update: 2000,
+    });
+    gtag("set", "ads_data_redaction", true);
+    gtag("set", "url_passthrough", true);
+</script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQYYBFPDGW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YQYYBFPDGW');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LWS7BV9K53"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LWS7BV9K53');
+</script>
+
+<meta name="google-site-verification" content="G-pM3EM27uHoBCfRdoKS_Z3gAzSDCU8C5c4vPoBJzVM" />
+
+<meta name="yandex-verification" content="62c9e2f9611ee46c" />
+
+<!-- Hotjar Tracking Code for https://www.cdebyte.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3901376,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"JwAqoy2mlik0sWwj",ck:"JwAqoy2mlik0sWwj"})</script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-87PTK0Y2S4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-87PTK0Y2S4');
+</script>
+
+
+
+<meta name="google-site-verification" content="13m7DpST5w2E4wpNqEnlRq84WEUCLlenC6kkZo08zzY" />
+
+
+
+<!-- Global site tag (gtag.js) - Google Ads: AW-717553269 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-717553269"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-717553269',{'allow_enhanced_conversions': true });
+</script>
+	
+
+
+
+<script>
+window.addEventListener('load', function (event) {
+document.querySelectorAll("a[href*='mailto:']").forEach(function (e) {
+e.addEventListener('click', function () {
+gtag('event', 'conversion', { 'send_to': 'AW-717553269/p5iSCN7q2YMYEPX8k9YC' });
+});
+});
+});
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVN2KBT');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+
+   
+        
+
+
+
+
+</head>
+
+<body >
+    <section class="wrapper">
+        <header class="header   ">
+            <a href="/" class="logo">
+                <img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-8-29/2022829933238723.png" alt="Chengdu Ebyte Electronic Technology Co., Ltd." /> <img class="hide" src="https://www.cdebyte.com/Uploadfiles/Picture/2022-8-29/2022829944514737.png"  alt="Chengdu Ebyte Electronic Technology Co., Ltd."/></a> 
+            <div class="header-right">
+                <div class="header-top">
+                     <div class="header-search">
+                        <input type="text" class="text" id="txt_serch" onkeydown="keydownEvent()"/>
+                        <input type="button" value="&#xe6a7;" class="sub iconfont" id="btn_serch" onclick="to_serch()" />
+                    </div>
+                    <div class="emain">
+                      
+                                                                <a href="https://www.cdebyte.com/Aboutus-NewProductExpress"  target="_blank">                                            <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-10-14/202410141155513217.png" alt="https://www.cdebyte.com/Aboutus-NewProductExpress" class="vm"/></a>
+                          <a class="tt-emain-item tt-emain-item2" href="https://www.cdebyte.com/resources-FreeTrial" target="_blank" ><span class="txt">Click for Wholesale Price</span></a>
+                          <a class="tt-emain-item tt-emain-item1" href="https://www.ebyteiot.com/" target="_blank" target="_blank"><i class="iconfont ico"><img src="/Uploadfiles/Picture/2024-4-24/20244241646546561.png" alt="BUY"  class="img1"/><img src="/Uploadfiles/Picture/2024-4-24/20244241646545196.png" alt="BUY"  class="img2"/></i><span class="txt">Shop</span></a>
+                        
+
+                        <div class="header-share">
+
+                             <a href="javascript:void(0);" class="tt-emain-item tt-emain-item1"><i class="iconfont ico"><img src="/Uploadfiles/Picture/2024-4-24/20244241441502669.png" alt="fx1"  class="img1"/><img src="/Uploadfiles/Picture/2024-4-24/20244241441501068.png" alt="fx2"  class="img2"/></i><span class="txt">Share</span></a>
+
+                            
+                            <div class="share-down">
+                                <ul class="share-down-list">
+                                    
+                                            <li>
+                                                <a href="https://x.com/EBYTE18" target="_blank">
+                                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-9-29/20249291330566042.png" alt="X.com" /><span>X.com</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="https://www.facebook.com/CDEBYTE/" target="_blank">
+                                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-9-29/20249291320413442.png" alt="facebook" /><span>facebook</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="https://www.instagram.com/cdebyte/" target="_blank">
+                                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-9-29/20249291315561454.png" alt="ins" /><span>ins</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="https://www.youtube.com/channel/UClIoI77NzA2RasepWP1n4UA" target="_blank">
+                                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-9-29/20249291319272381.png" alt="youtube" /><span>youtube</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="https://github.com/" target="_blank">
+                                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-9-29/20249291317214355.png" alt="github" /><span>github</span>
+                                                </a>
+                                            </li>
+                                        
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="edite">
+                        <div class="edite-defaut">
+                            <img src="https://www.cdebyte.com/images/en.png" alt="English" />
+                            <span>English</span>
+                            <i class="iconfont">&#xe699;</i>
+                        </div>
+                        <div class="edite-down">
+                            <ul class="edite-list">
+                                <li>                                        <a href="https://www.fr-ebyte.com"  target="_blank">                                            <img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-11-4/20221141044158882.png" alt="FR" /><span>FR</span></a>                                    </li><li>                                        <a href="https://www.es-ebyte.com/"  target="_blank">                                            <img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-9-30/20229301713429486.jpg" alt="ES" /><span>ES</span></a>                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-navs">						<ul class="navs">							<li>							<a href="/" target="_self">Home</a>							</li>							<li class="active">								<a href="/Module" target="_self">Module</a>								<div class="navs-menu">									<div class="navs-product">										<div class="navs-left">											<ul class="navs-left-list">												<li class="active"><a href="/Module-LoRa" target="_blank">LoRa<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-SPISOCUART" target="_blank">SPI/SOC/UART<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-WiFi" target="_blank">WiFi<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-BLE" target="_blank">BLE<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-SLE" target="_blank">SLE<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-Zigbee" target="_blank">Zigbee<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-AudioTransmission" target="_blank">Audio Transmission<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-VideoTransmission" target="_blank">Video Transmission<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-UWB" target="_blank">UWB<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-4G/NB/GPRS/GNSS/CAN" target="_blank">4G/NB/GPRS/GNSS/CAN<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-Millimeter-Wave-Radar" target="_blank">Millimeter Wave Radar<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-Superheterodyne" target="_blank">Superheterodyne<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Module-Testkits" target="_blank">Test kits<i class="iconfont">&#xe6b5;</i></a></li>											</ul>										</div>										<div class="navs-right">											<div class="navs-tab">												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-10-27/20211027113504720.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-LLCC68" target="_blank" >LLCC68</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231653535785.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-SX1262" target="_blank" >SX1262</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141343147276.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-SX1268" target="_blank" >SX1268</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-10-27/20211027111237006.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-SX1281" target="_blank" >SX1281</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-10-27/202110271143539532.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-SX1278" target="_blank" >SX1278</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/202214136214752.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-SX1276" target="_blank" >SX1276</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231448437585.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-SX1301" target="_blank" >SX1301</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231448437585.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-SX1302" target="_blank" >SX1302</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-6/202216115355783.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-ASR6505" target="_blank" >ASR6505</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221830407567.jpg" data-titles="" data-desc="" ><a href="/Module-LoRa-ASR6601" target="_blank" >ASR6601</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-LoRa-LR1121" target="_blank" >LR1121</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-LoRa-other" target="_blank" >other</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-LoRa-LLCC68" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-10-27/20211027113504720.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231448437585.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-SX13" target="_blank" >SX13**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-20/202112201631394383.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-SX12" target="_blank" >SX12**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211652371626.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-CC11" target="_blank" >CC11**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/20211223105864330.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-CC13" target="_blank" >CC13**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/20221495488454.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-CC25" target="_blank" >CC25**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-3-12/2024312187251286.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-CC26" target="_blank" >CC26**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231657443589.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-SI44" target="_blank" >SI44**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231534592140.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-SI24R1" target="_blank" >SI24R1</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211530188666.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-nRF24" target="_blank" >nRF24**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231317467115.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-nRF528" target="_blank" >nRF528**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231356447791.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-JN516" target="_blank" >JN516*</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231713517123.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-EFR32" target="_blank" >EFR32</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-6/202216115355783.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-ASR" target="_blank" >ASR**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211320318766.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-AX5243" target="_blank" >AX5243</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211612151786.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-TLSR8359" target="_blank" >TLSR8359</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/20211223108166310.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-A7139" target="_blank" >A7139</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-7-17/20247171016406809.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-PAN3060" target="_blank" >PAN3060</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-PAN3120" target="_blank" >PAN3120</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-8/202218178445551.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-CMT2300A" target="_blank" >CMT2300A</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-TLSR8208" target="_blank" >TLSR8208</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-AX5045" target="_blank" >AX5045</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-STM32WL" target="_blank" >STM32WL</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-BC3603" target="_blank" >BC3603</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211539543006.jpg" data-titles="" data-desc="" ><a href="/Module-SPISOCUART-Other" target="_blank" >Other</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-SPISOCUART-SX13" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231448437585.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141345299075.jpg" data-titles="" data-desc="" ><a href="/Module-WiFi-ESP8266" target="_blank" >ESP8266</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141111214312.jpg" data-titles="" data-desc="" ><a href="/Module-WiFi-EXCC3200" target="_blank" >EXCC3200</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-11/2022111101556230.jpg" data-titles="" data-desc="" ><a href="/Module-WiFi-ESP32" target="_blank" >ESP32</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-13/2022113951121633.jpg" data-titles="" data-desc="" ><a href="/Module-WiFi-W600" target="_blank" >W600</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141138267598.jpg" data-titles="" data-desc="" ><a href="/Module-WiFi-CC3235S" target="_blank" >CC3235S</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/202214131856160.jpg" data-titles="" data-desc="" ><a href="/Module-WiFi-ESP8285N08" target="_blank" >ESP8285N08</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141111214312.jpg" data-titles="" data-desc="" ><a href="/Module-WiFi-Other" target="_blank" >Other</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-WiFi-ESP8266" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141345299075.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211718512066.jpg" data-titles="" data-desc="" ><a href="/Module-BLE-nRF528" target="_blank" >nRF528**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231141273806.jpg" data-titles="" data-desc="" ><a href="/Module-BLE-nRF518" target="_blank" >nRF518**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/202214132461356.jpg" data-titles="" data-desc="" ><a href="/Module-BLE-CC25" target="_blank" >CC25**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/202214143448319.jpg" data-titles="" data-desc="" ><a href="/Module-BLE-CC26" target="_blank" >CC26**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-10-18/202110181531118971.png" data-titles="" data-desc="" ><a href="/Module-BLE-TLSR" target="_blank" >TLSR**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141331394237.jpg" data-titles="" data-desc="" ><a href="/Module-BLE-CSRA64215" target="_blank" >CSRA64215</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231442551487.png" data-titles="" data-desc="" ><a href="/Module-BLE-EFR32" target="_blank" >EFR32**</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-8/202698133445488.jpg" data-titles="" data-desc="" ><a href="/Module-BLE-Other" target="_blank" >Other</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-BLE-nRF528" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211718512066.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-10-11/2024101114754072.jpg" data-titles="" data-desc="" ><a href="/Module-SLE-BS21" target="_blank" >BS21</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-1-12/2026112149173944.jpg" data-titles="" data-desc="" ><a href="/Module-SLE-TR5336" target="_blank" >TR5336</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-18/2026918945588457.png" data-titles="" data-desc="" ><a href="/Module-SLE-TR5330" target="_blank" >TR5330</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-SLE-BS21" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-10-11/2024101114754072.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231645496637.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-CC2530" target="_blank" >CC2530</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141543328849.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-CC2531" target="_blank" >CC2531</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/20211223111488979.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-CC2652RB" target="_blank" >CC2652RB</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/20211223116466643.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-CC2630" target="_blank" >CC2630</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/20211223146496143.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-JN5168" target="_blank" >JN5168</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231356447791.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-JN5169" target="_blank" >JN5169</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141358276409.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-EFR32" target="_blank" >EFR32</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141330419170.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-TLSR82" target="_blank" >TLSR82**</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231721159295.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-JN5189" target="_blank" >JN5189</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-12-26/202412261743399845.jpg" data-titles="" data-desc="" ><a href="/Module-Zigbee-Other" target="_blank" >Other</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-Zigbee-CC2530" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-23/202112231645496637.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-9-9/2025991420396803.jpg" data-titles="" data-desc="" ><a href="/Module-AudioModule-WirelessAudio" target="_blank" >Wireless Audio</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-AudioModule-WirelessAudio" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2025-9-9/2025991420396803.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-3-13/2026313100428355.jpg" data-titles="" data-desc="" ><a href="/Module-VideoTransmission-WirelessVideo" target="_blank" >Wireless Video</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-VideoTransmission-WirelessVideo" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2026-3-13/2026313100428355.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-9-10/2025910114037315.jpg" data-titles="" data-desc="" ><a href="/Module-UWB-Ranging-And-Positioning-Module" target="_blank" >Ranging and Positioning Module</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-UWB-Ranging-And-Positioning-Module" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2025-9-10/2025910114037315.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-10/2022110117272422.jpg" data-titles="" data-desc="" ><a href="/Module-4G/NB/GPRS/GNSS/CAN-GNSS" target="_blank" >GNSS</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-4G/NB/GPRS/GNSS/CAN-GNSS" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-10/2022110117272422.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-2-17/20252171321565956.jpg" data-titles="" data-desc="" ><a href="/Module-Millimeter-Wave-Radar-E54" target="_blank" >E54</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-Millimeter-Wave-Radar-E54" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2025-2-17/20252171321565956.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-11-24/20251124131381104.jpg" data-titles="" data-desc="" ><a href="/Module-Superheterodyne-E160" target="_blank" >E160</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-Superheterodyne-E160" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2025-11-24/20251124131381104.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-6/2022161137584650.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E220" target="_blank" >E220</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141424158379.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-EA01" target="_blank" >EA01</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221941124830.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E49" target="_blank" >E49</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E200" target="_blank" >E200</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141345378526.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E108" target="_blank" >E108</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141421171570.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E103" target="_blank" >E103</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221950485049.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E70" target="_blank" >E70</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221951565880.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E180" target="_blank" >E180</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221946355491.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E810" target="_blank" >E810</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E83" target="_blank" >E83</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-13/20221131019567212.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E104" target="_blank" >E104</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141416527744.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E78" target="_blank" >E78</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E77" target="_blank" >E77</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221949448898.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E73" target="_blank" >E73</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E72" target="_blank" >E72</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E52" target="_blank" >E52</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/2022122195089087.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E32" target="_blank" >E32</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221951353200.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E43" target="_blank" >E43</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141426592133.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E31" target="_blank" >E31</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141426592133.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E30" target="_blank" >E30</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E07" target="_blank" >E07</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221946167577.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E15" target="_blank" >E15</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221944504980.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E06" target="_blank" >E06</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141345378526.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E18" target="_blank" >E18</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E220P" target="_blank" >E220P</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-11/20221111026288274.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-E22" target="_blank" >E22</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E21" target="_blank" >E21</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E610" target="_blank" >E610</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-EoRaPI" target="_blank" >EoRa PI</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221953282093.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-Debugge" target="_blank" >CC Debugge</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221944495540.jpg" data-titles="" data-desc="" ><a href="/Module-Testkits-Cable" target="_blank" >Cable</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-ESP32" target="_blank" >ESP32</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E42" target="_blank" >E42</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E35" target="_blank" >E35</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E48" target="_blank" >E48</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E53" target="_blank" >E53</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E105" target="_blank" >E105</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E80" target="_blank" >E80</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E611" target="_blank" >E611</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E290" target="_blank" >E290</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E51" target="_blank" >E51</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E71" target="_blank" >E71</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E28" target="_blank" >E28</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E04" target="_blank" >E04</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-EWM47" target="_blank" >EWM47</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-EWT76" target="_blank" >EWT76</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Module-Testkits-E291" target="_blank" >E291</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Module-Testkits-E220" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-6/2022161137584650.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>											</div>										</div>									</div>								</div>							</li>							<li>								<a href="/Modem" target="_self">Modem</a>								<div class="navs-menu">									<div class="navs-product">										<div class="navs-left">											<ul class="navs-left-list">												<li class="active"><a href="/Modem-Serialserver" target="_blank">Serial server/Ethernet<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-RemoteIOmodule" target="_blank">Remote IO module<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-4GNBIoTGNSS" target="_blank">4G/NB-IoT/GNSS<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-CANBus" target="_blank">CAN Bus<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-SignalTransmission/Synchronization" target="_blank">Signal Transmission/Synchroniz<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-IndustrialGateway" target="_blank">Industrial Gateway<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-CommunicationConverter" target="_blank">Communication Converter<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-DistributedIO" target="_blank">Distributed IO<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-LoRaWAN" target="_blank">LoRaWAN<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-Wirelessmodem" target="_blank">Wireless modem<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/Modem-Profinet" target="_blank">Profinet<i class="iconfont">&#xe6b5;</i></a></li>											</ul>										</div>										<div class="navs-right">											<div class="navs-tab">												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-11-5/2021115171011439.jpg" data-titles="
+" data-desc="" ><a href="/Modem-Serialserver-Singleserialserver" target="_blank" >Single serial port server</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-11-21/202211211147468073.jpg" data-titles="" data-desc="" ><a href="/Modem-Serialserver-Multiserialserver" target="_blank" >Multi-serial server</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-5-30/20225301313406132.jpg" data-titles="" data-desc="" ><a href="/Modem-Serialserver-WiFiSerialPortserver" target="_blank" >WiFi Serial Port server</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-5-27/2026527131681336.png" data-titles="" data-desc="" ><a href="/Modem-Serialserver-Ethernetmodule" target="_blank" >Ethernet module</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-Serialserver-Singleserialserver" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-11-5/2021115171011439.jpg" alt="
+"/></figure>													<div class="technology-text">														<strong>
+</strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221752514956.jpg" data-titles="" data-desc="" ><a href="/Modem-RemoteIOmodule-SerialIO" target="_blank" >Serial IO</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-18/20269181133318023.jpg" data-titles="" data-desc="" ><a href="/Modem-RemoteIOmodule-EthernetIO" target="_blank" >Ethernet IO</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-5-27/2025527174956448.jpg" data-titles="" data-desc="" ><a href="/Modem-RemoteIOmodule-WirelessIO" target="_blank" >Wireless IO</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-RemoteIOmodule-SerialIO" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-22/20221221752514956.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-4-29/2026429141225235.jpg" data-titles="" data-desc="" ><a href="/Modem-4GNBIoTGPS-4GModule" target="_blank" >4G Module</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2023-11-26/20231126102422471.jpg" data-titles="" data-desc="" ><a href="/Modem-4GNBIoTGPS-4GDTU" target="_blank" >4G DTU</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-11-12/20241112132776054.jpg" data-titles="" data-desc="" ><a href="/Modem-4GNBIoTGPS-GNSSModule" target="_blank" >GNSS Module</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-4GNBIoTGPS-4GModule" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2026-4-29/2026429141225235.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-8-5/2026851630176784.jpg" data-titles="" data-desc="" ><a href="/Modem-CANBus-CANGateway" target="_blank" >CAN Gateway</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-1-4/2022141354385463.jpg" data-titles="" data-desc="" ><a href="/Modem-CANBus-CANModule" target="_blank" >CAN Module</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-8-7/2026871324492544.jpg" data-titles="" data-desc="" ><a href="/Modem-CANBus-CANFDGateway" target="_blank" >CANFD Gateway</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-3-2/202632115387507.jpg" data-titles="" data-desc="" ><a href="/Modem-CANBus-CANFDModule" target="_blank" >CANFD Module</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-CANBus-CANGateway" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2026-8-5/2026851630176784.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-6-11/2025611113318198.jpg" data-titles="" data-desc="" ><a href="/Modem-SignalTransmission/Synchronization-AnalogSignal" target="_blank" >Analog Signal</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-3-20/2024320941313701.jpg" data-titles="" data-desc="" ><a href="/Modem-SignalTransmission/Synchronization-SwitchingSignal" target="_blank" >Switching Signal</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-SignalTransmission/Synchronization-AnalogSignal" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2025-6-11/2025611113318198.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-11-5/202111515061369.jpg" data-titles="" data-desc="" ><a href="/Modem-IndustrialGateway-WirelessGateways" target="_blank" >Wireless Gateways</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2023-4-14/2023414948308577.jpg" data-titles="" data-desc="" ><a href="/Modem-IndustrialGateway-Industrialrouter" target="_blank" >Industrial router</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-IndustrialGateway-WirelessGateways" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-11-5/202111515061369.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-16/20269161119499054.jpg" data-titles="" data-desc="" ><a href="/Modem-CommunicationConverter-RS485Hub" target="_blank" >RS485 Hub</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-3-3/202633942403771.jpg" data-titles="" data-desc="" ><a href="/Modem-CommunicationConverter-CANFDHub" target="_blank" >CANFD Hub</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-16/20269161313109405.jpg" data-titles="" data-desc="" ><a href="/Modem-CommunicationConverter-USBtoSerialConverter" target="_blank" >USB to Serial Converter</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-16/20269161342457891.jpg" data-titles="" data-desc="" ><a href="/Modem-CommunicationConverter-IndustrialBusConverter" target="_blank" >Industrial Bus Converter</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-5-24/20225241613127362.jpg" data-titles="" data-desc="" ><a href="/Modem-CommunicationConverter-IsolatedConverter" target="_blank" >Isolated Converter</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-CommunicationConverter-RS485Hub" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-16/20269161119499054.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2023-12-27/202312271737445203.jpg" data-titles="" data-desc="" ><a href="/Modem-DistributedIO-Ethernet/RS485IO" target="_blank" >Ethernet/RS485 IO</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Modem-DistributedIO-LoRaIO" target="_blank" >LoRa IO</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Modem-DistributedIO-ProfinetIO" target="_blank" >Profinet IO</a></p><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/Modem-DistributedIO-EthercatIO" target="_blank" >Ethercat IO</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-DistributedIO-Ethernet/RS485IO" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2023-12-27/202312271737445203.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-3/2026931733248820.jpg" data-titles="" data-desc="" ><a href="/Modem-LoRaWAN-LoRaWANGateway" target="_blank" >LoRaWAN Gateway</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-10-27/202110271155585093.jpg" data-titles="" data-desc="" ><a href="/Modem-LoRaWAN-LoRaWANModule" target="_blank" >LoRaWAN Module</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-LoRaWAN-LoRaWANGateway" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2026-9-3/2026931733248820.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-11-5/20211151339549341.jpg" data-titles="" data-desc="" ><a href="/Modem-Wirelessmodem-LoRawirelssmodem" target="_blank" >LoRa wirelss modem</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-6-4/2026641441204628.jpg" data-titles="" data-desc="" ><a href="/Modem-Wirelessmodem-Highspeedlowlatency" target="_blank" >High speed low latency</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-Wirelessmodem-LoRawirelssmodem" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-11-5/20211151339549341.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-7-16/20257161026304136.jpg" data-titles="" data-desc="" ><a href="/Modem-Profinet-ProfinetGateway" target="_blank" >Profinet Gateway</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/Modem-Profinet-ProfinetGateway" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2025-7-16/20257161026304136.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>											</div>										</div>									</div>								</div>							</li>							<li>								<a href="/IndustrialComputing" target="_self">Industrial Computing</a>								<div class="navs-menu">									<div class="navs-product">										<div class="navs-left">											<ul class="navs-left-list">												<li class="active"><a href="/IndustrialComputing-CPUModule" target="_blank">CPU Module<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/IndustrialComputing-SBCModule" target="_blank">SBC Module<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/IndustrialComputing-EmbeddedComputers" target="_blank">Embedded Computers<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/IndustrialComputing-Accessoires" target="_blank">Accessoires<i class="iconfont">&#xe6b5;</i></a></li>											</ul>										</div>										<div class="navs-right">											<div class="navs-tab">												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-8-5/2024851359189620.jpg" data-titles="" data-desc="" ><a href="/IndustrialComputing-CPUModule-ECK10Series" target="_blank" >ECK 10 Series</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-10-12/202410121522467973.jpg" data-titles="" data-desc="" ><a href="/IndustrialComputing-CPUModule-ECK20Series" target="_blank" >ECK 20 Series</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-11-27/20241127135281047.jpg" data-titles="" data-desc="" ><a href="/IndustrialComputing-CPUModule-ECK30Series" target="_blank" >ECK 30 Series</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-4-8/2026481329161905.png" data-titles="" data-desc="" ><a href="/IndustrialComputing-CPUModule-ECK40Series" target="_blank" >ECK 40 Series</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/IndustrialComputing-CPUModule-ECK10Series" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-8-5/2024851359189620.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2024-12-6/20241261611415255.jpg" data-titles="" data-desc="" ><a href="/IndustrialComputing-SBCModule-ECB10Series" target="_blank" >ECB10 Series</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-8-21/20258211738255698.jpg" data-titles="" data-desc="" ><a href="/IndustrialComputing-SBCModule-ECB20Series" target="_blank" >ECB20 Series</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-2-11/20262111717205523.jpg" data-titles="" data-desc="" ><a href="/IndustrialComputing-SBCModule-ECB30Series" target="_blank" >ECB30 Series</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-4-8/2026481622492368.png" data-titles="" data-desc="" ><a href="/IndustrialComputing-SBCModule-ECB40Series" target="_blank" >ECB40 Series</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/IndustrialComputing-SBCModule-ECB10Series" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-12-6/20241261611415255.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2026-7-3/2026731347168782.jpg" data-titles="" data-desc="" ><a href="/IndustrialComputing-EmbeddedComputers-ECM50Series" target="_blank" >ECM 50 Series</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/IndustrialComputing-EmbeddedComputers-ECM50Series" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2026-7-3/2026731347168782.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-10-20/202510201635124705.jpg" data-titles="" data-desc="" ><a href="/IndustrialComputing-Accessoires" target="_blank" >Accessoires</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/IndustrialComputing-Accessoires" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2025-10-20/202510201635124705.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>											</div>										</div>									</div>								</div>							</li>							<li>								<a href="/AntennaPower" target="_self">Accessories</a>								<div class="navs-menu">									<div class="navs-product">										<div class="navs-left">											<ul class="navs-left-list">												<li class="active"><a href="/AntennaPower-Antenna" target="_blank">Antenna<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/AntennaPower-Power" target="_blank">Power module<i class="iconfont">&#xe6b5;</i></a></li>												<li ><a href="/AntennaPower-Sensor" target="_blank">Sensor<i class="iconfont">&#xe6b5;</i></a></li>											</ul>										</div>										<div class="navs-right">											<div class="navs-tab">												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-20/202112201739284531.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-170Mhz" target="_blank" >170Mhz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2023-4-17/20234171720585075.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-230Mhz" target="_blank" >230Mhz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-11-21/20251121177421938.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-433Mhz" target="_blank" >433Mhz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-11-7/20251171438239714.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-470Mhz" target="_blank" >470Mhz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/20211221928558261.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-490Mhz" target="_blank" >490Mhz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/2021122193177794.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-780Mhz" target="_blank" >780Mhz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-11-7/2025117151227253.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-868Mhz" target="_blank" >868Mhz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-11-8/202511816311899.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-915Mhz" target="_blank" >915Mhz</a></p>														</div>														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2025-11-8/20251182052513728.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-24Ghz" target="_blank" >2.4Ghz Antenna</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-20/202112201736521043.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-5Ghz" target="_blank" >5.8Ghz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211012482238.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-1575Mhz" target="_blank" >1575Mhz</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211029397318.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-GPRS" target="_blank" >GPRS</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2023-7-17/2023717175496596.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-4G" target="_blank" >4G Antenna</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211023462163.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-NBiot" target="_blank" >NBiot</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211012498022.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Antenna-GPS" target="_blank" >GPS</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/AntennaPower-Antenna-170Mhz" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-20/202112201739284531.jpg" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211359267777.jpg" data-titles="AC-DC single channel" data-desc="AM11-12W05V 12W low power AC-DC buck power supply module" ><a href="/AntennaPower-Power-ACDCsinglechannel" target="_blank" >AC-DC single channel</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211434242158.jpg" data-titles="AM22-12W1205V" data-desc="AM22-12W1205V AC-DC dual-output buck power supply module" ><a href="/AntennaPower-Power-ACDCdual" target="_blank" >AC-DC dual</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211447316192.jpg" data-titles="DC-DC non-isolated" data-desc="DM21-7W050H DC-DC step-down power supply module" ><a href="/AntennaPower-Power-DC-DCnonisolated" target="_blank" >DC-DC non-isolated</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/20211221151102952.jpg" data-titles="DM41-10W2405B1" data-desc="DC-DC isolated buck power supply module" ><a href="/AntennaPower-Power-DCDCisolation" target="_blank" >DC-DC isolation type</a></p><p data-src="https://www.cdebyte.com/img/1.jpg" data-titles="" data-desc="" ><a href="/AntennaPower-Power-PowerAdapter" target="_blank" >Power Adapter</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/AntennaPower-Power-ACDCsinglechannel" target="_blank">													<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2021-12-21/202112211359267777.jpg" alt="AC-DC single channel"/></figure>													<div class="technology-text">														<strong>AC-DC single channel</strong>														<p>AM11-12W05V 12W low power AC-DC buck power supply module</p>													</div>												</a>											</div>											</div>													</div>												</div>												<div class="product-menu">													<div class="product-menu-wrap">														<div class="product-menu-list"><p data-src="https://www.cdebyte.com/" data-titles="" data-desc="" ><a href="/AntennaPower-Sensor-ModbusNixieTube" target="_blank" >Modbus Nixie Tube</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-2-11/20222111515351655.jpg" data-titles="Methane Sensor" data-desc="" ><a href="/AntennaPower-MethaneSensor" target="_blank" >Methane Sensor</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-2-11/20222111515357683.jpg" data-titles="Propane Sensors" data-desc="" ><a href="/AntennaPower-PropaneSensors" target="_blank" >Propane Sensors</a></p><p data-src="https://www.cdebyte.com/Uploadfiles/Picture/2022-2-11/20222111515352616.jpg" data-titles="Temperature Humidity Transmitter" data-desc="" ><a href="/AntennaPower-TT" target="_blank" >Temperature Humidity Transmitt</a></p>														</div>											<div class="technology-imgs-list">											<div class="technology-info">												<a href="/AntennaPower-Sensor-ModbusNixieTube" target="_blank">													<figure><img src="https://www.cdebyte.com/" alt=""/></figure>													<div class="technology-text">														<strong></strong>														<p></p>													</div>												</a>											</div>											</div>													</div>												</div>											</div>										</div>									</div>								</div>							</li>							<li>							<a href="/Product-Selection" target="_self">Product Selection</a>							</li>							<li class="min-menus">							<a href="/AboutUs-Aboutus" target="_self">About Us</a>								<div class="navs-menu-down">									<ol class="navs-menuli">										<li><a href="/Ebyte-OEM-Services" target="_self">OEM</a></li>										<li><a href="/AboutUs-Aboutus" target="_self">About Us</a></li>										<li><a href="/Aboutus-Honors" target="_self">Honors</a></li>										<li><a href="/Aboutus-TeamDemeanor" target="_self">Team Demeanor</a></li>										<li><a href="/Aboutus-SocialResponsibility" target="_self">Social Responsibility</a></li>										<li><a href="/resources-University-Company-Partnership" target="_self">University-Company Partnership</a></li>										<li><a href="/Aboutus-Exhibitions" target="_self">Exhibitions</a></li>										<li><a href="/Aboutus-CompanyNews" target="_self">Company News</a></li>										<li><a href="/Aboutus-JoinUs" target="_self">Join US</a></li>										<li><a href="/Aboutus-NewProductExpress" target="_self">New Product Express</a></li>									</ol>								</div>							</li>							<li class="min-menus">							<a href="/ContactUs" target="_self">Technical Support</a>								<div class="navs-menu-down">									<ol class="navs-menuli">										<li><a href="/Resources-FAQ-ALL" target="_self">FAQ</a></li>										<li><a href="/Contactus" target="_self">Contact Us</a></li>										<li><a href="/resources-Service" target="_self">Service support</a></li>										<li><a href="/Resources-Video" target="_self">video</a></li>										<li><a href="/resources-FreeTrial" target="_self">Free Trial</a></li>										<li><a href="/resources-PrivacyPolicy" target="_self">privacy policy</a></li>										<li><a href="/University-Sponsorship" target="_self">University Sponsorship</a></li>									</ol>								</div>							</li>							<li class="min-menus">							<a href="/blog" target="_self">Blog</a>								<div class="navs-menu-down">									<ol class="navs-menuli">										<li><a href="/blog-IoTcase" target="_self">Application Cases</a></li>										<li><a href="/blog-ProductsNews" target="_self">Product dynamics</a></li>										<li><a href="/blog-IndustryNews" target="_self">Industry dynamics</a></li>									</ol>								</div>							</li>						</ul>					</div>
+            </div>
+            <div class="menubtn">
+                <span></span>
+            </div>
+            <div class="menu-down">
+                <section class="edition clearfix">
+                    <div class="edites clearfix">
+                        <a  class="now" href="https://www.fr-ebyte.com">FR</a><a href="https://www.es-ebyte.com/" >ES</a>
+                    </div>
+                    <div class="search clearfix">
+                        <input type="text" placeholder="关键词检索" id="to_m_serch" onkeydown="m_keydownEvent()"><input type="button" class="iconfont" value="&#xe6a7;"  onclick="to_m_serch()">
+                    </div>
+                </section>
+                <section class="mobile-menu">
+                    <ul class="menu-list">
+                        
+                                <li><a href="/">Home</a></li>
+                            
+                                <li>								<a href="javascript:;">Module</a>								<ol class="iphone-menu clearfix">										<li><a href="/Module-LoRa" target="_self">LoRa</a></li>										<li><a href="/Module-SPISOCUART" target="_self">SPI/SOC/UART</a></li>										<li><a href="/Module-WiFi" target="_self">WiFi</a></li>										<li><a href="/Module-BLE" target="_self">BLE</a></li>										<li><a href="/Module-SLE" target="_self">SLE</a></li>										<li><a href="/Module-Zigbee" target="_self">Zigbee</a></li>										<li><a href="/Module-AudioTransmission" target="_self">Audio Transmission</a></li>										<li><a href="/Module-VideoTransmission" target="_self">Video Transmission</a></li>										<li><a href="/Module-UWB" target="_self">UWB</a></li>										<li><a href="/Module-4G/NB/GPRS/GNSS/CAN" target="_self">4G/NB/GPRS/GNSS/CAN</a></li>										<li><a href="/Module-Millimeter-Wave-Radar" target="_self">Millimeter Wave Radar</a></li>										<li><a href="/Module-Superheterodyne" target="_self">Superheterodyne</a></li>										<li><a href="/Module-Testkits" target="_self">Test kits</a></li>								</ol>							</li>
+                            
+                                <li>								<a href="javascript:;">Modem</a>								<ol class="iphone-menu clearfix">										<li><a href="/Modem-Serialserver" target="_self">Serial server/Ethernet</a></li>										<li><a href="/Modem-RemoteIOmodule" target="_self">Remote IO module</a></li>										<li><a href="/Modem-4GNBIoTGNSS" target="_self">4G/NB-IoT/GNSS</a></li>										<li><a href="/Modem-CANBus" target="_self">CAN Bus</a></li>										<li><a href="/Modem-SignalTransmission/Synchronization" target="_self">Signal Transmission/Synchroniz</a></li>										<li><a href="/Modem-IndustrialGateway" target="_self">Industrial Gateway</a></li>										<li><a href="/Modem-CommunicationConverter" target="_self">Communication Converter</a></li>										<li><a href="/Modem-DistributedIO" target="_self">Distributed IO</a></li>										<li><a href="/Modem-LoRaWAN" target="_self">LoRaWAN</a></li>										<li><a href="/Modem-Wirelessmodem" target="_self">Wireless modem</a></li>										<li><a href="/Modem-Profinet" target="_self">Profinet</a></li>								</ol>							</li>
+                            
+                                <li>								<a href="javascript:;">Industrial Computing</a>								<ol class="iphone-menu clearfix">										<li><a href="/IndustrialComputing-CPUModule" target="_self">CPU Module</a></li>										<li><a href="/IndustrialComputing-SBCModule" target="_self">SBC Module</a></li>										<li><a href="/IndustrialComputing-EmbeddedComputers" target="_self">Embedded Computers</a></li>										<li><a href="/IndustrialComputing-Accessoires" target="_self">Accessoires</a></li>								</ol>							</li>
+                            
+                                <li>								<a href="javascript:;">Accessories</a>								<ol class="iphone-menu clearfix">										<li><a href="/AntennaPower-Antenna" target="_self">Antenna</a></li>										<li><a href="/AntennaPower-Power" target="_self">Power module</a></li>										<li><a href="/AntennaPower-Sensor" target="_self">Sensor</a></li>								</ol>							</li>
+                            
+                                <li><a href="/Product-Selection">Product Selection</a></li>
+                            
+                                <li>								<a href="javascript:;">About Us</a>								<ol class="iphone-menu clearfix">										<li><a href="/Ebyte-OEM-Services" target="_self">OEM</a></li>										<li><a href="/AboutUs-Aboutus" target="_self">About Us</a></li>										<li><a href="/Aboutus-Honors" target="_self">Honors</a></li>										<li><a href="/Aboutus-TeamDemeanor" target="_self">Team Demeanor</a></li>										<li><a href="/Aboutus-SocialResponsibility" target="_self">Social Responsibility</a></li>										<li><a href="/resources-University-Company-Partnership" target="_self">University-Company Partnership</a></li>										<li><a href="/Aboutus-Exhibitions" target="_self">Exhibitions</a></li>										<li><a href="/Aboutus-CompanyNews" target="_self">Company News</a></li>										<li><a href="/Aboutus-JoinUs" target="_self">Join US</a></li>										<li><a href="/Aboutus-NewProductExpress" target="_self">New Product Express</a></li>								</ol>							</li>
+                            
+                                <li>								<a href="javascript:;">Technical Support</a>								<ol class="iphone-menu clearfix">										<li><a href="/Resources-FAQ-ALL" target="_self">FAQ</a></li>										<li><a href="/Contactus" target="_self">Contact Us</a></li>										<li><a href="/resources-Service" target="_self">Service support</a></li>										<li><a href="/Resources-Video" target="_self">video</a></li>										<li><a href="/resources-FreeTrial" target="_self">Free Trial</a></li>										<li><a href="/resources-PrivacyPolicy" target="_self">privacy policy</a></li>										<li><a href="/University-Sponsorship" target="_self">University Sponsorship</a></li>								</ol>							</li>
+                            
+                                <li>								<a href="javascript:;">Blog</a>								<ol class="iphone-menu clearfix">										<li><a href="/blog-IoTcase" target="_self">Application Cases</a></li>										<li><a href="/blog-ProductsNews" target="_self">Product dynamics</a></li>										<li><a href="/blog-IndustryNews" target="_self">Industry dynamics</a></li>								</ol>							</li>
+                            
+                    </ul>
+                </section>
+            </div>
+        </header>
+
+        
+
+            
+            <div class="posite-b">
+                <a href="/">Home</a>
+                <b>></b><a href="/Module"  target="_self">Module</a><b>></b><a href="/Module-LoRa" target="_self">LoRa</a><b>></b><a href="/Module-LoRa-SX1262" target="_self">SX1262</a>
+            </div>
+
+        
+        
+    <div class="banner-pop">
+
+        <div class="pop-bg"></div>
+        <div class="pop-wraps">
+            <span class="pop-close iconfont">&#xe602;</span>
+            <video class="pop-video" poster="img/3.jpg" x5-video-player-type="h5" webkit-playsinline playsinline playsinline="true" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="none" controls>
+                <source src="images/10M.mp4">
+            </video>
+        </div>
+
+    </div>
+    <section class="module-view">
+        
+<div class="module-news">
+            <div class="module-banner-in">
+                						<div class="module-max clearfix">							<div class="module-max-item">								<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-7-25/20227251148542018.jpg" alt="E22-900M22S SX1262 loRa module"/></figure>								<div class="module-scale iconfont"><a class="iconfont" href="https://www.cdebyte.com/Uploadfiles/Picture/2022-7-25/20227251148542018.jpg" data-fancybox>&#xe69c;</a> </div>							</div>							<div class="module-max-item">								<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-7-25/20227251148541960.jpg" alt="E22-900M22S-New LoRa Module SMD Wireless Transceiver Module"/></figure>								<div class="module-scale iconfont"><a class="iconfont" href="https://www.cdebyte.com/Uploadfiles/Picture/2022-7-25/20227251148541960.jpg" data-fancybox>&#xe69c;</a> </div>							</div>						</div>						<div class="module-min">							<div class="module-min-item">								<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-7-25/20227251148542018.jpg" alt="E22-900M22S SX1262 loRa module"/></figure>							</div>							<div class="module-min-item">								<figure><img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-7-25/20227251148541960.jpg" alt="E22-900M22S-New LoRa Module SMD Wireless Transceiver Module"/></figure>							</div>						</div>
+
+            </div>
+            <div class="module-right">
+                <div class="module-ti">
+                    <strong><h1>E22-900M22S Ebyte TCXO 22dBm 6500m SX1262 900Mhz New LoRa Module SMD Wireless Transceiver Module</h1> <br> </strong>
+                    <div class="m-share">
+                        <span class="iconfont">&#xe696;</span>
+                        <div class="m-share-down">
+                            <p><a href="#"><i class="iconfont">&#xe693;</i>Facebook</a></p>
+                            <p><a href="#"><i class="iconfont">&#xe6a1;</i>Twitter</a></p>
+                            <p><a href="#"><i class="iconfont">&#xe697;</i>Alibaba</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="module-price"  style="display:none" >
+                    <div class="price-item" style="display:none" >
+                        <p>1 - 99 Pieces</p>
+                        <b></b>
+                    </div>
+                    <div class="price-item" style="display:none">
+                        <p>100-999 Pieces</p>
+                        <b></b>
+                    </div>
+                    <div class="price-item" style="display:none">
+                        <p>1000-2999 Pieces</p>
+                        <b></b>
+                    </div>
+                    <div class="price-item" style="display:none">
+                        <p>≥3000 Pieces</p>
+                        <b></b>
+                    </div>
+                </div>
+                <div class="product-in">
+                    <p><b>[Chip solution]：</b>SX1262</p><p><b>[Frequency]：</b>850~930MHz</p><p><b>[Transmitter power]：</b>22dBm</p><p><b>[Communication diatance]：</b>7km</p><p><b>[Size]：</b>14 * 20 mm</p><p><b>[Product weight]：</b>1.5±0.1g</p>
+
+
+                 
+                     <p> <b>[Introduction]：</b>E22-900M22S is the first wireless module in China to adopt Semtech's SX1262, RF chip. Its special LoRaTM modulation method increases the communication distance.Le modèle E22-900M22S a obtenu les certifications CE, FCC et RoHS. </p>
+
+                   
+                </div>
+                <div class="product-btn">
+                    
+                        <a href="javascript:;" class="download-in"><i class="iconfont">&#xe6aa;</i>Send Inquiry</a>
+                    <div class="pro-shooping">
+                        <a  href="#purchase" id="Purchase"><i class="iconfont">&#xe69b;</i>Purchase</a>
+                        <div class="m-share-down">
+                            
+
+                                    <p><a href="https://ebyteiot.com/collections/lora-module/products/sx1262-868mhz-module-electronic-components-22dbm-wireless-transceiver-lora-gfsk-iot-long-range-7km-ebyte-e22-900m22s-spi
+" target="_blank" id="Official Store"><i class="iconfont"><img  src="https://www.cdebyte.com/Uploadfiles/Picture/2023-11-27/20231127182471092.jpg" alt="Official Store" /></i>Official Store</a></p>
+
+                                
+
+                                    <p><a href="https://www.aliexpress.com/store/1101560236" target="_blank" id="Aliexpress"><i class="iconfont">&#xe841</i>Aliexpress</a></p>
+
+                                
+
+                                    <p><a href="https://www.alibaba.com/product-detail/E22-900M22S-TCXO-NEW-SX1262-LoRa_60866055222.html?spm=a2700.shop_plser.41413.14.351b3db68VymJN" target="_blank" id="Alibaba"><i class="iconfont">&#xe697</i>Alibaba</a></p>
+
+                                
+                            
+                         
+                        </div>
+                    </div>
+
+                    <a href="/products/E22-900M22S/4#Downloads" target="_self"><i class="iconfont">&#xe6a8;</i>File Downloads</a>
+                    <a href="javascript:void(0)" onclick="to_add(70)"><i class="iconfont">&#xe6a6;</i>Compare</a>
+                </div>
+            </div>
+        </div>
+    <div id="Specification"></div>
+        <div id="Parameters"></div>
+        <div id="Pin"></div>
+        <div id="Way"></div>
+        <div id="Downloads"></div>
+        <div id="Video"></div>
+        <div id="FAQ"></div>
+        <div id="Series"></div>
+        <div id="Certifications"></div>
+
+
+
+
+
+
+
+        <div class="specificate" id="module">
+            <ul class="specificate-list">
+
+
+
+                <li><a href="/products/E22-900M22S#Specification" target="_self">Specification</a></li>
+                <li ><a href="/products/E22-900M22S/1#Parameters" target="_self">Parameters</a></li>
+                <li ><a href="/products/E22-900M22S/2#Pin" target="_self">Pin Definition</a></li>
+                <li ><a href="/products/E22-900M22S/3#Way" target="_self">Order Way</a></li>
+                <li class="active" ><a href="/products/E22-900M22S/4#Downloads" target="_self">File Downloads</a></li>
+                <li style="display:none"><a href="/products/E22-900M22S/5#Video" target="_self">Video Tutoria</a></li>
+                <li style="display:none"><a href="/products/E22-900M22S/6#FAQ" target="_self">FAQ</a></li>
+                <li ><a href="/products/E22-900M22S/7#Series" target="_self">Series Products</a></li>
+                <li style="display:none"><a href="/products/E22-900M22S/8#Certifications" target="_self">Certifications</a></li>
+
+
+            </ul>
+        </div>
+        <div class="parameters">
+            <div class="download">
+                <div class="download-item">                    <strong class="order-title">Product Descriptio</strong>                    <div class="download-list"><div class="download-in">                            <a href="https://www.cdebyte.com/pdf-down.aspx?id=4216"  target="_blank">                                <i class="iconfont"></i>                                <p>Mannual</p>                                <b class="iconfont"></b>                            </a>                        </div>                    </div>                </div><div class="download-item">                    <strong class="order-title">Development Testin</strong>                    <div class="download-list"><div class="download-in">                            <a href="https://www.cdebyte.com/pdf-down.aspx?id=928"  target="_blank">                                <i class="iconfont"></i>                                <p>DEMO</p>                                <b class="iconfont"></b>                            </a>                        </div><div class="download-in">                            <a href="https://www.cdebyte.com/pdf-down.aspx?id=929"  target="_blank">                                <i class="iconfont"></i>                                <p>PCB</p>                                <b class="iconfont"></b>                            </a>                        </div>                    </div>                </div><div class="download-item">                    <strong class="order-title">Company Profile</strong>                    <div class="download-list"><div class="download-in">                            <a href="https://www.cdebyte.com/pdf-down.aspx?id=2349"  target="_blank">                                <i class="iconfont"></i>                                <p>Application Note</p>                                <b class="iconfont"></b>                            </a>                        </div><div class="download-in">                            <a href="https://www.cdebyte.com/pdf-down.aspx?id=1373"  target="_blank">                                <i class="iconfont"></i>                                <p>Ebyte Company Profile</p>                                <b class="iconfont"></b>                            </a>                        </div>                    </div>                </div><div class="download-item">                    <strong class="order-title">Certification</strong>                    <div class="download-list"><div class="download-in">                            <a href="https://www.cdebyte.com/pdf-down.aspx?id=4569"  target="_blank">                                <i class="iconfont"></i>                                <p>【Certification】E22-900M22S ROHS</p>                                <b class="iconfont"></b>                            </a>                        </div><div class="download-in">                            <a href="https://www.cdebyte.com/pdf-down.aspx?id=4570"  target="_blank">                                <i class="iconfont"></i>                                <p>【Certification】E22-900M22S-CE</p>                                <b class="iconfont"></b>                            </a>                        </div><div class="download-in">                            <a href="https://www.cdebyte.com/pdf-down.aspx?id=4571"  target="_blank">                                <i class="iconfont"></i>                                <p>【Certification】E22-900M22S-FCC</p>                                <b class="iconfont"></b>                            </a>                        </div>                    </div>                </div>
+
+                
+
+
+                
+            </div>
+        </div>
+
+        <div id="selectons">
+        </div>
+    </section>
+
+    
+    
+    
+    <div class="accessories"   style="display:none" >
+        <div class="about-title"  style="display:none" >
+            <strong>Accessories</strong>
+            <i></i>
+        </div>
+        <ul class="picks-list picks-list1"   style="display:none" >
+
+            
+
+         
+
+        </ul>
+
+        <div class="about-title"  style="display:none" >
+            <strong>Related Products</strong>
+            <i></i>
+        </div>
+        <ul class="picks-list picks-list1"   style="display:none">
+
+            
+
+          
+           
+
+        </ul>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-left">
+                    <div class="footer-navs">
+                        
+                                <dl class="footer-navs-item">
+                                    <dt><a href="/Aboutus-Aboutus">About Us</a></dt>
+                                    <dd>
+                                        
+                                                 <p><a href="/Aboutus-CompanyNews">Company News</a></p>
+                                            
+                                                 <p><a href="/Aboutus-Honors" target="_blank">Enterprise Honor</a></p>
+                                            
+                                                 <p><a href="/blog-ProductsNews" target="_blank">Product dynamics</a></p>
+                                            
+                                                 <p><a href="/blog-IndustryNews" target="_blank">Industry dynamics</a></p>
+                                            
+                                                 <p><a href="/Aboutus-SocialResponsibility">Social Responsibility</a></p>
+                                            
+                                    </dd>
+                                </dl>
+                            
+                                <dl class="footer-navs-item">
+                                    <dt><a href="javascript:void(0);">Quick Access</a></dt>
+                                    <dd>
+                                        
+                                                 <p><a href="/Module-Lora" target="_blank">LoRa module</a></p>
+                                            
+                                                 <p><a href="/Module-BLE" target="_blank">BLE Module</a></p>
+                                            
+                                                 <p><a href="/Module-Zigbee" target="_blank">ZigBee module</a></p>
+                                            
+                                                 <p><a href="/Modem-IndustrialRouterGateway" target="_blank">Industrial Router/Gateway</a></p>
+                                            
+                                                 <p><a href="https://www.cdebyte.com/Modem-Lorawan" target="_blank">LoRaWAN</a></p>
+                                            
+                                                 <p><a href="https://www.cdebyte.com/AntennaPower" target="_blank">Antenna power</a></p>
+                                            
+                                    </dd>
+                                </dl>
+                            
+                                <dl class="footer-navs-item">
+                                    <dt><a href="/Resources-FAQ-ALL">Resources</a></dt>
+                                    <dd>
+                                        
+                                                 <p><a href="https://www.cdebyte.com/Resources-FAQ-ALL" target="_blank">Technical FAQ</a></p>
+                                            
+                                                 <p><a href="/resources-FreeTrial" target="_blank">FREE TRIAL</a></p>
+                                            
+                                                 <p><a href="/resources-Service" target="_blank">Service Support</a></p>
+                                            
+                                                 <p><a href="/Ebyte-OEM-Services" target="_blank">OEM Custom</a></p>
+                                            
+                                                 <p><a href="/Catalog-Module" target="_blank">Module Catalog</a></p>
+                                            
+                                    </dd>
+                                </dl>
+                            
+                                <dl class="footer-navs-item">
+                                    <dt><a href="/blog-IoTcase">Hotspot search</a></dt>
+                                    <dd>
+                                        
+                                                 <p><a href="/news/552" target="_blank">LoRaWAN server Tutorial</a></p>
+                                            
+                                                 <p><a href="/news/486" target="_blank">LoRa spread spectrum technology</a></p>
+                                            
+                                                 <p><a href="/news/476" target="_blank">IoT Wireless Communication Protocols</a></p>
+                                            
+                                                 <p><a href="/news/561" target="_blank">UART Communication</a></p>
+                                            
+                                                 <p><a href="/news/483" target="_blank">Low-power wireless communication</a></p>
+                                            
+                                                 <p><a href="/news/455" target="_blank">ModBus RTU/TCP protocol</a></p>
+                                            
+                                    </dd>
+                                </dl>
+                            
+
+
+                    </div>
+                    <div class="footer-share">
+                        
+                                <a href="https://x.com/EBYTE18" target="_blank
+" target="_blank">
+                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-9-29/20249291336117950.png" alt="X.com" /></a>
+                            
+                                <a href="https://www.facebook.com/CDEBYTE/
+" target="_blank">
+                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-9-29/20249291320413442.png" alt="facebook" /></a>
+                            
+                                <a href="https://www.instagram.com/cdebyte/" target="_blank">
+                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2024-9-29/20249291315561454.png" alt="ins" /></a>
+                            
+                                <a href="https://www.youtube.com/channel/UClIoI77NzA2RasepWP1n4UA" target="_blank">
+                                    <img src="https://www.cdebyte.com/images/youtube.png" alt="youtube" /></a>
+                            
+                                <a href="https://github.com/" target="_blank">
+                                    <img src="https://www.cdebyte.com/images/github.png" alt="github" /></a>
+                            
+                                <a href="https://cdebyte.en.alibaba.com" target="_blank">
+                                    <img src="https://www.cdebyte.com/Uploadfiles/Picture/2022-3-11/20223111514377893.png" alt="Alibaba" /></a>
+                            
+                    </div>
+                </div>
+                <div class="footer-massage">
+                    <div class="footer-emain">
+                        <p class="flx"><i class="iconfont">&#xe6aa;</i><span>Technical Support：service@cdebyte.com <br>Complaint Email：cdebyte<span style="display:none">_hidden_</span>@ebyte.com</span></p>
+                     
+                     
+                    </div>
+                    <div class="message-sub">
+                        <div class="message-row">
+                            <div class="message-item">
+                                <span>Your Email<i>*</i> <br></span>
+                                <input type="text" class="text" id="txt_emailname" />
+                            </div>
+                            <div class="message-item">
+                                <span>Product Model<i>*</i> </span>
+                                <input type="text" class="text" id="txt_moile_txt" />
+                            </div>
+                            <div class="message-item">
+                                <span>Company name <i>*</i></span>
+                                <input type="text" class="text" id="txt_Companytxt" />
+                            </div>
+                        </div>
+                        <div class="message-row">
+                            <div class="country">
+                                <div class="message-item">
+                                    <span>Country<i>*</i> </span>
+                                    <input type="text" class="text" id="txt_CountryTxt" />
+                                </div>
+                                <select class="country-sele" id="select_BusinessTxt">
+                                    <option>Ever Used  Before</option><option>Never Used </option>
+
+                                </select>
+                            </div>
+                            <div class="message">
+                                <div class="message-wr">
+                                    <span>Needs/Questions:</span>
+                                    <textarea class="textarea" id="txt_MessageTxt" placeholder="Please list your needs or questions, we will contact you asap."></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="used-ebyte">
+                            <div class="used-radio">
+                                <p class="used-name">For Business<br></p>
+                                <div class="radio">
+                                    <div class="radio-item ">
+                                        <label>
+                                            <input name="radio1" type="radio" value="Yes"  />
+                                            <span></span>
+                                            <b>Yes</b>
+                                        </label>
+
+                                    </div>
+                                    <div class="radio-item">
+                                        <label>
+                                            <input name="radio1" type="radio" value="No" />
+                                            <span></span>
+                                            <b>NO</b>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="used-sub">
+                                <input type="button" value="Submit" id="foot_msg"   onclick="gtag('event', 'Click', { 'event_category': 'Email' });foot_msg()"  />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-emain">
+
+                        </div>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <ul class="copy-terms">
+                    
+                            <li><a href="javascript:void(0);">Cookie</a></li>
+                        
+                            <li><a href="/resources-PrivacyPolicy">Privacy</a></li>
+                        
+                            <li><a href="javascript:void(0);">Terms</a></li>
+                        
+                            <li><a href="https://www.cdebyte.com/news/483" target="_blank">Low-power wireless communication</a></li>
+                        
+                            <li><a href="/sitemap.xml">Sitemap</a></li>
+                        
+                            <li><a href="https://www.ebyteiot.com/" target="_blank">EBYTE Official Online Store</a></li>
+                        
+                            <li><a href="https://cdsenet.store/" target="_blank">CDSENET</a></li>
+                        
+                </ul>
+                <div class="copy-info">
+                    <p>Copyright © Chengdu Ebyte Electronic Technology Co.,Ltd. All Rights Reserved. </p>
+                </div>
+            </div>
+
+
+
+
+            <section class="pop-inquiry">
+				<div class="pop-bg"></div>
+				<div class="send-inquiry">
+					<span class="send-close iconfont">&#xe602;</span>
+					<strong class="send-tt">Send Inquiry</strong>
+					<div class="message-sub">
+						<div class="message-row message-row1">
+							<div class="message-item">
+								<span>Your email<i>*</i></span>
+								<input type="text" class="text"  id="txt_p_emailname" >
+							</div>
+							<div class="message-item">
+								    <span>Product Model<i>*</i></span>
+                                <input type="text" class="text" id="txt_p_moile_txt" />
+							</div>
+							<div class="message-item">
+								 <span>Company name<i>*</i></span>
+                                <input type="text" class="text" id="txt_p_Companytxt" />
+							</div>
+						</div>
+						<div class="message-row message-row1">
+							<div class="country">
+								<div class="message-item">
+									 <span>Country<i>*</i></span>
+                                    <input type="text" class="text" id="txt_p_CountryTxt" />
+								</div>
+
+								   <select class="country-sele" id="select_p_BusinessTxt">
+                                    <option>Ever Used  Before</option><option>Never Used </option>
+
+                                </select>
+
+								
+							</div>
+							<div class="message">
+								<div class="message-wr">
+									  <span>Needs/Questions</span>
+                                    <textarea class="textarea" id="txt_p_MessageTxt" placeholder="Please list your needs or questions, we will contact you asap"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="used-ebyte sed-ebyte1">
+							<div class="used-radio">
+								<p class="used-name">For Business</p>
+								<div class="radio">
+									<div class="radio-item ">
+										<label>
+											<input name="radio1_p" type="radio" >
+											<span></span>
+											<b>Yes</b>
+										</label>
+										
+									</div>
+									<div class="radio-item">
+										<label>
+											<input name="radio1_p" type="radio">
+											<span></span>
+											<b>no</b>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="used-sub"><input type="button" value="Soumettre" id="pro_down_msg"  onclick="gtag('event', 'Click', { 'event_category': 'Email' });pro_down_msg();" ></div>
+						</div>
+					</div>
+				</div>
+			</section>
+<input type="hidden" id="h_p_name" value="" >
+
+              
+
+ <section class="sage hide">
+                                <div class="sage-show">
+                                        <small>LEAVE MESSAGE</small>
+                                </div>
+                                <div class="sage-text">
+                                        <span class="sage-close leave-close iconfont">&#xe602;</span>
+                                        <h3 class="sage-title">LEAVE MESSAGE</h3>
+                                        <div class="sage-form">
+                                                <div class="sage-row">
+
+                                                    
+                                                        <input type="text" class="text" placeholder="Your name"  id="left_txt_name"/>
+                                                     
+                                                </div>
+                                                <div class="sage-row">
+                                                     
+                                                        <input type="text" class="text" placeholder="Your Email"  id="left_txt_email"/>
+                                                </div>
+                                                <div class="sage-row">
+                                                       
+                                                        <input type="text" class="text" placeholder="Company Name"  id="left_txt_company"/>
+                                                </div>
+                                                <div class="sage-row">
+                                                  
+                                                        <input type="text" class="text" placeholder="Full Product Model"  id="left_txt_product"/>
+                                                </div>
+                                                <div class="sage-row">
+                                                    
+                                                        <input type="text" class="text" placeholder="Country" id="left_txt_country"/>
+                                                </div>
+                                                <div class="sage-row">
+                                                       
+                                                        <textarea placeholder="Needs/Questions"  id="left_txt_msg"></textarea>
+                                                </div>
+                                                <div class="sage-sub"><input type="button" value="Submit" id="left_btn_msg"  onclick="gtag('event', 'Click', { 'event_category': 'Email' });toleft_msg()"  /></div>
+                                        </div>
+                                </div>
+                        </section>
+
+            
+
+            			<!--飘窗-->
+			
+			<section class="online-service">
+				
+				<div class="online-defeal">
+					<img src="https://www.cdebyte.com/images/people.png" alt="Online Service"/>
+					<small>Online Service</small>
+				</div>
+				<div class="online-text">
+					<!-- <span class="sage-close online-close iconfont">&#xe602;</span> -->
+					<img class="online-img" src="https://www.cdebyte.com/images/people.png" alt="Online Service"/>
+					<h3 class="sage-title">Online Service</h3>
+					<div class="online-sub">
+                        
+
+                                	<div class="online-row">
+							<a href="https://awt.zoosnet.net/LR/Chatpre.aspx?id=AWT50842684&lng=en" target="_blank">
+								<b><img src="https://www.cdebyte.com/img/online1.png" alt="Online Inquiry"/></b>
+								<span>Online Inquiry</span>
+							</a>
+						</div>
+
+                            
+
+                                	<div class="online-row">
+							<a href="mailto:service@cdebyte.com" target="_blank">
+								<b><img src="https://www.cdebyte.com/img/online2.png" alt="Service Email"/></b>
+								<span>Service Email</span>
+							</a>
+						</div>
+
+                            
+
+                                	<div class="online-row">
+							<a href="mailto:cdebyte@ebyte.com" target="_blank">
+								<b><img src="https://www.cdebyte.com/img/online2.png" alt="Complain Email"/></b>
+								<span>Complain Email</span>
+							</a>
+						</div>
+
+                            
+
+                                	<div class="online-row">
+							<a href="https://cdebyte.en.alibaba.com" target="_blank">
+								<b><img src="https://www.cdebyte.com/img/online3.png" alt="Buy Online"/></b>
+								<span>Buy Online</span>
+							</a>
+						</div>
+
+                            
+
+                                	<div class="online-row">
+							<a href="tel:86-028-61543675" target="_blank">
+								<b><img src="https://www.cdebyte.com/img/online4.png" alt="86-028-61543675"/></b>
+								<span>86-028-61543675</span>
+							</a>
+						</div>
+
+                            
+
+
+					</div>
+					<div class="online-tel">
+						<a href="tel:+86-028-61543675">
+							<b class="iconfont"><img src="https://www.cdebyte.com/img/online-tel.png" alt="86-028-61543675
+"/></b>
+							<span>86-028-61543675
+</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+        </footer>
+          <div class="scrollTop iconfont">&#xe60f;</div>
+      
+        
+    <script src="/js/compare.js"></script>
+    <script src="/js/fancybox.min.js"></script>
+
+    </section>
+    <script src="https://www.cdebyte.com/js/plugin.js?t=312"></script>
+    <script src="https://www.cdebyte.com/js/page.js?t=312"></script>
+
+    
+    <script>
+        function b() {
+            var s = $(window).scrollTop();
+            var f = $(".footer").offset().top;
+            console.log(f);
+            console.log(s);
+
+            s >= (f - w_height) ? $(".contrast-flex").addClass('pos') : $(".contrast-flex").removeClass('pos');
+        }
+        $(window).scroll(b);
+        b();
+
+
+        var supplier = new Swiper('.contrast-swiprs', {
+            autoplay: 0,
+            speed: 700,
+            spaceBetween: 20,
+            slidesPerView: 4,
+            slidesPerGroup: 1,
+            touchRatio: '0.5',
+            autoHeight: true,
+            prevButton: '.contra-prev.prev',
+            nextButton: '.contra-prev.next',
+            breakpoints: {
+                1500: {
+                    slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 2,
+                },
+                860: {
+                    slidesPerView: 1,
+                }
+            }
+        });
+        //删除当前第几个
+        $(".contrast-swiprs .contrast-item a b").click(function (e) {
+            e.preventDefault();
+            supplier.removeSlide($(this).parents(".contrast-item").index());
+        });
+
+        $(".clear-all").click(function () {
+            supplier.removeAllSlides();
+            $(".contrast-flex").fadeOut();
+        });
+        $(".module-min").slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: false,
+            speed: 800,
+            dots: false,
+            infinite: true,
+            autoplay: false,
+            asNavFor: '.module-max',
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        speed: 800,
+                        autoplay: false,
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 750,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        speed: 800,
+                        autoplay: false,
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        speed: 800,
+                        autoplay: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                }
+            ]
+        });
+
+        $(".module-max").slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000,
+            speed: 850,
+            arrows: false,
+            infinite: false,
+            autoplay: false,
+            asNavFor: '.module-min',
+        });
+
+        $(".module-video").click(function () {
+            var srcs = $(this).attr("data-src");
+            $(".banner-pop").addClass("show");
+            $(".pop-wraps .pop-video").attr("src", srcs).trigger("play");
+        });
+
+        $(".pop-wraps .pop-close").click(function () {
+            $(".banner-pop").removeClass("show");
+            $(".pop-wraps .pop-video").trigger("pause");
+        });
+        to_show_compare();
+        $(".download-in").click(function () {
+            $(".pop-inquiry").addClass("show");
+        });
+
+        $(".send-inquiry .send-close,.pop-bg").click(function () {
+            $(".pop-inquiry").removeClass("show");
+        });
+
+
+
+
+    </script>
+
+    <script>
+  window.okkiConfigs = window.okkiConfigs || [];
+  function okkiAdd() { okkiConfigs.push(arguments); };
+  okkiAdd("analytics", { siteId: "12569-33436", gId: "" });
+</script>
+<script async src="//tfile.xiaoman.cn/okki/analyze.js?id=12569-33436-"></script>
+    <div style="display: none">
+
+        <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "oheyg74ovw");
+</script>
+    </div>
+
+
+
+
+
+
+
+  
+    
+
+
+  
+    <script type="text/javascript">
+
+        function to_serch() {
+            var key = $('#txt_serch').val().trim();
+            key = $.trim(key);
+            window.location.href = "/product_serch/" + key + "/1/";
+        }
+
+
+
+        function to_m_serch() {
+            var key = $('#txt_m_serch').val().trim();
+            key = $.trim(key);
+            window.location.href = "/product_serch/" + key + "/1/";
+        }
+
+
+
+        function keydownEvent() {
+
+            var e = window.event || arguments.callee.caller.arguments[0];
+
+            if (e && e.keyCode == 13) {
+
+                to_serch();
+
+            }
+
+        }
+
+        function m_keydownEvent() {
+
+            var e = window.event || arguments.callee.caller.arguments[0];
+
+            if (e && e.keyCode == 13) {
+
+                to_m_serch();
+
+            }
+
+        }
+
+
+
+        jQuery(function () {
+            $('#txt_serch').keyup(function (event) {
+
+                if (event.keyCode == "13") {
+                    to_serch();
+                    return false;
+                }
+
+            });
+
+            $('#txt_m_serch').keyup(function (event) {
+
+                if (event.keyCode == "13") {
+                    to_m_serch();
+                    return false;
+                }
+
+            });
+
+
+
+        });
+
+        $(document).on("click", ".download-in", function () {
+            $(".pop-inquiry").addClass("show");
+        });
+
+        $(document).on("click", ".send-inquiry .send-close,.pop-bg", function () {
+            $(".pop-inquiry").removeClass("show");
+        });
+    </script>
+    <script src="/js/msg_mail.js"></script>
+
+    <script src="/js/left_msg.js"></script>
+
+
+</body>
+</html>
+

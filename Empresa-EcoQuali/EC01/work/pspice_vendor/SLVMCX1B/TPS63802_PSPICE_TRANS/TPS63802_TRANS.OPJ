@@ -1,0 +1,61 @@
+(ExpressProject "TPS63802_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\TPS63802yff_trans.olb"
+        (Type "Schematic Library"))
+      (File ".\tps63802dla_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\TPS63802_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\TPS63802_trans-pspicefiles\startup\tran.sim"
+        (DisplayName "STARTUP-tran")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\TPS63802_trans-pspicefiles\startup\tran.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\TPS63802_trans.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (TPS63802DLA_TRANS
+      (FullPartName "TPS63802DLAR.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TPS63802\ACTIVE_WORK_SANKALP\EXPERIMENTS\RELEASE_PROJECT_03APR2019\TPS63802DLA_TRANS.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (TPS63802YFF_TRANS
+      (FullPartName "TPS63802YFFR.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TPS63802\RELEASE_SANKALP\PSPICE\TPS63802_PSPICE_TRANS\TPS63802YFF_TRANS.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 252 0 355"))
+      (Tab 0)))
+  (MPSSessionName "x0241588")
+  (ISPCBBASICLICENSE "false"))

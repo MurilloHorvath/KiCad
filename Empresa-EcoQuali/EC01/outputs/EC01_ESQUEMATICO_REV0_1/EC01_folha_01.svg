@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2160 965" style="background:white">
+<text x="50" y="30" font-family="Arial, sans-serif" font-size="22" text-anchor="start" fill="#173047">01 Alimentacao e bateria</text>
+<text x="50" y="51" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a04b12">EC01 REV0.1 | Esquematico preliminar | Sem simulacao | DNP conforme tabela de montagem</text>
+<text x="190" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">U1</text>
+<text x="190" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">TPS63802DLAR</text>
+<rect x="190" y="115" width="170" height="115" fill="#fffdf1" stroke="#802b20"/>
+<path d="M170 130h20" stroke="#802b20"/>
+<text x="180.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="193" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">EN</text>
+<text x="166" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">PSU_EN</text>
+<path d="M170 150h20" stroke="#802b20"/>
+<text x="180.0" y="147" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="193" y="153" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">MODE</text>
+<text x="166" y="146" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">GND</text>
+<path d="M170 170h20" stroke="#802b20"/>
+<text x="180.0" y="167" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">3</text>
+<text x="193" y="173" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">AGND</text>
+<text x="166" y="166" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">GND</text>
+<path d="M170 190h20" stroke="#802b20"/>
+<text x="180.0" y="187" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">4</text>
+<text x="193" y="193" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">FB</text>
+<text x="166" y="186" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">PSU_FB</text>
+<path d="M170 210h20" stroke="#802b20"/>
+<text x="180.0" y="207" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">5</text>
+<text x="193" y="213" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">PG</text>
+<text x="166" y="206" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">PSU_PG</text>
+<path d="M380 130h-20" stroke="#802b20"/>
+<text x="370.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">6</text>
+<text x="357" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">VOUT</text>
+<text x="384" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">3V3</text>
+<path d="M380 150h-20" stroke="#802b20"/>
+<text x="370.0" y="147" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">7</text>
+<text x="357" y="153" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">L2</text>
+<text x="384" y="146" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">SW_L2</text>
+<path d="M380 170h-20" stroke="#802b20"/>
+<text x="370.0" y="167" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">8</text>
+<text x="357" y="173" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">PGND</text>
+<text x="384" y="166" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<path d="M380 190h-20" stroke="#802b20"/>
+<text x="370.0" y="187" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">9</text>
+<text x="357" y="193" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">L1</text>
+<text x="384" y="186" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">SW_L1</text>
+<path d="M380 210h-20" stroke="#802b20"/>
+<text x="370.0" y="207" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">10</text>
+<text x="357" y="213" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">VIN</text>
+<text x="384" y="206" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">BAT_SW</text>
+<text x="700" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">Q1</text>
+<text x="700" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">AO3401A</text>
+<rect x="700" y="115" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M680 130h20" stroke="#802b20"/>
+<text x="690.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="703" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">G</text>
+<text x="676" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">GND</text>
+<path d="M680 150h20" stroke="#802b20"/>
+<text x="690.0" y="147" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="703" y="153" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">S</text>
+<text x="676" y="146" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_PROT</text>
+<path d="M890 130h-20" stroke="#802b20"/>
+<text x="880.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">3</text>
+<text x="867" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">D</text>
+<text x="894" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">BAT_FUSED</text>
+<text x="1210" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">BT1</text>
+<text x="1210" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">BH-18650-A1AJ005</text>
+<rect x="1210" y="115" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M1190 130h20" stroke="#802b20"/>
+<text x="1200.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1213" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">+</text>
+<text x="1186" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_RAW</text>
+<path d="M1400 130h-20" stroke="#802b20"/>
+<text x="1390.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1377" y="133" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">-</text>
+<text x="1404" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">F1</text>
+<text x="1720" y="101" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">Fusivel 1A lento</text>
+<rect x="1720" y="123" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M1700 130h20" stroke="#802b20"/>
+<text x="1710.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_RAW</text>
+<path d="M1780 130h-20" stroke="#802b20"/>
+<text x="1770.0" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="126" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">BAT_FUSED</text>
+<text x="1720" y="237" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">SW1</text>
+<text x="1720" y="251" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">CHAVE GERAL</text>
+<rect x="1720" y="265" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M1700 280h20" stroke="#802b20"/>
+<text x="1710.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1723" y="283" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">IN</text>
+<text x="1696" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_PROT</text>
+<path d="M1910 280h-20" stroke="#802b20"/>
+<text x="1900.0" y="277" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1887" y="283" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#802b20">OUT</text>
+<text x="1914" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">BAT_SW</text>
+<text x="700" y="252" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">L1</text>
+<text x="700" y="266" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">XFL4015-471MEC 0.47uH</text>
+<rect x="700" y="288" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M680 295h20" stroke="#802b20"/>
+<text x="690.0" y="292" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="291" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">SW_L1</text>
+<path d="M760 295h-20" stroke="#802b20"/>
+<text x="750.0" y="292" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="291" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">SW_L2</text>
+<text x="1210" y="252" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C1</text>
+<text x="1210" y="266" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">10uF 10V X5R</text>
+<path d="M1210 295h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1190 295h20" stroke="#802b20"/>
+<text x="1200.0" y="292" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="291" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_SW</text>
+<path d="M1270 295h-20" stroke="#802b20"/>
+<text x="1260.0" y="292" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="291" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="190" y="297" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C2</text>
+<text x="190" y="311" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100nF 16V X7R</text>
+<path d="M190 340h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M170 340h20" stroke="#802b20"/>
+<text x="180.0" y="337" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="166" y="336" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_SW</text>
+<path d="M250 340h-20" stroke="#802b20"/>
+<text x="240.0" y="337" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="254" y="336" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="700" y="402" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C3</text>
+<text x="700" y="416" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">22uF 10V X5R</text>
+<path d="M700 445h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M680 445h20" stroke="#802b20"/>
+<text x="690.0" y="442" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="441" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M760 445h-20" stroke="#802b20"/>
+<text x="750.0" y="442" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="441" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1210" y="402" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C4</text>
+<text x="1210" y="416" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">22uF 10V X5R</text>
+<path d="M1210 445h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1190 445h20" stroke="#802b20"/>
+<text x="1200.0" y="442" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="441" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1270 445h-20" stroke="#802b20"/>
+<text x="1260.0" y="442" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="441" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="402" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R1</text>
+<text x="1720" y="416" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">511k 1%</text>
+<rect x="1720" y="438" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M1700 445h20" stroke="#802b20"/>
+<text x="1710.0" y="442" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="441" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1780 445h-20" stroke="#802b20"/>
+<text x="1770.0" y="442" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="441" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">PSU_FB</text>
+<text x="190" y="447" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R2</text>
+<text x="190" y="461" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">91k 1%</text>
+<rect x="190" y="483" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M170 490h20" stroke="#802b20"/>
+<text x="180.0" y="487" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="166" y="486" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">PSU_FB</text>
+<path d="M250 490h-20" stroke="#802b20"/>
+<text x="240.0" y="487" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="254" y="486" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="700" y="552" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R3</text>
+<text x="700" y="566" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">200k 1%</text>
+<rect x="700" y="588" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M680 595h20" stroke="#802b20"/>
+<text x="690.0" y="592" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="591" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_SW</text>
+<path d="M760 595h-20" stroke="#802b20"/>
+<text x="750.0" y="592" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="591" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">PSU_EN</text>
+<text x="1210" y="552" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R4</text>
+<text x="1210" y="566" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100k 1%</text>
+<rect x="1210" y="588" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M1190 595h20" stroke="#802b20"/>
+<text x="1200.0" y="592" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="591" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">PSU_EN</text>
+<path d="M1270 595h-20" stroke="#802b20"/>
+<text x="1260.0" y="592" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="591" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="552" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R5</text>
+<text x="1720" y="566" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100k</text>
+<rect x="1720" y="588" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M1700 595h20" stroke="#802b20"/>
+<text x="1710.0" y="592" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1696" y="591" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<path d="M1780 595h-20" stroke="#802b20"/>
+<text x="1770.0" y="592" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1784" y="591" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">PSU_PG</text>
+<text x="190" y="597" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R6</text>
+<text x="190" y="611" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100k 0.1%</text>
+<rect x="190" y="633" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M170 640h20" stroke="#802b20"/>
+<text x="180.0" y="637" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="166" y="636" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_SW</text>
+<path d="M250 640h-20" stroke="#802b20"/>
+<text x="240.0" y="637" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="254" y="636" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">BAT_ADC</text>
+<text x="700" y="702" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">R7</text>
+<text x="700" y="716" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100k 0.1%</text>
+<rect x="700" y="738" width="40" height="14" fill="none" stroke="#802b20"/>
+<path d="M680 745h20" stroke="#802b20"/>
+<text x="690.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="676" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_ADC</text>
+<path d="M760 745h-20" stroke="#802b20"/>
+<text x="750.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="764" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1210" y="702" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">C5</text>
+<text x="1210" y="716" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">100nF</text>
+<path d="M1210 745h15 m0 -10v20 m10 -20v20 m0 -10h15" stroke="#802b20" fill="none"/>
+<path d="M1190 745h20" stroke="#802b20"/>
+<text x="1200.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1186" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_ADC</text>
+<path d="M1270 745h-20" stroke="#802b20"/>
+<text x="1260.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">2</text>
+<text x="1274" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#064c83">GND</text>
+<text x="1720" y="702" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">TP1</text>
+<text x="1720" y="716" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">GND</text>
+<rect x="1720" y="730" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M1700 745h20" stroke="#802b20"/>
+<text x="1710.0" y="742" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="1723" y="748" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">GND</text>
+<text x="1696" y="741" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">GND</text>
+<text x="190" y="747" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">TP2</text>
+<text x="190" y="761" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">3V3</text>
+<rect x="190" y="775" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M170 790h20" stroke="#802b20"/>
+<text x="180.0" y="787" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="193" y="793" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">3V3</text>
+<text x="166" y="786" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">3V3</text>
+<text x="700" y="852" font-family="Arial, sans-serif" font-size="13" text-anchor="start" fill="#a13125">TP3</text>
+<text x="700" y="866" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#173047">BAT_SW</text>
+<rect x="700" y="880" width="170" height="70" fill="#fffdf1" stroke="#802b20"/>
+<path d="M680 895h20" stroke="#802b20"/>
+<text x="690.0" y="892" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#802b20">1</text>
+<text x="703" y="898" font-family="Arial, sans-serif" font-size="9" text-anchor="start" fill="#802b20">BAT_SW</text>
+<text x="676" y="891" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#064c83">BAT_SW</text>
+</svg>

@@ -1,0 +1,119 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-04T13:40:47",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9",
+            "violations": []
+        },
+        {
+            "path": "/Alimentacao e bateria/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a7e96649-6e47-5eec-a95f-4c8c8fd58698",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pino 3 [AGND, Power input, Line]",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 0.5207
+                            },
+                            "uuid": "0deef960-43ce-5697-a617-deb1203104fb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pino 10 [VIN, Power input, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 0.5969
+                            },
+                            "uuid": "489a69fe-0278-50dd-8827-39b8931ebb46"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/ESP32 e inicializacao/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/ab4e4eff-78a6-5c07-b386-d14ef05a11ed",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pino 2 [VDD3P3, Power input, Line]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.4826
+                            },
+                            "uuid": "8a834545-fae7-543b-92a9-cfd4247b0216"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/BLE e cristal/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/f2a4c686-88cc-590e-8dcb-ea2212b1e448",
+            "violations": []
+        },
+        {
+            "path": "/Radio LoRa 915 MHz/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/4dfd39d2-3f59-5ee9-94ce-1be7d64da69f",
+            "violations": []
+        },
+        {
+            "path": "/Expansao e display/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/b738d142-e812-5c5c-8610-2ecb8e2b6b2f",
+            "violations": []
+        },
+        {
+            "path": "/Sensores externos e CAN/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/d1ad1386-8e5f-5414-8103-7ff83466fcf0",
+            "violations": []
+        },
+        {
+            "path": "/USB de servico/",
+            "uuid_path": "/72252a77-1f02-5a9c-8d6f-a19fd74f06c9/a1c46c3c-31c8-572b-a843-6a398d8b6ca1",
+            "violations": []
+        }
+    ],
+    "source": "EC01.kicad_sch"
+}

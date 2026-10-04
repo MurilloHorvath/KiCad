@@ -1,0 +1,94 @@
+EC01 - Sensor Universal — Especificação de Projeto
+Resumo técnico para handoff a ferramenta de projeto de PCB — outubro de 2026
+Visão geral
+O EC01 - Sensor Universal é um nó sensor sem fio alimentado por bateria, inspirado inicialmente no sensor Xiaomi LYWSD03MMC e evoluído para um design próprio. Está sendo desenvolvido no EasyEDA (schematic + PCB) para o primeiro cliente do projetista. Objetivo central de engenharia: manter a REV 1.0 estável o suficiente para não repetir homologação na Anatel em revisões futuras — o bloco de RF (antena BLE + módulo LoRa) deve ficar congelado entre revisões, enquanto o restante do hardware pode evoluir livremente.
+Microcontrolador
+Espressif ESP32-C3FH4 (4MB de flash in-package — não a FN4, que está EOL/descontinuada, nem a FH4X, que expõe menos GPIOs)
+Flash in-package libera os 6 pinos que seriam SPIQ/SPID/SPICLK/SPICS0/SPIWP/SPIHD para uso geral — reaproveitados pelo módulo LoRa (ver seção RF)
+Cristal externo de 40MHz obrigatório (único suportado pelo firmware do C3), com 2 capacitores de carga de 10pF
+RC de power-on no CHIP_EN: pull-up 10kΩ para 3V3 + capacitor de 1µF para GND
+Botões físicos de RESET (CHIP_EN) e BOOT (GPIO9) já previstos
+Programação/debug via USB nativo (GPIO18/19 = USB D-/D+, USB Serial/JTAG embutido) — conector físico ainda não desenhado
+Conectividade RF
+Bluetooth LE (nativo do ESP32-C3)
+LNA_IN (pino 1) precisa de rede de casamento π dedicada (valores em pF/nH) + antena de trilha impressa
+Pendência conhecida: em revisões anteriores do schematic esse pino ficou acidentalmente amarrado ao rail +3V3 junto com o filtro de alimentação — precisa estar corrigido e isolado antes de qualquer revisão ir para fabricação
+LoRa 915MHz (novo requisito)
+Banda: 915MHz (ISM, mercado Brasil)
+Módulo recomendado: Ebyte E22-900M22S (SX1262/LLCC68, interface SPI, PA e filtro harmônico já integrados — não precisa de rede de casamento externa, só trilha de 50Ω do pino ANT até conector de antena externa, SMA ou IPEX)
+Decisão do cliente: módulo populado em todas as unidades da REV 1.0 desde já (não é footprint reservado) — objetivo é já sair da homologação Anatel cobrindo os dois rádios (BLE + LoRa) de uma vez
+Mapeamento de pinos sugerido (aproveitando os 6 pinos liberados pela flash in-package):
+Sinal do módulo
+Função
+Pino sugerido no ESP32-C3FH4
+NSS
+SPI CS
+ex-SPICS0
+SCK
+SPI clock
+ex-SPICLK
+MOSI
+SPI data out
+ex-SPID
+MISO
+SPI data in
+ex-SPIQ
+BUSY
+status (entrada)
+ex-SPIWP
+NRST
+reset (saída)
+ex-SPIHD
+DIO1
+interrupção
+GPIO2 ou GPIO3
+RXEN
+controle switch RX
+GPIO livre (MTMS/MTDI/MTCK/MTDO, se JTAG não for usado)
+TXEN
+controle switch TX
+GPIO livre (idem)
+Firmware sugerido: biblioteca RadioLib (suporte maduro a SX126x/família Ebyte E22)
+Antena do LoRa precisa ser física e mecanicamente separada da antena BLE (frequências e necessidades de ganho diferentes) — coordenar furo de carcaça
+Alimentação
+Bateria: uma única célula 18650 (suporte BH-18650-A1AJ005) — 2S em série foi avaliado e descartado (8,4V plena excede o limite de 5,5V do LDO, e regulação linear de 8,4V→3,3V desperdiçaria ~60% da energia como calor)
+Regulador: TLV75733PDBVR (LDO fixo 3,3V, SOT23-5), entrada 1,45-5,5V, compatível com a faixa de 3,0-4,2V da 18650
+Pendência recorrente: o pino EN (pino 3) do LDO foi encontrado ligado em GND em múltiplas revisões do schematic — é ativo em nível alto; precisa ir direto para o IN (ou pull-up para o IN) antes de qualquer fabricação, senão a placa não liga
+Capacitores de desacoplamento: 10µF na entrada e na saída do LDO
+Pendência: monitoramento de nível de bateria via divisor resistivo + ADC do ESP32-C3 ainda não implementado
+Conectores de sensores externos
+Formato físico: RJ11 de 4 vias (R-RJ11M04P-A002), dois conectores no projeto (RJ1 e RJ2)
+Requisito: compatibilidade com múltiplos protocolos de comunicação (OneWire, I2C, SPI reduzido, CAN) usando sempre os mesmos 4 pinos
+Pinagem definida:
+Pino
+Função
+1
+VCC
+2
+GND
+3
+Sinal A (DQ / SDA / CAN_H / SDIO)
+4
+Sinal B (spare / SCL / CAN_L / SCK)
+OneWire, I2C e SPI de 3 fios (half-duplex) funcionam nativamente nesses 2 pinos de sinal via reatribuição por firmware (GPIO matrix do ESP32-C3) — sem hardware adicional
+SPI de 4 fios completo (MOSI/MISO/SCK/CS) não cabe nesse formato de 4 pinos com alimentação incluída — sensores que exigem SPI completo ficam fora do padrão
+CAN requer transceiver dedicado por porta (ex: TJA1051) + terminação de 120Ω — tratado como opção populável por porta, não padrão em toda unidade
+Pull-up de 4,7kΩ compartilhado entre os dois conectores (barramento único)
+Uso original previsto: sensores DS18B20 (OneWire) via esses conectores
+Tela (display) — reservado, não especificado
+Cliente optou por não decidir o tipo de tela agora — apenas reservar footprint de conector não populado no schematic (sugestão: header de 8 vias, cobrindo tanto I2C simples quanto SPI de e-paper/segmento)
+Decisão de tela e fornecimento ficará a cargo do projetista, vendida ao cliente final depois
+Outros ajustes conhecidos
+LED de status (atualmente sempre aceso direto no rail 3V3): será trocado para controle via GPIO, piscando em intervalos de minutos
+Sensor onboard de temperatura/umidade (SHTC3/SHT40, presente no produto Xiaomi original): ainda não incluído no EC01 — pendente confirmação com o cliente se o produto depende só de sondas externas ou também precisa de leitura onboard
+Pendências abertas (ordem de prioridade)
+Corrigir EN do LDO (→ IN) — bloqueia a placa ligar
+Separar LNA_IN do filtro de alimentação e desenhar rede de casamento + antena BLE
+Desenhar o bloco do módulo LoRa no schematic (pinos acima)
+Implementar pinagem multi-protocolo no conector RJ11
+Desenhar conector/header de gravação USB
+Confirmar com o cliente se entra sensor onboard
+Adicionar monitoramento de bateria (ADC)
+Coordenar antena externa do LoRa com a carcaça
+Observação sobre revisão de RF
+Este projeto tem dois blocos de rádio (BLE 2,4GHz e LoRa 915MHz) que precisam ficar estáveis entre revisões por causa da estratégia de homologação Anatel. Qualquer ferramenta ou processo usado para o roteamento final do layout — automatizado ou manual — deve ter o casamento de antena, a trilha de RF de 50Ω e o plano de terra ao redor dessas duas seções revisados manualmente por alguém com experiência em RF antes de ir para fabricação. Avaliações independentes de ferramentas de IA para design de PCB relatam que esse tipo de ferramenta ainda erra com frequência em sinais de alta frequência — exatamente a parte mais sensível deste projeto.

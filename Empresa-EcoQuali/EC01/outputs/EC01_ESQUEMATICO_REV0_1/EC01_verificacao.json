@@ -1,0 +1,24 @@
+{
+  "status": "ESQUEMATICO_PRELIMINAR_SEM_SIMULACAO",
+  "components": 106,
+  "nets": 62,
+  "native_shapes": 439,
+  "single_node_nets": {},
+  "checks_passed": [
+    "Referencias unicas",
+    "Todos os pinos conectados tem rede com >=2 terminais",
+    "GPIO12-17 NC externos",
+    "LNA_IN em rede RF dedicada",
+    "E22 p12 GND e p15 NRST",
+    "LoRa montado na base",
+    "USB sem 5V para bateria",
+    "EN do buck-boost conectado ao divisor UVLO"
+  ],
+  "not_performed": [
+    "Simulacao PSpice cancelada pelo usuario",
+    "Testes fisicos",
+    "PCB e roteamento adiados",
+    "ERC nativo pendente",
+    "Validacao de RF"
+  ]
+}
